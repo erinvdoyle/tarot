@@ -26,6 +26,38 @@ h1 {
   text-align: center;
 }
 
+/* Glowing Text */
+/* Tutorial courtesty of W3 Schools "How to Create A Glowing Text" */
+
+.glow {
+  font-size: 80px;
+  color: #2b464f;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #cda340, 0 0 30px #ffc802 , 0 0 40px #ffb658, 0 0 50px #fde380, 0 0 60px #ffb658, 0 0 70px #ed786c;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffc802, 0 0 40px #ffb658, 0 0 50px #fde380, 0 0 60px #ffb658 , 0 0 70px #ed786c, 0 0 80px #fde380;
+  }
+}
+
+.h2glow {
+  font-family: "Uncial Antiqua", system-ui;
+  margin-top: -80px;
+  font-size: 40px;
+  color: #2b464f;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
 /* Hero Image */
 
 #background-image {
