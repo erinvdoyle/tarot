@@ -83,11 +83,23 @@ button {
 /* Tarot Reading */
 #tarot-reading {
   display: none;
+  height: 600px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: #fdeca6;
+  border: 2px solid #cda340;
+  z-index: 99;
 }
 
 /* Tarot Quiz */
 #tarot-quiz {
   display: none;
+  height: 600px;
+  width: 600px;
+  border-radius: 5px;
+  background-color:#fdeca6;
+  border: 2px solid #cda340;
+  z-index: 99;
 }
 
 /* Hero/ Background Image */
@@ -106,10 +118,25 @@ button {
 
 
 /* Media Queries */
+/* Media query: Mobile phones (425px and below) */
+/*@media (max-width: 320px) {
+  #tarot-reading {
+    max-width: 300px;
+  }
+}*/
+
+/* Media query: Mobile phones (375px and below) */
+/*@media (max-width: 350px) {
+  #tarot-reading {
+    max-width: 400px;
+  }
+}*/
 
 /* Media query: Mobile phones (425px and below) */
-@media (max-width: 425px) {
-
+/*@media (max-width: 425px) {
+  #tarot-reading {
+    max-width: 400px;
+  }*/
 }
 
 /* Media query: Tablets (768px and below) */
