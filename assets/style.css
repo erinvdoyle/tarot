@@ -1,47 +1,47 @@
 /* Google Fonts Import */
 
 .uncial-antiqua-regular {
-    font-family: "Uncial Antiqua", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Main Style  */
-  
+
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #fdeca6;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #fdeca6;
 }
 
 h1 {
-    font-family: "Uncial Antiqua", system-ui;
-    font-size: 80px;
-    color: #2b464f;
-    text-align: center;
-    font-size: 200%;
+  font-family: "Uncial Antiqua", system-ui;
+  font-size: 80px;
+  color: #2b464f;
+  text-align: center;
+  font-size: 200%;
 }
 
 /* Buttons */
 
 #buttons {
-  text-align: center;
+text-align: center;
 }
 
 #reading-button {
-  margin-top: 15px;
-  margin-bottom: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 #reading-button, #test-button {
-  background-color: #ed786c;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 5px;
-  border:0px;
-  height: 40px;
-  width: 160px;
+background-color: #ed786c;
+color: #fff;
+font-weight: bold;
+border-radius: 5px;
+border:0px;
+height: 40px;
+width: 160px;
 }
 
 
@@ -50,45 +50,44 @@ h1 {
 /* Tutorial courtesty of W3 Schools "How to Create A Glowing Text" */
 
 .glow {
-  font-size: 80px;
-  color: #2b464f; 
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+font-size: 80px;
+color: #2b464f; 
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fdeca6, 0 0 30px #fde380 , 0 0 40px #ffb658, 0 0 50px #fde380, 0 0 60px #ffb658, 0 0 70px #ffb658;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fdeca6, 0 0 30px #fde380 , 0 0 40px #fff, 0 0 50px #fde380, 0 0 60px #fff, 0 0 70px #fff;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #fdeca6, 0 0 40px #fde380, 0 0 50px #fde380, 0 0 60px #ffb658 , 0 0 70px #ffb658, 0 0 80px #fde380;
+    text-shadow: 0 0 20px #fff, 0 0 30px #fdeca6, 0 0 40px #fde380, 0 0 50px #fde380, 0 0 60px #fff , 0 0 70px #fff, 0 0 80px #fde380;
   }
 }
 
 .h2glow {
-  font-family: "Uncial Antiqua", system-ui;
-  margin-top: -70px;
-  font-size: 40px;
-  color: #2b464f;
-  text-align: center;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
+font-family: "Uncial Antiqua", system-ui;
+margin-top: -70px;
+font-size: 40px;
+color: #2b464f;
+text-align: center;
+-webkit-animation: glow 2s ease-in-out infinite alternate;
+-moz-animation: glow 2s ease-in-out infinite alternate;
+animation: glow 2s ease-in-out infinite alternate;
 }
 
 /* Hero Image */
 
 #background-image {
-  width: 100%;
-  overflow: hidden;
-  max-height: 66.7%;
+background-color: #ed786c;
+background-image: url("../assets/images/tarotbg.png");
+height: 600px;
+width: 100%;
+max-height: 66.7%;
+bottom: 0;
 }
 
-#background-image img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-}
+/* Media Queries */
+
