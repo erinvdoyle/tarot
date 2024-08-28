@@ -32,6 +32,7 @@ h1 {
 
 h2 {
   font-family: "Uncial Antiqua", system-ui;
+  text-align: center;
   color: #2b464f;
   font-size: 40px;
   margin-top: -30px;
@@ -80,25 +81,28 @@ button {
   width: 160px;
 }
 
+button:hover {
+  background-color: #ff6c6c;
+}
+
+
 /* Tarot Reading */
 #tarot-reading {
   display: none;
-  height: 600px;
+  height: 650px;
   width: 600px;
   border-radius: 5px;
   background-color: #fdeca6;
-  border: 2px solid #cda340;
   z-index: 99;
 }
 
 /* Tarot Quiz */
 #tarot-quiz {
   display: none;
-  height: 600px;
+  height: 620px;
   width: 600px;
   border-radius: 5px;
   background-color:#fdeca6;
-  border: 2px solid #cda340;
   z-index: 99;
 }
 
@@ -136,8 +140,8 @@ button {
 /*@media (max-width: 425px) {
   #tarot-reading {
     max-width: 400px;
-  }*/
-}
+  }
+}*/
 
 /* Media query: Tablets (768px and below) */
 
