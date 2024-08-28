@@ -114,11 +114,11 @@ button:hover {
   /*display: none;*/
   height: 620px;
   width: 600px;
-  border-radius: 5px;
   background-color:#fdeca6;
   z-index: 99;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -156,25 +156,21 @@ button:hover {
 
 /* Media Queries */
 /* Media query: Mobile phones (425px and below) */
-/*@media (max-width: 320px) {
-  #tarot-reading {
-    max-width: 300px;
+@media (max-width: 320px) {
+  #tarot-quiz {
+    max-width: 320px;
   }
-}*/
+}
 
 /* Media query: Mobile phones (375px and below) */
-/*@media (max-width: 350px) {
-  #tarot-reading {
-    max-width: 400px;
-  }
-}*/
+@media (max-width: 350px) {
+ 
+}
 
 /* Media query: Mobile phones (425px and below) */
-/*@media (max-width: 425px) {
-  #tarot-reading {
-    max-width: 400px;
-  }
-}*/
+@media (max-width: 425px) {
+
+}
 
 /* Media query: Tablets (768px and below) */
 
@@ -186,13 +182,6 @@ button:hover {
   h2 {
       font-size: 1.5rem;
   }
-
-  /*
-  button {
-      font-size: 1rem;
-      padding: 0.8rem 1.5rem;
-      width: 180px;
-  }*/
 }
 
 
