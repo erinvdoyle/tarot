@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
         <!-- Tutorial Credit: W3 Schools -->
@@ -21,12 +22,13 @@
             </div>
             <br>
             <button id="quiz-button" onclick="displayQuiz()">Test Your Knowledge</button>
-            <div id="tarot-quiz">
+            <div id="tarot-quiz" style="display: none;">
               <h3>Test Your Tarot Knowledge</h3>
               <div id="quiz-container">
                 <div id="questions">Question here</div>
-                <div id="answers">Four answers here</div>
+                <div id="answers">Four answers here</div><br>
                 <button>Next Question</button>
+                <div id="points"></div>
               </div>
             </div>
           </div>

@@ -6,13 +6,19 @@
   font-style: normal;
 }
 
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Main Style */
 
 body {
   margin: 0;
   padding: 0;
   background-color: #fdeca6;
-  /*font-family: ?*/
+  font-family: "Libre Baskerville", serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +43,12 @@ h2 {
   font-size: 40px;
   margin-top: -30px;
   margin-bottom: .5rem 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Uncial Antiqua", system-ui;
+  color: #2b464f;
 }
 
 /* Glow Effect */
@@ -74,6 +86,7 @@ animation: glow 1s ease-in-out infinite alternate;
 button {
   background-color: #ed786c;
   color: #fff;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
@@ -98,12 +111,32 @@ button:hover {
 
 /* Tarot Quiz */
 #tarot-quiz {
-  display: none;
+  /*display: none;*/
   height: 620px;
   width: 600px;
   border-radius: 5px;
   background-color:#fdeca6;
   z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quiz-container {
+  text-align: center;
+}
+
+#questions {
+
+}
+
+#answers {
+
+}
+
+#points {
+
+
 }
 
 /* Hero/ Background Image */
