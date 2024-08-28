@@ -50,6 +50,14 @@ h3 {
   text-align: center;
   font-family: "Uncial Antiqua", system-ui;
   color: #2b464f;
+  border-top:2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-top: 10px;
+}
+
+#hidden-text {
+  color: #fdeca6;
+  margin-top: 25px;
 }
 
 /* Glow Effect */
@@ -116,7 +124,7 @@ button:hover {
   /*height: 620px;
   width: 600px;*/
   position: fixed;
-  top: 116px; /*media queries need to start at 768px*/
+  top: 146px; /*media queries need to start at 768px*/
   left: 0;
   right: 0;
   bottom: 0; 
