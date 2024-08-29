@@ -118,12 +118,25 @@ function displayReading() {
         answer: 1
     }
 ];
+ 
+/* Variables for score and index of question from questions array */
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+/* Variables for quiz functionality */
+
+const questionsElement = document.getElementById('questions');
+const answersElement = document.getElementById('answers');
+const nextQuestionButton = document.getElementById('next-question-button');
+const pointsElement = document.getElementById('points');
+const tarotQuizElement = document.getElementById('tarot-quiz');
+
+/**  */
 
 
 
-
-
-/** Allow user to exit out of quiz */
+/** Allows user to exit out of quiz */
 
 function exitQuiz() {
     tarotQuizElement.style.display = 'none';
