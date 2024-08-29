@@ -132,11 +132,53 @@ const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
 
-/**  */
+/** 
+ * Toggle button displays quiz on click  
+*/
+
+function displayQuiz() {
+    tarotQuizElement.style.display = 'flex';
+    currentQuestionIndex = 0;
+    score = 0;
+    nextQuestionButton.classList.add('hidden');
+    pointsElement.classList.add('hidden');
+    showQuestion();
+}
+
+/**
+ * Resets answers for the next question when Next Question button is clicked
+ */
+
+function resetState() {
+    nextQuestionButton.classList.add('hidden');
+    while (answersElement.firstChild) {
+        answersElement.removeChild(answersElement.firstChild);
+    }
+}
+
+/**
+ * Display the question to be answered
+ */
+
+function showQuestion() {
+    resetState();
+    const currentQuestion = questions[currentQuestionIndex];
+    questionsElement.innerText = currentQuestion.question;
+
+    currentQuestion.options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.innerText = option;
+        button.classList.add('option');
+        button.addEventListener('click', () => selectOption(index));
+        answersElement.appendChild(button);
+    });
+}
 
 
 
-/** Allows user to exit out of quiz */
+
+/** 
+ * Allows user to exit out of quiz */
 
 function exitQuiz() {
     tarotQuizElement.style.display = 'none';
