@@ -118,3 +118,16 @@ function displayReading() {
         answer: 1
     }
 ];
+
+
+
+
+
+/** Allow user to exit out of quiz */
+
+function exitQuiz() {
+    tarotQuizElement.style.display = 'none';
+    resetState();
+}
+
+document.getElementById('quiz-button-back').addEventListener('click', exitQuiz);
