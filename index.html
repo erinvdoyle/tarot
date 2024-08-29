@@ -23,15 +23,16 @@
             <br>
             <button id="quiz-button" onclick="displayQuiz()">Test Your Knowledge</button>
             <div id="tarot-quiz" style="display: none;">
-              <h3>Test Your Knowledge</h3>
+              <h3>Think you know Your Tarot?</h3>
               <div id="quiz-container">
-                <div id="questions">What is the number of the Fool card in the Major Arcana?</div>
-                <div id="answers">2</div><br>
+                <!--<div id="points"></div>-->
+                <div id="questions"></div>
+                <div id="answers"></div><br>
                 <button id="next-question-button">Next Question</button><br><br>
-                <button id="quiz-button quiz-button-back" onclick="displayQuiz()">Exit</button>
-                <div id="points"></div>
+                <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
               </div>
-              <h3 id="hidden-text">Test Your Knowledge</h3>
+              <h3 id="points"></h3>
+              <!--<h3 id="hidden-text">Think you know Your Tarot?</h3>-->
             </div>
           </div>
         <!-- Image credit: Image by storyset on Freepik -->

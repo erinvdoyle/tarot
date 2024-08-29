@@ -50,6 +50,7 @@ h3 {
   text-align: center;
   font-family: "Uncial Antiqua", system-ui;
   color: #2b464f;
+  width: calc(100% - 15px);
   border-top:2px solid #fff;
   border-bottom: 2px solid #fff;
   margin-top: 10px;
@@ -92,7 +93,7 @@ animation: glow 1s ease-in-out infinite alternate;
   justify-content: center;
 }
 
-button {
+#quiz-button {
   background-color: #ed786c;
   color: #fff;
   font-family: "Libre Baskerville", serif;
@@ -101,10 +102,48 @@ button {
   border: 0px;
   height: 40px;
   width: 160px;
+  margin: 0;
+}
+
+#reading-button {
+  background-color: #ed786c;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 160px;
+  margin: 0;
+}
+
+#quiz-button-back {
+  background-color: #ed786c;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 160px;
+  margin: -10px 0 5px 0;
+  
+}
+
+button {
+  background-color: #9db2b8;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 240px;
+  margin: 10px 5px 0 5px;
 }
 
 button:hover {
-  background-color: #ff6c6c;
+  background-color: #748f96;
 }
 
 
@@ -120,19 +159,12 @@ button:hover {
 
 /* Tarot Quiz */
 #tarot-quiz {
-  /*display: none;*/
-  /*height: 620px;
-  width: 600px;*/
   position: fixed;
   top: 146px; /*media queries need to start at 768px*/
   left: 0;
   right: 0;
   bottom: 0; 
   background-color:#fdeca6;
-  /*background-image: url('../assets/images/tarotquizbg.png');
-  background-size: contain; 
-  background-repeat: no-repeat;
-  background-position: center;*/
   z-index: 99;
   display: flex;
   flex-direction: column;
@@ -140,17 +172,56 @@ button:hover {
   align-items: center;
 }
 
+/*
 #quiz-container {
   text-align: center;
   padding: 5px;
+  margin: 0 10px;
   border-radius: 5px;
-  /*background-color: rgba(255,255,255,0.6); */
+  background-color: rgba(255,255,255,0.6); 
+} */
+
+#quiz-container {
+  position: relative; 
+  text-align: center;
+  padding: 5px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6); 
+  overflow: hidden; 
+}
+
+/* Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" */
+
+#quiz-container::before {
+  content: "";
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/images/quizbg.png'); 
+  background-size: contain; 
+  opacity: 0.3; 
+  z-index: 0; 
+}
+
+#quiz-container div,
+#quiz-container button {
+  position: relative; 
+  z-index: 1; 
 }
 
 #questions {
-
+  margin-top: 5px;
+  font-weight: bold;
 }
 
+#answers {
+  margin: 10px 0;
+}
+
+/*
 #answers {
   color:#fff;
   background-color: #748f96;
@@ -161,7 +232,7 @@ button:hover {
   border: 0;
   border-radius: 5px;
   cursor: pointer;
-}
+}*/
 
 #points {
 
@@ -170,12 +241,26 @@ button:hover {
 
 #next-question-button {
   background-color: #748f96;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 160px;
+  margin-top: -5px;
 }
 
 #next-question-button:hover {
   background-color: #2b464f;
 }
 
+.correct {
+
+}
+
+.incorrect {
+
+}
 
 /* Hero/ Background Image */
 
