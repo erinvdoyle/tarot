@@ -255,11 +255,11 @@ button:hover {
 }
 
 .correct {
-
+ font-weight: bold;
 }
 
 .incorrect {
-
+  text-decoration: line-through;
 }
 
 /* Hero/ Background Image */

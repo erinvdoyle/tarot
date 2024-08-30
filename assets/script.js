@@ -191,8 +191,10 @@ function selectOption(selectedIndex) {
         button.disabled = true;
         if (index === correctIndex) {
             button.classList.add('correct');
+            button.style.backgroundColor = 'goldenrod';
         } else {
             button.classList.add('incorrect');
+            button.style.backgroundColor = '#ed786c'; 
         }
     });
 
