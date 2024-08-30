@@ -13,7 +13,12 @@ function displayReading() {
     }
   }
 
-  /* JS for Quiz guided by tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" */
+  /* JS for Quiz guided by:
+   Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
+   Web Dev Simplified: Build a Quiz App with JavaScript https://youtu.be/riDzcEQbX6k 
+   Brian Design: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY */
+
+
   /* Array of quiz questions and answers */
 
   const questions = [
@@ -157,7 +162,7 @@ function resetState() {
 }
 
 /**
- * Display the question to be answered
+ * Displays the question to be answered
  */
 
 function showQuestion() {
@@ -174,6 +179,52 @@ function showQuestion() {
     });
 }
 
+/**
+ * Increments point tally on correct and incorrect questions as each question is answered
+ */
+
+function selectOption(selectedIndex) {
+    const currentQuestion = questions[currentQuestionIndex];
+    const correctIndex = currentQuestion.answer;
+
+    Array.from(answersElement.children).forEach((button, index) => {
+        button.disabled = true;
+        if (index === correctIndex) {
+            button.classList.add('correct');
+        } else {
+            button.classList.add('incorrect');
+        }
+    });
+
+    if (selectedIndex === correctIndex) {
+        score++;
+    }
+
+    pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
+    pointsElement.classList.remove('hidden');
+
+    nextQuestionButton.classList.remove('hidden');
+}
+
+nextQuestionButton.addEventListener('click', () => {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+});
+
+
+/** Displays Final Score */
+
+function showScore() {
+    resetState();
+    questionsElement.innerText = 'Quiz Complete!';
+    pointsElement.innerText = `Your final score: ${score} out of ${questions.length}`;
+    pointsElement.classList.remove('hidden');
+    nextQuestionButton.classList.add('hidden');
+}
 
 
 
