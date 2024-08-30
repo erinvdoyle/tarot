@@ -48,6 +48,7 @@ h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 80px;
   color: #2b464f;
+  margin-top: -40px;
   margin-bottom: 1.7rem;
 }
 
@@ -199,7 +200,7 @@ button:hover {
   right: 0;
   bottom: 0; 
   background-color:#fdeca6;
-  z-index: 99;
+  z-index: 90;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -210,7 +211,7 @@ button:hover {
   position: relative; 
   text-align: center;
   padding: 5px;
-  margin: 0 10px;
+  margin: 0 10px 10px 10px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6); 
   overflow: hidden; 
@@ -273,8 +274,10 @@ button:hover {
 }
 
 /* Media query: Mobile phones (375px and below) */
-@media (max-width: 350px) {
- 
+@media (max-width: 374px) {
+  #next-question-button {
+    margin-bottom: 20px;
+  }
 }
 
 /* Media query: Mobile phones (425px and below) */
@@ -284,16 +287,73 @@ button:hover {
 
 /* Media query: Tablets (768px and below) */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   h1 {
-      font-size: 2.5rem;
+      margin-top: 11px;
+      font-size: 3rem;
   }
 
   h2 {
-      font-size: 1.5rem;
+      font-size: 1.85rem;
+      margin-bottom: 25px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin-top: -35px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #tarot-quiz {
+    margin-top: -5px;
+  }
+
+  #tarot-teller {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 35%; 
+    background-image: url('../assets/images/tarotteller1.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+}
+
+@media (min-width: 780px) {
+  #quiz-container {
+    max-width: 500px;
   }
 }
 
+@media (min-width: 1439px) {
+ #background-image {
+  bottom: -5px;
+ }
+
+ #tarot-quiz {
+  margin-top: -9px;
+ }
+}
+
+
+@media (min-height: 780px) {
+  #background-image {
+    height: 45%;
+    z-index: 97;
+  }
+
+  #points {
+    z-index: 99;
+  }
+}
 
 /* Media query: large tablets and larger screens */
 @media (min-width: 916px)
