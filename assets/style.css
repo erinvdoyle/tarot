@@ -19,6 +19,7 @@ body {
   padding: 0;
   background-color: #fdeca6;
   font-family: "Libre Baskerville", serif;
+  font-size: 16px;
   color: #2b464f;
   min-height: 100vh;
   display: flex;
@@ -46,9 +47,9 @@ body {
 
 h1 {
   font-family: "Uncial Antiqua", system-ui;
-  font-size: 80px;
+  font-size: 5rem;
   color: #2b464f;
-  margin-top: -40px;
+  /*margin-top: -40px;*/
   margin-bottom: 1.7rem;
 }
 
@@ -129,7 +130,7 @@ animation: glow 1s ease-in-out infinite alternate;
   border: 0px;
   height: 40px;
   width: 160px;
-  margin: 0;
+  margin-top: 40px;
 }
 
 #quiz-button-back {
@@ -289,20 +290,20 @@ button:hover {
 
 @media (max-width: 767px) {
   h1 {
-      margin-top: 11px;
-      font-size: 3rem;
+      margin-top: 85px;
+      font-size: 3.5rem;
   }
 
   h2 {
       font-size: 1.85rem;
-      margin-bottom: 25px;
+      margin: -38px 0 25px 0;
   }
 
 }
 
 @media (min-width: 768px) {
   h1 {
-    margin-top: -35px;
+    margin-top: 40px;
   }
 
   h2 {
@@ -310,7 +311,7 @@ button:hover {
   }
 
   #tarot-quiz {
-    margin-top: -5px;
+    margin-top: -15px;
   }
 
   #tarot-teller {
@@ -343,6 +344,43 @@ button:hover {
  }
 }
 
+@media (max-height: 580px) { /*alter to height just below typical cell phone dimension (655?) */
+  #reading-button {
+    margin-top: 20px;
+  }
+
+  h1 {
+    margin-top: 40px;
+  }
+
+  #tarot-quiz {
+    margin-top: -45px;
+  }
+
+  #quiz-container {
+    font-size: 14px;
+    overflow: auto;
+  }
+
+  #quiz-container #answers,
+  #quiz-container #next-question-button,
+  #quiz-container #quiz-button-back {
+    transform: scale(0.75);
+  }
+
+  #answers {
+    margin: -25px 0 -25px 0;
+  }
+
+  #next-question-button {
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
+
+  #quiz-button-back {
+    margin-top: -65px;
+  }
+}
 
 @media (min-height: 780px) {
   #background-image {
