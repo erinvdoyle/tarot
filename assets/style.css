@@ -12,14 +12,13 @@
   font-style: normal;
 }
 
-/* Main Style */
+/* Main Style */ 
 
 body {
   margin: 0;
   padding: 0;
   background-color: #fdeca6;
   font-family: "Libre Baskerville", serif;
-  font-size: 16px;
   color: #2b464f;
   min-height: 100vh;
   display: flex;
@@ -28,38 +27,38 @@ body {
   align-items: center;
   position: relative;
   padding: 40px 20px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
-/* Hero/ Background Image */
+/*Hero/ Background Image */
 
 #background-image {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50%; 
-  background-image: url('../assets/images/tarotbg.png'); 
-  background-size: contain; 
-  background-repeat: no-repeat;
-  background-position: center bottom;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 50%; /* Adjust height as needed */
+background-image: url('../assets/images/tarotbg.png'); 
+background-size: contain; 
+background-repeat: no-repeat;
+background-position: center bottom;
+z-index: -1;
 }
+
+/* Headings */
 
 h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
   color: #2b464f;
-  margin-top: -50px;
-  margin-bottom: 1.7rem;
+  margin: -0.65rem 0;
 }
 
 h2 {
   font-family: "Uncial Antiqua", system-ui;
-  text-align: center;
+  font-size: 1.8rem;
   color: #2b464f;
-  font-size: 40px;
-  margin-top: -30px;
-  /*margin-bottom: .5rem 2rem;*/
+  margin: -0.75rem 0 2.1rem;
 }
 
 h3 {
@@ -72,33 +71,6 @@ h3 {
   margin-top: 10px;
 }
 
-#hidden-text {
-  color: #fdeca6;
-  margin-top: 25px;
-}
-
-/* Glow Effect */
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fdeca6, 0 0 30px #fde380 , 0 0 40px #fff, 0 0 50px #fde380, 0 0 60px #fff, 0 0 70px #fff;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #fdeca6, 0 0 40px #fde380, 0 0 50px #fde380, 0 0 60px #fff , 0 0 70px #fff, 0 0 80px #fde380;
-  }
-}
-
-
-.glow {
--webkit-animation: glow 1s ease-in-out infinite alternate;
--moz-animation: glow 1s ease-in-out infinite alternate;
-animation: glow 1s ease-in-out infinite alternate;
-}
-
-.h2glow {
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;  
-}
 
 /* Buttons */
 
@@ -141,29 +113,27 @@ animation: glow 1s ease-in-out infinite alternate;
   border-radius: 5px;
   border: 0px;
   height: 40px;
-  width: 160px;
-  margin: -10px 0 5px 0;
-  
+  width: 115px;
+  margin: -5px 0 0 0;
 }
 
 #next-question-button {
-  background-color: #748f96;
+  background-color: #9db2b8;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
   height: 40px;
-  width: 160px;
-  margin-top: -5px;
+  width: 115px;
+  margin: -3px 3px 0 -2px;
 }
 
 #next-question-button:hover {
   background-color: #2b464f;
 }
 
-
 button {
-  background-color: #9db2b8;
+  background-color: #748f96;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -178,7 +148,6 @@ button:hover {
   background-color: #748f96;
 }
 
-
 /* Tarot Reading */
 
 #tarot-reading {
@@ -191,12 +160,11 @@ button:hover {
 }
 
 /* Tarot Quiz */
-
 /* Tarot Quiz Layout */
 
 #tarot-quiz {
   position: fixed;
-  top: 146px; /*media queries need to start at 768px*/
+  top: 148px; /*media queries need to start at 768px*/
   left: 0;
   right: 0;
   bottom: 0; 
@@ -215,7 +183,7 @@ button:hover {
   margin: 0 10px 10px 10px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.6); 
-  overflow: hidden; 
+  overflow: auto; 
 }
 
 /* Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" */
@@ -228,8 +196,8 @@ button:hover {
   right: 0;
   bottom: 0;
   background-image: url('../assets/images/quizbg.png'); 
-  background-size: contain; 
-  opacity: 0.3; 
+  background-size: contain;
+  opacity: 0.2; 
   z-index: 0; 
 }
 
@@ -246,8 +214,11 @@ button:hover {
   font-weight: bold;
 }
 
+/* Code base for correct answer animation: https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+
 #answers {
   margin: 5px 0;
+  transition: transform 0.2s ease;
 }
 
 
@@ -258,10 +229,114 @@ button:hover {
 
 .correct {
  font-weight: bold;
+ animation: pulse 0.9s ease;
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 
 .incorrect {
   text-decoration: line-through;
+  animation: pulse 0.2s ease;
+}
+
+/* Text Effects */  
+/* Glow Effect */
+@-webkit-keyframes glow {
+from {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fdeca6, 0 0 30px #fde380 , 0 0 40px #fff, 0 0 50px #fde380, 0 0 60px #fff, 0 0 70px #fff;
+}
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #fdeca6, 0 0 40px #fde380, 0 0 50px #fde380, 0 0 60px #fff , 0 0 70px #fff, 0 0 80px #fde380;
+}
+}
+
+.glow {
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+.h2glow {
+-webkit-animation: glow 2s ease-in-out infinite alternate;
+-moz-animation: glow 2s ease-in-out infinite alternate;
+animation: glow 2s ease-in-out infinite alternate;  
+}
+
+
+/* Shimmer */
+/* Base code credit to Joshua Pekera https://codepen.io/joshuapekera/pen/xGjMMq */
+#shimmer {
+text-align: center;
+color: rgba(255, 255, 255, 0.1);
+background: -webkit-gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
+background: -moz-gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
+background: gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
+-webkit-background-size: 125px 100%;
+-moz-background-size: 125px 100%;
+background-size: 125px 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+-webkit-animation-name: shimmer;
+-moz-animation-name: shimmer;
+animation-name: shimmer;
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+animation-duration: 3s;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+background-repeat: no-repeat;
+background-position: 0 0;
+background-color: #222;
+color: transparent;
+}
+
+@-moz-keyframes shimmer {
+0% {
+    background-position: top left;
+}
+100% {
+    background-position: top right;
+}
+}
+
+@-webkit-keyframes shimmer {
+0% {
+    background-position: top left;
+}
+100% {
+    background-position: top right;
+}
+}
+
+@-o-keyframes shimmer {
+0% {
+    background-position: top left;
+}
+100% {
+    background-position: top right;
+}
+}
+
+@keyframes shimmer {
+0% {
+    background-position: top left;
+}
+100% {
+    background-position: top right;
+}
 }
 
 
