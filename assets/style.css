@@ -219,7 +219,6 @@ button:hover {
   right: 0;
   bottom: 0; 
   background-color:#fdeca6;
-  border: 2px solid red;
   z-index: 90;
   display: flex;
   flex-direction: column;
@@ -234,12 +233,19 @@ button:hover {
   right: 0;
   bottom: 0; 
   background-color:#fdeca6;
-  border: 2px solid red;
   z-index: 90;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+#instructions-content {
+  width: 95%;
+  max-width: 600px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 /* Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" */
@@ -453,7 +459,9 @@ background-position: center bottom;
     font-size: 2.5rem;
   }
 
-  #tarot-quiz {
+  #tarot-quiz,
+  #instructions-container,
+  #quiz-instructions {
     top: 240px;
   }
 }
@@ -468,7 +476,9 @@ background-position: center bottom;
     font-size: 3.5rem;
   }
 
-  #tarot-quiz {
+  #tarot-quiz,
+  #quiz-instructions,
+  #instructions-container {
     top: 340px;
   }
 

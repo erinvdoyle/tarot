@@ -205,7 +205,7 @@ function selectOption(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctIndex = currentQuestion.answer;
 
-    const correctAudio = new Audio('assets/media/correct.mp3');
+    const correctAudio = new Audio('assets/media/correct.mp3'); 
     const incorrectAudio = new Audio('assets/media/incorrect.mp3');
 
 
