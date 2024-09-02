@@ -221,8 +221,10 @@ function selectOption(selectedIndex) {
     if (selectedIndex === correctIndex) {
         score++;
         correctAudio.play();
+        pointsElement.style.backgroundColor = 'green';
     } else {
         incorrectAudio.play();
+        pointsElement.style.backgroundColor = '#ed786c';
     }
 
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;

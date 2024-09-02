@@ -283,14 +283,6 @@ button:hover {
 
 }
 
-.green-points {
-  background-color: green;
-}
-
-.red-points {
-  background-color: red;
-}
-
 .correct {
  font-weight: bold;
  animation: pulse 0.9s ease;
