@@ -3,7 +3,7 @@
 ### User Stories 
 - User Stories
    - As a new visitor, I want:
-      - A cleanly designed and intuitive layour so I can easily navigate the site
+      - A cleanly designed and intuitive layout so I can easily navigate the site
       - An engaging experience with bright colors and sounds
       - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
       - A concise reading that I can engage with briefly or delve into for a deeper explanation 
@@ -41,6 +41,8 @@
 Main Image: https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections Image by storyset on Freepik
 
 Fortune Teller: Freepik (attribution to come)
+
+Quiz Background: Freepik (attribution to come)
 
 Tarot Card: https://www.freepik.com/free-vector/hand-drawn-tarot-cards-illustration_39555275.htm#fromView=search&page=2&position=24&uuid=e85cc8e3-0795-4d80-90d6-bc56a9b1ca1e Image by freepik
 
