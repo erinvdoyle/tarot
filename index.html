@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
-<body class="inner-shadow">
+<body>
+<!--<body class="inner-shadow">-->
         <!-- Tutorial Credit: W3 Schools -->
         <h1>Tarot</h1>
         <h2 class="h2glow">Card of the Day</h2>
@@ -20,7 +21,18 @@
             <div id="tarot-reading">
             </div>
             <br>
-            <button id="quiz-button" class="inner-shadow-btn" onclick="displayQuiz()">Test Your Knowledge</button>
+            <!--<button id="quiz-button" class="inner-shadow-btn" onclick="displayQuiz()">Test Your Knowledge</button>-->
+            <button id="quiz-button-instructions" class="inner-shadow-btn" onclick="displayInstructions()">Test Your Knowledge</button>
+            <div id="quiz-instructions" style="display: none;">
+              <div id="instructions-container">
+                <h3>Ready to test yourself?</h3>
+                <ul>
+                  <li>Rule #1</li>
+                  <li>Rule #2</li>
+                </ul>
+                <button id="quiz-button" class="inner-shadow-btn" onclick="displayQuiz()">Take the quiz!</button>
+              </div>
+            </div>
             <div id="tarot-quiz" style="display: none;">
               <h3>Think you know Your Tarot?</h3>
               <div id="quiz-container">

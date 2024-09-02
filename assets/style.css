@@ -106,6 +106,18 @@ h3 {
   margin: 0;
 }
 
+#quiz-button-instructions {
+  background-color: #ed786c;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 160px;
+  margin: 0;
+}
+
 #reading-button {
   background-color: #ed786c;
   color: #fff;
@@ -199,6 +211,37 @@ button:hover {
   overflow: auto; 
 }
 
+/* Quiz Instructions */
+#quiz-instructions {
+  position: fixed;
+  top: 148px; /*media queries need to start at 768px*/
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color:#fdeca6;
+  border: 2px solid red;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#instructions-container {
+  position: fixed;
+  top: 148px; /*media queries need to start at 768px*/
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color:#fdeca6;
+  border: 2px solid red;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 /* Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" */
 
 #quiz-container::before {
@@ -238,6 +281,14 @@ button:hover {
 #points {
 
 
+}
+
+.green-points {
+  background-color: green;
+}
+
+.red-points {
+  background-color: red;
 }
 
 .correct {

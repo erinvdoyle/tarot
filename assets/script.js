@@ -13,6 +13,20 @@ function displayReading() {
     }
   }
 
+  /**
+   * Toggle button displays quiz instructions on click
+   */
+
+  function displayInstructions() {
+    var x = document.getElementById("quiz-instructions");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  
+
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
    Web Dev Simplified: Build a Quiz App with JavaScript https://youtu.be/riDzcEQbX6k 
@@ -136,6 +150,7 @@ const answersElement = document.getElementById('answers');
 const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
+/*const tarotQuizInstructions = document.getElementById('quiz-instructions');*/
 
 /** 
  * Toggle button displays quiz on click  
@@ -182,16 +197,21 @@ function showQuestion() {
 /**
  * Increments point tally on correct and incorrect questions as each question is answered
  */
+/* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
 function selectOption(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctIndex = currentQuestion.answer;
 
+    const correctAudio = new Audio('../assets/media/correct.mp3');
+    const incorrectAudio = new Audio('../assets/media/incorrect.mp3');
+
+
     Array.from(answersElement.children).forEach((button, index) => {
         button.disabled = true;
         if (index === correctIndex) {
             button.classList.add('correct');
-            button.style.backgroundColor = 'goldenrod';
+            button.style.backgroundColor = 'green';
         } else {
             button.classList.add('incorrect');
             button.style.backgroundColor = '#ed786c'; 
@@ -200,6 +220,9 @@ function selectOption(selectedIndex) {
 
     if (selectedIndex === correctIndex) {
         score++;
+        correctAudio.play();
+    } else {
+        incorrectAudio.play();
     }
 
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
