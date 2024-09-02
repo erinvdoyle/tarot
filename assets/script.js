@@ -213,7 +213,7 @@ function selectOption(selectedIndex) {
         button.disabled = true;
         if (index === correctIndex) {
             button.classList.add('correct');
-            button.style.backgroundColor = 'green';
+            button.style.backgroundColor = '#9cd883';
         } else {
             button.classList.add('incorrect');
             button.style.backgroundColor = '#ed786c'; 
@@ -223,7 +223,7 @@ function selectOption(selectedIndex) {
     if (selectedIndex === correctIndex) {
         score++;
         correctAudio.play();
-        pointsElement.style.backgroundColor = 'green';
+        pointsElement.style.backgroundColor = '#9cd883';
     } else {
         incorrectAudio.play();
         pointsElement.style.backgroundColor = '#ed786c';
