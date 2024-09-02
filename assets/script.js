@@ -157,6 +157,8 @@ const tarotQuizElement = document.getElementById('tarot-quiz');
 */
 
 function displayQuiz() {
+    const quizInstructions = document.getElementById("quiz-instructions");
+    quizInstructions.style.display = "none";
     tarotQuizElement.style.display = 'flex';
     currentQuestionIndex = 0;
     score = 0;
