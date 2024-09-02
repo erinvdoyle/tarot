@@ -2,17 +2,16 @@
 
 ### User Stories 
 - User Stories
-    - As a new visitor, I want:
-     - A cleanly designed and intuitive layour so I can easily navigate the site
-     - An engaging experience with bright colors and sounds
-     - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
-     - A concise reading that I can engage with briefly or delve into for a deeper explanation 
-     - A quiz with a simple format
-     - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
-     - A points tally and a results feature that tells me how I've done
-     - A button that allows me to exit the quiz or tarot draw when I wish
-     - A fully responsive experience so that I can use any of my screens
-
+   - As a new visitor, I want:
+      - A cleanly designed and intuitive layour so I can easily navigate the site
+      - An engaging experience with bright colors and sounds
+      - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
+      - A concise reading that I can engage with briefly or delve into for a deeper explanation 
+      - A quiz with a simple format
+      - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
+      - A points tally and a results feature that tells me how I've done
+      - A button that allows me to exit the quiz or tarot draw when I wish
+      - A fully responsive experience so that I can use any of my screens
     - As a returning visitor, I want:
       - A random selection of quiz questions so that I can test myself with fresh content
       - A random tarot draw so that I can get a new reading every time I visit
@@ -41,7 +40,7 @@
 ### Image Credits
 Main Image: https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections Image by storyset on Freepik
 
-Fortune Teller: 
+Fortune Teller: Freepik (attribution to come)
 
 Tarot Card: https://www.freepik.com/free-vector/hand-drawn-tarot-cards-illustration_39555275.htm#fromView=search&page=2&position=24&uuid=e85cc8e3-0795-4d80-90d6-bc56a9b1ca1e Image by freepik
 
