@@ -364,12 +364,27 @@ background-position: center bottom;
 }
 }
 
+/* Media Query: Screens wider than 780px and taller than 750px */
+@media (min-width: 781px) and (min-height: 751px) {
+  #quiz-container {
+    max-width: 625px;
+  }
+}
+
 /* Media Query: Screens heights less than 580px */
 
 @media (max-height: 580px) {
 #reading-button {
   margin-top: -15px;
 }
+}
+
+/* Media Query: Screens taller than 1010px */
+@media (min-height: 1010px) {
+ #background-image {
+    height: 45%;
+    z-index: 97;
+  }
 }
 
 /* Media Query small laptops and above */

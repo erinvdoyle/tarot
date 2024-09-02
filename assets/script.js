@@ -29,8 +29,8 @@ function displayReading() {
     },
     {
         question: "Which Major Arcana card represents new beginnings and adventures?",
-        options: ["The Magician", "The Fool", "The High Priestess", "The Empress"],
-        answer: 1
+        options: ["The Magician", "The High Priestess", "The Fool", "The Empress"],
+        answer: 2
     },
     {
         question: "What does the High Priestess symbolize?",
@@ -44,8 +44,8 @@ function displayReading() {
     },
     {
         question: "What is the primary theme of The Tower card?",
-        options: ["Love and relationships", "Sudden upheaval and chaos", "Success and achievement", "Spiritual enlightenment"],
-        answer: 1
+        options: ["Love and relationships", "Success and achievement", "Spiritual enlightenment", "Sudden upheaval and chaos"],
+        answer: 3
     },
     {
         question: "Which Major Arcana card is often associated with transformation and rebirth?",
@@ -54,8 +54,8 @@ function displayReading() {
     },
     {
         question: "What does The Empress card primarily represent?",
-        options: ["Authority and control", "Nurturing and fertility", "Wisdom and knowledge", "Illusions and deception"],
-        answer: 1
+        options: ["Authority and control", "Wisdom and knowledge","Nurturing and fertility", "Illusions and deception"],
+        answer: 2
     },
     {
         question: "Which card signifies a journey or movement towards a goal?",
@@ -64,13 +64,13 @@ function displayReading() {
     },
     {
         question: "What does The Devil card often symbolize?",
-        options: ["Freedom and liberation", "Temptation and materialism", "Hope and inspiration", "Wisdom and insight"],
-        answer: 1
+        options: ["Freedom and liberation", "Hope and inspiration", "Wisdom and insight", "Temptation and materialism"],
+        answer: 3
     },
     {
         question: "Which Major Arcana card is associated with introspection and solitude?",
-        options: ["The Hermit", "The Hanged Man", "The Fool", "The Emperor"],
-        answer: 0
+        options: ["The Hanged Man", "The Hermit", "The Fool", "The Emperor"],
+        answer: 1
     },
     {
         question: "What does The Lovers card represent in a reading?",
@@ -79,8 +79,8 @@ function displayReading() {
     },
     {
         question: "Which card signifies the end of a cycle and the beginning of a new one?",
-        options: ["The World", "The Wheel of Fortune", "The Sun", "The Moon"],
-        answer: 0
+        options: ["The Wheel of Fortune", "The Sun", "The World", "The Moon"],
+        answer: 2
     },
     {
         question: "What does The Emperor card symbolize?",
@@ -89,8 +89,8 @@ function displayReading() {
     },
     {
         question: "Which Major Arcana card is often associated with hope and healing?",
-        options: ["The Star", "The Moon", "The Sun", "The Hanged Man"],
-        answer: 0
+        options: ["The Moon", "The Sun", "The Star", "The Hanged Man"],
+        answer: 2
     },
     {
         question: "What is the meaning of The Hanged Man?",
@@ -104,8 +104,8 @@ function displayReading() {
     },
     {
         question: "What does The Moon card represent?",
-        options: ["Clarity and truth", "Illusion and intuition", "Authority and control", "Conflict and struggle"],
-        answer: 1
+        options: ["Clarity and truth", "Authority and control", "Conflict and struggle", "Illusion and intuition"],
+        answer: 3
     },
     {
         question: "Which card is known for its association with spiritual enlightenment and wisdom?",
