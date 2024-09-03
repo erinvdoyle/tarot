@@ -153,13 +153,6 @@ const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
 
 
-let audio = {
-    mute: false,
-    correctAudio: new Audio('assets/media/correct.mp3'),
-    incorrectAudio: new Audio('assets/media/incorrect.mp3')
-};
-
-
 /** 
  * Toggle button displays quiz on click  
 */
@@ -209,6 +202,12 @@ function showQuestion() {
 
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
+let audio = {
+    mute: false,
+    correctAudio: new Audio('assets/media/correct.mp3'),
+    incorrectAudio: new Audio('assets/media/incorrect.mp3')
+};
+
 
 function selectOption(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
@@ -241,7 +240,18 @@ function selectOption(selectedIndex) {
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.remove('hidden');
-    nextQuestionButton.disabled = false;
+    nextQuestionButton.disabled = true;
+
+    if (!audio.mute) {
+        audio.correctAudio.onended = () => {
+            nextQuestionButton.disabled = false; 
+        };
+        audio.incorrectAudio.onended = () => {
+            nextQuestionButton.disabled = false; 
+        };
+    } else {
+        nextQuestionButton.disabled = false;
+    }
 }
 
 /** Mutes or enables audio via toggle button */
@@ -249,27 +259,20 @@ function selectOption(selectedIndex) {
 
 function soundOff() {
     let audioIcon = document.getElementById('speaker-icon');
-    if (audio.mute === false) {
-        audioIcon.classList = ('fa-solid fa-volume-xmark');
-        audio.mute = true;
-        audio.correctAudio.muted = true;
-        audio.incorrectAudio.muted = true;
-    } else {
-        audioIcon.classList = ('fa-solid fa-volume-high');
-        audio.mute = false;
-        audio.correctAudio.muted = false;
-        audio.incorrectAudio.muted = false;
-    }
-
+    audio.mute = !audio.mute; 
+    audioIcon.classList = audio.mute ? 'fa-solid fa-volume-xmark' : 'fa-solid fa-volume-high';
+    audio.correctAudio.muted = audio.mute;
+    audio.incorrectAudio.muted = audio.mute;
+}
     nextQuestionButton.addEventListener('click', () => {
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
             showQuestion();
         } else {
-            showScore(); // Implement this function to display final score
+            showScore(); 
         }
     });   
-}
+
 
 
 /** Displays Final Score */
