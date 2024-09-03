@@ -175,6 +175,7 @@ function resetState() {
     nextQuestionButton.classList.add('hidden');
     while (answersElement.firstChild) {
         answersElement.removeChild(answersElement.firstChild);
+        pointsElement.style.backgroundColor = '#fdeca6';
     }
 }
 

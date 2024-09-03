@@ -291,6 +291,7 @@ li {
   right: 0;
   bottom: 0;
   background-image: url('../assets/images/quizbg.png'); 
+  background-color: #fff;
   background-size: contain;
   opacity: 0.2; 
   z-index: 0; 
