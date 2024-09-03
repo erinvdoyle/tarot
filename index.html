@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarot</title>
+    <!-- Cards Favicon downloaded from Icons 8 -->
+    <link type="image/png" sizes="16x16" rel="icon" href="assets/images/cardsicon64.png">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/85da640026.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--<body class="inner-shadow">-->
@@ -30,6 +33,7 @@
                     <h4>How to play</h4>
                 <ul>
                   <li>The quiz has 10 questions</li>
+                  <li>Sound is on. Click the speaker icon to toggle on or off</li>
                   <li>Subject matter is The Major Arcana of the Tarot deck</li>
                   <li>Read carefully so you don't get tripped up</li>
                   <li>Tap your answer to see if you're correct</li>
@@ -48,6 +52,8 @@
                 <div id="answers"></div><br>
                 <button id="next-question-button">Next Question</button>
                 <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
+                <!-- Icon by FontAwesome -->
+                <i class="fa-solid fa-volume-low fa-xl"></i>
               </div>
               <h3 id="points">Tap an answer to find out!</h3>
               <div id="tarot-teller"></div>
