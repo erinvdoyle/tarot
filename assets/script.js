@@ -199,6 +199,7 @@ function showQuestion() {
 /**
  * Increments point tally on correct and incorrect questions as each question is answered
  */
+
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
 function selectOption(selectedIndex) {
@@ -243,6 +244,32 @@ nextQuestionButton.addEventListener('click', () => {
         showScore();
     }
 });
+
+/* Global audio variables */
+let audio = {
+    mute: false,
+    correctAudio: new Audio('assets/media/correct.mp3'),
+    incorrectAudio: new Audio('assets/media/incorrect.mp3')
+};
+
+/** Mutes or enables audio via toggle button */
+/* function code based off of Marcus Eriksson's muteAudio(): https://github.com/worldofmarcus/project-portfolio-2 */ 
+
+function soundOff() {
+    let audioIcon = document.getElementById('speaker-icon');
+    if (audio.mute === false) {
+        audioIcon.classList = ('fa-solid fa-volume-xmark');
+        audio.mute = true;
+        audio.correctAudio.muted = true;
+        audio.incorrectAudio.muted = true;
+    } else if (audio.mute === true) {
+        audioIcon.classList = ('fa-solid fa-volume-high');
+        audio.mute = false;
+        audio.correctAudio.muted = false;
+        audio.incorrectAudio.muted = false;
+ }
+}
+
 
 
 /** Displays Final Score */

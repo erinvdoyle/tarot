@@ -62,3 +62,8 @@ JS for Quiz guided by tutorial from Code with Farraz: "Build a Quiz Application 
 Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
 
 *** Add remaining JS tutorials as noted in script.js; shimmer text css effect
+
+### Acknowledgements
+
+My mentor Precious Igjebe
+Our cohort standup leader Laura Mayock
