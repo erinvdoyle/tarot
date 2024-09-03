@@ -163,6 +163,7 @@ function displayQuiz() {
     tarotQuizElement.style.display = 'flex';
     currentQuestionIndex = 0;
     score = 0;
+    shuffle(questions);
     pointsElement.classList.add('hidden');
     showQuestion();
 }
@@ -178,6 +179,23 @@ function resetState() {
         pointsElement.style.backgroundColor = '#fdeca6';
     }
 }
+
+/**
+ * Chooses a question from the questions array at random
+ * Tutorial credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+ */
+
+function shuffle(questions) {
+    let currentIndex = questions.length;
+  
+    while (currentIndex != 0) {
+      let randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      [questions[currentIndex], questions[randomIndex]] = [
+        questions[randomIndex], questions[currentIndex]];
+    }
+  }
 
 /**
  * Displays the question to be answered
