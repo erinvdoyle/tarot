@@ -30,7 +30,8 @@ function displayReading() {
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
    Web Dev Simplified: Build a Quiz App with JavaScript https://youtu.be/riDzcEQbX6k 
-   Brian Design: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY */
+   Brian Design: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY 
+   Tutorial credit: https://youtu.be/xZXW5SnCiWI */
 
 
   /* Array of quiz questions and answers */
@@ -150,7 +151,14 @@ const answersElement = document.getElementById('answers');
 const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
-/*const tarotQuizInstructions = document.getElementById('quiz-instructions');*/
+
+
+let audio = {
+    mute: false,
+    correctAudio: new Audio('assets/media/correct.mp3'),
+    incorrectAudio: new Audio('assets/media/incorrect.mp3')
+};
+
 
 /** 
  * Toggle button displays quiz on click  
@@ -162,7 +170,6 @@ function displayQuiz() {
     tarotQuizElement.style.display = 'flex';
     currentQuestionIndex = 0;
     score = 0;
-    nextQuestionButton.classList.add('hidden');
     pointsElement.classList.add('hidden');
     showQuestion();
 }
@@ -202,13 +209,10 @@ function showQuestion() {
 
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
+
 function selectOption(selectedIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctIndex = currentQuestion.answer;
-
-    const correctAudio = new Audio('assets/media/correct.mp3'); 
-    const incorrectAudio = new Audio('assets/media/incorrect.mp3');
-
 
     Array.from(answersElement.children).forEach((button, index) => {
         button.disabled = true;
@@ -223,34 +227,22 @@ function selectOption(selectedIndex) {
 
     if (selectedIndex === correctIndex) {
         score++;
-        correctAudio.play();
+        if (!audio.mute) {
+            audio.correctAudio.play();
+        }
         pointsElement.style.backgroundColor = '#9cd883';
     } else {
-        incorrectAudio.play();
+        if (!audio.mute) {
+            audio.incorrectAudio.play();
+        }
         pointsElement.style.backgroundColor = '#ed786c';
     }
 
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
     pointsElement.classList.remove('hidden');
-
     nextQuestionButton.classList.remove('hidden');
+    nextQuestionButton.disabled = false;
 }
-
-nextQuestionButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
-    } else {
-        showScore();
-    }
-});
-
-/* Global audio variables */
-let audio = {
-    mute: false,
-    correctAudio: new Audio('assets/media/correct.mp3'),
-    incorrectAudio: new Audio('assets/media/incorrect.mp3')
-};
 
 /** Mutes or enables audio via toggle button */
 /* function code based off of Marcus Eriksson's muteAudio(): https://github.com/worldofmarcus/project-portfolio-2 */ 
@@ -262,14 +254,22 @@ function soundOff() {
         audio.mute = true;
         audio.correctAudio.muted = true;
         audio.incorrectAudio.muted = true;
-    } else if (audio.mute === true) {
+    } else {
         audioIcon.classList = ('fa-solid fa-volume-high');
         audio.mute = false;
         audio.correctAudio.muted = false;
         audio.incorrectAudio.muted = false;
- }
-}
+    }
 
+    nextQuestionButton.addEventListener('click', () => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+        } else {
+            showScore(); // Implement this function to display final score
+        }
+    });   
+}
 
 
 /** Displays Final Score */
@@ -281,7 +281,6 @@ function showScore() {
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.add('hidden');
 }
-
 
 
 /** 
