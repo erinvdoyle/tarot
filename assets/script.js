@@ -322,14 +322,14 @@ function selectOption(selectedIndex) {
 function showScore() {
     resetState();
       if (score >= 7) {
-        questionsElement.innerText = 'Quiz Complete!';
-        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
+        questionsElement.innerText = 'Titan of Tarot!';
+        resultsBlurb.innerText = "Your tarot knowledge is so impressive, even the cards are taking notes. Shine bright, wise one. Your intuition is sharper than a freshly shuffled deck.";
       } else if (score <= 3) {
-        questionsElement.innerText = 'Bad Tarot!';
-        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
+        questionsElement.innerText = 'Mystical misfire!';
+        resultsBlurb.innerText = "The cards may not have aligned in your favor this time, but everything happens for a reason. Your skills need a little divination dust, but the universe is laughing with you not at you. Promise.";
       } else {
-        questionsElement.innerText = 'Doing ok';
-        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
+        questionsElement.innerText = 'Average oracle!';
+        resultsBlurb.innerText = "You've achieved “Moderately Mystical” status. Not quite a master, but definitely no wandering fool either. Keep your tarot deck close and your curiosity closer.";
       }
     pointsElement.innerText = `Your final score: ${score} out of 10!`;
     resultsContent.style.display = 'flex';

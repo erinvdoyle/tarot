@@ -328,6 +328,8 @@ li {
   min-width: 300px;
 }
 
+/* Tutorial: https://www.w3schools.com/Css/css3_2dtransforms.asp */
+
 #results-image {
   position: absolute;
   bottom: 0;
@@ -335,9 +337,11 @@ li {
   transform: translateX(-50%);
   max-height: 150px;
   z-index: -5;
+  margin-top: -5px;
 }
 
 #results-blurb {
+  margin-top: 9px;
   width: 300px;
   height: 250px;
 }
