@@ -153,6 +153,7 @@ const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
 const resultsContent = document.getElementById('quiz-results');
+const resultsBlurb = document.getElementById('results-blurb');
 
 
 /** 
@@ -322,10 +323,13 @@ function showScore() {
     resetState();
       if (score >= 7) {
         questionsElement.innerText = 'Quiz Complete!';
+        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
       } else if (score <= 3) {
         questionsElement.innerText = 'Bad Tarot!';
+        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
       } else {
         questionsElement.innerText = 'Doing ok';
+        resultsBlurb.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum i";
       }
     pointsElement.innerText = `Your final score: ${score} out of 10!`;
     resultsContent.style.display = 'flex';
