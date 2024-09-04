@@ -182,7 +182,7 @@ document.getElementById('quiz-button-back').addEventListener('click', exitQuiz);
 
 
 /**
- * Chooses a question from the questions array at random
+ * Chooses ten questions from the questions array at random
  * Tutorial credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
  */
 
@@ -196,7 +196,10 @@ function shuffle(questions) {
       [questions[currentIndex], questions[randomIndex]] = [
         questions[randomIndex], questions[currentIndex]];
     }
+    return questions.slice(0, 10);
   }
+
+let tenQuestions = shuffle(questions);
 
 /**
  * Displays the question to be answered
@@ -204,7 +207,7 @@ function shuffle(questions) {
 
 function showQuestion() {
     resetState();
-    const currentQuestion = questions[currentQuestionIndex];
+    const currentQuestion = tenQuestions[currentQuestionIndex];
     questionsElement.innerText = currentQuestion.question;
 
     currentQuestion.options.forEach((option, index) => {
@@ -249,8 +252,8 @@ function soundOff() {
     audio.incorrectAudio.muted = audio.mute;
 }
     nextQuestionButton.addEventListener('click', () => {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
+        if (currentQuestionIndex < tenQuestions.length - 1) {
+            currentQuestionIndex++;
             showQuestion();
         } else {
             showScore(); 
@@ -263,7 +266,7 @@ function soundOff() {
 
 
 function selectOption(selectedIndex) {
-    const currentQuestion = questions[currentQuestionIndex];
+    const currentQuestion = tenQuestions[currentQuestionIndex];
     const correctIndex = currentQuestion.answer;
 
     Array.from(answersElement.children).forEach((button, index) => {
@@ -292,9 +295,13 @@ function selectOption(selectedIndex) {
 
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
     pointsElement.classList.remove('hidden');
-    nextQuestionButton.classList.remove('hidden');
-    nextQuestionButton.disabled = true;
-
+    if (currentQuestionIndex < tenQuestions.length - 1) {
+        nextQuestionButton.classList.remove('hidden');
+        nextQuestionButton.disabled = false; 
+    } else {
+        showScore();
+    }
+    
     if (!audio.mute) {
         audio.correctAudio.onended = () => {
             nextQuestionButton.disabled = false; 
@@ -318,7 +325,7 @@ function showScore() {
       } else {
         questionsElement.innerText = 'Doing ok';
       }
-    pointsElement.innerText = `Your final score: ${score} out of ${questions.length}!`;
+    pointsElement.innerText = `Your final score: ${score} out of 10!`;
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.add('hidden');
 }
