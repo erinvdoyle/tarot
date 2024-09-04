@@ -322,14 +322,17 @@ li {
 }
 
 #quiz-results {
+  position: relative;
   margin: 5px 0;
   min-height: 300px;
   min-width: 300px;
 }
 
 #results-image {
-  top: 0;
-  align-self: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   max-height: 150px;
   z-index: -5;
 }
