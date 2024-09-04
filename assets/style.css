@@ -303,6 +303,10 @@ li {
   z-index: 1; 
 }
 
+.hidden {
+  display: none;
+}
+
 /* Tarot Quiz Functionality */
 
 #questions {

@@ -31,7 +31,8 @@ function displayReading() {
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
    Web Dev Simplified: Build a Quiz App with JavaScript https://youtu.be/riDzcEQbX6k 
    Brian Design: How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial https://www.youtube.com/watch?v=f4fB9Xg2JEY 
-   Tutorial credit: https://youtu.be/xZXW5SnCiWI */
+   Tutorial credit: https://youtu.be/xZXW5SnCiWI 
+   https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript */
 
 
   /* Array of quiz questions and answers */
@@ -168,17 +169,17 @@ function displayQuiz() {
     showQuestion();
 }
 
-/**
- * Resets answers for the next question when Next Question button is clicked
- */
 
-function resetState() {
-    nextQuestionButton.classList.add('hidden');
-    while (answersElement.firstChild) {
-        answersElement.removeChild(answersElement.firstChild);
-        pointsElement.style.backgroundColor = '#fdeca6';
-    }
+/** 
+ * Allows user to exit out of quiz */
+
+function exitQuiz() {
+    tarotQuizElement.style.display = 'none';
+    resetState();
 }
+
+document.getElementById('quiz-button-back').addEventListener('click', exitQuiz);
+
 
 /**
  * Chooses a question from the questions array at random
@@ -216,8 +217,17 @@ function showQuestion() {
 }
 
 /**
- * Increments point tally on correct and incorrect questions as each question is answered
+ * Resets answers for the next question when Next Question button is clicked
  */
+
+function resetState() {
+    nextQuestionButton.classList.add('hidden');
+    while (answersElement.firstChild) {
+        answersElement.removeChild(answersElement.firstChild);
+    }
+    pointsElement.style.backgroundColor = '#fdeca6';
+}
+
 
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
@@ -226,6 +236,30 @@ let audio = {
     correctAudio: new Audio('assets/media/correct.mp3'),
     incorrectAudio: new Audio('assets/media/incorrect.mp3')
 };
+
+
+/** Mutes or enables audio via toggle button */
+/* function code based off of Marcus Eriksson's muteAudio(): https://github.com/worldofmarcus/project-portfolio-2 */ 
+
+function soundOff() {
+    let audioIcon = document.getElementById('speaker-icon');
+    audio.mute = !audio.mute; 
+    audioIcon.classList = audio.mute ? 'fa-solid fa-volume-xmark' : 'fa-solid fa-volume-high';
+    audio.correctAudio.muted = audio.mute;
+    audio.incorrectAudio.muted = audio.mute;
+}
+    nextQuestionButton.addEventListener('click', () => {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion();
+        } else {
+            showScore(); 
+        }
+    });   
+
+/**
+ * Increments point tally on correct and incorrect questions as each question is answered
+ */
 
 
 function selectOption(selectedIndex) {
@@ -273,44 +307,20 @@ function selectOption(selectedIndex) {
     }
 }
 
-/** Mutes or enables audio via toggle button */
-/* function code based off of Marcus Eriksson's muteAudio(): https://github.com/worldofmarcus/project-portfolio-2 */ 
-
-function soundOff() {
-    let audioIcon = document.getElementById('speaker-icon');
-    audio.mute = !audio.mute; 
-    audioIcon.classList = audio.mute ? 'fa-solid fa-volume-xmark' : 'fa-solid fa-volume-high';
-    audio.correctAudio.muted = audio.mute;
-    audio.incorrectAudio.muted = audio.mute;
-}
-    nextQuestionButton.addEventListener('click', () => {
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
-            showQuestion();
-        } else {
-            showScore(); 
-        }
-    });   
-
-
-
 /** Displays Final Score */
 
 function showScore() {
     resetState();
-    questionsElement.innerText = 'Quiz Complete!';
-    pointsElement.innerText = `Your final score: ${score} out of ${questions.length}`;
+      if (score >= 7) {
+        questionsElement.innerText = 'Quiz Complete!';
+      } else if (score <= 3) {
+        questionsElement.innerText = 'Bad Tarot!';
+      } else {
+        questionsElement.innerText = 'Doing ok';
+      }
+    pointsElement.innerText = `Your final score: ${score} out of ${questions.length}!`;
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.add('hidden');
 }
 
 
-/** 
- * Allows user to exit out of quiz */
-
-function exitQuiz() {
-    tarotQuizElement.style.display = 'none';
-    resetState();
-}
-
-document.getElementById('quiz-button-back').addEventListener('click', exitQuiz);
