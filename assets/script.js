@@ -152,6 +152,7 @@ const answersElement = document.getElementById('answers');
 const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
+const resultsContent = document.getElementById('quiz-results');
 
 
 /** 
@@ -161,6 +162,7 @@ const tarotQuizElement = document.getElementById('tarot-quiz');
 function displayQuiz() {
     const quizInstructions = document.getElementById("quiz-instructions");
     quizInstructions.style.display = "none";
+    resultsContent.style.display = 'none';
     tarotQuizElement.style.display = 'flex';
     currentQuestionIndex = 0;
     score = 0;
@@ -326,6 +328,7 @@ function showScore() {
         questionsElement.innerText = 'Doing ok';
       }
     pointsElement.innerText = `Your final score: ${score} out of 10!`;
+    resultsContent.style.display = 'flex';
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.add('hidden');
 }

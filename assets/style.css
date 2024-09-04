@@ -321,6 +321,16 @@ li {
   transition: transform 0.2s ease;
 }
 
+#quiz-results {
+  margin: 5px 0;
+  min-height: 300px;
+  min-width: 300px;
+  background-image: url('../assets/images/tarotteller1.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center bottom
+}
+
 
 #points {
 
@@ -438,6 +448,7 @@ color: transparent;
     background-position: top right;
 }
 }
+
 
 /* Media Queries */
 /* Media query: Mobile phones (375px and below) */
