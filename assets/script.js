@@ -235,6 +235,7 @@ function resetState() {
 }
 
 
+
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
 let audio = {
@@ -298,33 +299,26 @@ function selectOption(selectedIndex) {
 
     pointsElement.innerText = `Your Score: ${score} out of ${currentQuestionIndex + 1}`;
     pointsElement.classList.remove('hidden');
+
+    nextQuestionButton.classList.remove('hidden');
     if (currentQuestionIndex < tenQuestions.length - 1) {
-        nextQuestionButton.classList.remove('hidden');
-        nextQuestionButton.disabled = false; 
+        nextQuestionButton.innerText = "Next"; 
     } else {
         nextQuestionButton.innerText = "Results";
-        nextQuestionButton.classList.remove('hidden');
-        nextQuestionButton.onclick = showScore; 
     }
     
     if (!audio.mute) {
-        audio.correctAudio.onended = () => {
+        audio.correctAudio.ended = () => {
             nextQuestionButton.disabled = false; 
         };
-        audio.incorrectAudio.onended = () => {
+        audio.incorrectAudio.ended = () => {
             nextQuestionButton.disabled = false; 
         };
     } else {
         nextQuestionButton.disabled = false;
     }
-    if (currentQuestionIndex === 0) {
-        nextQuestionButton.innerText = "Next >>";
-        nextQuestionButton.onclick = () => {
-            currentQuestionIndex++;
-            selectOption(selectedIndex);
-        };
-    } 
 }
+
 
 /** Displays Final Score */
 
