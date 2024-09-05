@@ -21,13 +21,16 @@ body {
   font-family: "Libre Baskerville", serif;
   color: #2b464f;
   min-height: 100vh;
+  position: relative;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
-  padding: 40px 20px;
-  overflow: hidden;
 }
 
 /*Hero/ Background Image */
@@ -52,6 +55,7 @@ h1 {
   font-size: 5rem;
   color: #2b464f;
   margin: -0.65rem 0;
+  /*min-height: 15vh;*/
 }
 
 h2 {
