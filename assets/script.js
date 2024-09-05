@@ -302,7 +302,9 @@ function selectOption(selectedIndex) {
         nextQuestionButton.classList.remove('hidden');
         nextQuestionButton.disabled = false; 
     } else {
-        showScore();
+        nextQuestionButton.innerText = "Results";
+        nextQuestionButton.classList.remove('hidden');
+        nextQuestionButton.onclick = showScore; 
     }
     
     if (!audio.mute) {
