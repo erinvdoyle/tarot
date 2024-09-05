@@ -317,6 +317,13 @@ function selectOption(selectedIndex) {
     } else {
         nextQuestionButton.disabled = false;
     }
+    if (currentQuestionIndex === 0) {
+        nextQuestionButton.innerText = "Next >>";
+        nextQuestionButton.onclick = () => {
+            currentQuestionIndex++;
+            selectOption(selectedIndex);
+        };
+    } 
 }
 
 /** Displays Final Score */
