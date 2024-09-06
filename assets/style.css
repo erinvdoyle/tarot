@@ -205,6 +205,13 @@ button:hover {
   margin: -3px 1px 0 1px;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
 /* Tarot Reading */
 
 #tarot-reading {
@@ -248,7 +255,11 @@ button:hover {
   /*background-color: rgba(255, 255, 255, 0.6);*/
   background-color: rgb(246, 244, 244);
   /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
-  overflow: auto; 
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
 }
 
 /* Quiz Instructions */
