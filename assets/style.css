@@ -56,7 +56,7 @@ h1 {
   color: goldenrod;
   text-shadow: 1px 1px rgb(212, 132, 3);
   /*color: #2b464f;*/
-  margin: -0.65rem 0;
+  margin: -0.95rem 0;
   /*min-height: 15vh;*/
 }
 
@@ -72,11 +72,17 @@ h2 {
 h3 {
   text-align: center;
   font-family: "Uncial Antiqua", system-ui;
-  color: #2b464f;
-  width: calc(100% - 15px);
-  border-top:2px solid #fff;
-  border-bottom: 2px solid #fff;
-  margin-top: 10px;
+  color: #fff;
+  background-color: goldenrod;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
+  /*width: calc(100% - 15px);*/
+  min-width: 290px;
+  padding: 8px 6px;
+  max-width: 625px;
+  /*border-top:2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  margin-top: 0px;
 }
 
 /* Inner shadow tutorial: https://devdevout.com/css/css-inner-shadow */
@@ -102,6 +108,7 @@ h3 {
   background-color: #ed786c;
   color: #fff;
   font-family: "Libre Baskerville", serif;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
@@ -114,6 +121,7 @@ h3 {
 #quiz-button-instructions {
   background-color: #ed786c;
   color: #fff;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
@@ -126,13 +134,14 @@ h3 {
 #reading-button {
   background-color: #ed786c;
   color: #fff;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
   height: 40px;
   width: 160px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 #quiz-button-back {
@@ -167,7 +176,7 @@ h3 {
 }
 
 button {
-  background-color: #748f96;
+  background-color: #f494e3;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -232,9 +241,11 @@ button:hover {
   max-width: 625px; /*test for responsiveness */
   height: 350px; /*edited 09/05 to try layout solutions */
   border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
+  /*box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);*/
   /*background-color: rgba(255, 255, 255, 0.6);*/
   background-color: rgb(246, 244, 244);
+  /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
   overflow: auto; 
 }
 
@@ -273,18 +284,22 @@ button:hover {
   width: 95%;
   max-width: 600px;
   height: auto;
-  background-color: rgba(255, 255, 255, 0.9);
+  /*padding-left: 10px;*/
+  /*background-color: rgba(255, 255, 255, 0.9);*/
+  background-color: rgb(246, 244, 244);
   border-radius: 5px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
+  /*box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);*/
 }
 
 h4 {
-  text-align: center;
-  font-weight: bold;
+  text-align: left;
+  font-weight: bolder;
+  padding-left: 20px;
 }
 
 ul {
-  margin-top: -5px;
+  margin-top: -8px;
 }
 
 li {
