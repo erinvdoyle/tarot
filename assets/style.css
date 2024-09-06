@@ -146,6 +146,7 @@ h3 {
 
 #quiz-button-back {
   background-color: #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -158,7 +159,8 @@ h3 {
 }
 
 #next-question-button {
-  background-color: #748f96;
+  background-color: #BA55D3;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
@@ -173,10 +175,12 @@ h3 {
 
 #next-question-button:hover {
   background-color: #2b464f;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
 }
 
 button {
-  background-color: #f494e3;
+  /*background-color: #f494e3;*/
+  background-color: #BA55D3;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -188,19 +192,16 @@ button {
 }
 
 button:hover {
-  background-color: #748f96;
+  background-color: #BA55D3;
 }
 
 #toggle-audio {
   height: 40px;
   width: 76px;
   background-color: #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
   color: #fff;
   margin: -3px 1px 0 1px;
-}
-
-#speaker-icon {
-  color: black;
 }
 
 /* Tarot Reading */
@@ -241,7 +242,7 @@ button:hover {
   max-width: 625px; /*test for responsiveness */
   height: 350px; /*edited 09/05 to try layout solutions */
   border-radius: 5px;
-  box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
+  box-shadow: 0 0 0 2px goldenrod, 6px 6px 0 0 goldenrod;
   /*box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);*/
   /*background-color: rgba(255, 255, 255, 0.6);*/
   background-color: rgb(246, 244, 244);
@@ -289,7 +290,6 @@ button:hover {
   background-color: rgb(246, 244, 244);
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
-  /*box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);*/
 }
 
 h4 {
@@ -404,10 +404,10 @@ li {
 /* Glow Effect */
 @-webkit-keyframes glow {
 from {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fdeca6, 0 0 30px #fde380 , 0 0 40px #fff, 0 0 50px #fde380, 0 0 60px #fff, 0 0 70px #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fdeca6, 0 0 15px #fde380 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
 }
 to {
-  text-shadow: 0 0 20px #fff, 0 0 30px #fdeca6, 0 0 40px #fde380, 0 0 50px #fde380, 0 0 60px #fff , 0 0 70px #fff, 0 0 80px #fde380;
+  text-shadow: 0 0 10px #fff, 0 0 15px #fdeca6, 0 0 20px #fde380, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
 }
 }
 

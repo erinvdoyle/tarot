@@ -231,7 +231,7 @@ function resetState() {
     while (answersElement.firstChild) {
         answersElement.removeChild(answersElement.firstChild);
     }
-    pointsElement.style.backgroundColor = '#fdeca6';
+    pointsElement.style.backgroundColor = 'goldenrod';
 }
 
 
