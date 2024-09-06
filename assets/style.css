@@ -56,7 +56,7 @@ h1 {
   color: goldenrod;
   text-shadow: 1px 1px rgb(212, 132, 3);
   /*color: #2b464f;*/
-  margin: -0.95rem 0;
+  margin: -1.3rem 0 -.95rem 0;
   /*min-height: 15vh;*/
 }
 
@@ -82,7 +82,7 @@ h3 {
   max-width: 625px;
   /*border-top:2px solid #fff;
   border-bottom: 2px solid #fff;*/
-  margin-top: 0px;
+  margin-top: -5px;
 }
 
 /* Inner shadow tutorial: https://devdevout.com/css/css-inner-shadow */
@@ -126,7 +126,7 @@ h3 {
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
-  height: 40px;
+  height: 45px;
   width: 160px;
   margin: 0;
 }
@@ -139,9 +139,9 @@ h3 {
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
-  height: 40px;
+  height: 45px;
   width: 160px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 #quiz-button-back {
@@ -180,7 +180,7 @@ h3 {
 
 button {
   /*background-color: #f494e3;*/
-  background-color: #BA55D3;
+  background-color: #dda0ddDD;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   color: #fff;
   font-family: "Libre Baskerville", serif;
@@ -268,9 +268,9 @@ button:hover {
   position: relative; 
   text-align: center;
   padding: 10px;
-  margin: 0 10px 10px 10px;
-  max-width: 625px; /*test for responsiveness */
-  height: 350px; /*edited 09/05 to try layout solutions */
+  margin: 0 10px 22px 10px;
+  max-width: 425px; /*test for responsiveness- was 625px */
+  height: auto; /*edited 09/05 to try layout solutions - was 350px */
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 6px 6px 0 0 goldenrod;
   /*box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);*/
@@ -316,8 +316,8 @@ button:hover {
 /* Box shadow code: https://htmlcssfreebies.com/css-box-shadow-examples/ */
 
 #instructions-content {
-  width: 95%;
-  max-width: 600px;
+  width: 90%;
+  max-width: 400px;
   height: auto;
   /*padding-left: 10px;*/
   /*background-color: rgba(255, 255, 255, 0.9);*/
@@ -331,19 +331,22 @@ h4 {
   text-align: left;
   font-weight: bolder;
   padding-left: 20px;
+  margin-top: 8px;
 }
 
 ul {
-  margin-top: -8px;
+  margin-top: -14px;
 }
 
 li {
   line-height: 24px;
+  margin-left: -6px;
+  padding-right: 2px;
 }
 
 
 .instructions-span {
-  background-color: #BA55D3;
+  background-color: #dda0ddDD;
   color: white;
   border-radius: 5px;
   border: 1px solid goldenrod;
@@ -406,7 +409,7 @@ li {
   transform: translateX(-50%);
   max-height: 150px;
   z-index: -5;
-  margin-top: -5px;
+  margin-top: -15px;
 }
 
 #results-blurb {
@@ -543,28 +546,50 @@ color: transparent;
   }
 }   
 
-/* Media query: Tablets and larger (768px and above) */
-/*
-@media (min-width: 768px) and (min-height: 642px) {
-#tarot-teller {
-position: fixed;
-bottom: 10px;
-left: 0;
-width: 100%;
-height: 26%; 
-background-image: url('../assets/images/tarotteller1.png'); 
-background-size: contain; 
-background-repeat: no-repeat;
-background-position: center bottom;
+/* Media query: Mobile devices 424px and wider */
+@media (min-width: 424px) {
+  #reading-button {
+    margin-top: 40px;
+  }
+
+  h3 {
+    margin-top: 5px;
+  }
 }
-}*/
+
+/* Media query: Tablets and larger (768px and above) */
+@media (min-width: 767px) {
+  #reading-button {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 1023px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  #tarot-quiz {
+    margin-top: 30px;
+    z-index: 99;
+  }
+
+  #instructions-container {
+    margin-top: 20px;
+    z-index: 98;
+  }
+}
 
 /* Media Query: Screens wider than 780px and taller than 750px */
-@media (min-width: 781px) and (min-height: 751px) {
+/*@media (min-width: 781px) and (min-height: 751px) {
   #quiz-container {
     max-width: 625px;
   }
-}
+}*/
 
 /* Media Query: Screens heights less than 580px */
 
@@ -575,12 +600,12 @@ background-position: center bottom;
 }
 
 /* Media Query: Screens taller than 1010px */
-@media (min-height: 1010px) {
+/*@media (min-height: 1010px) {
  #background-image {
     height: 45%;
     z-index: 97;
   }
-}
+}*/
 
 /* Media Query small laptops and above */
 @media (min-width: 1439px) {
@@ -589,24 +614,48 @@ background-position: center bottom;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
-  #tarot-quiz,
+  #reading-button {
+    margin-top: 20px;
+    height: 60px;
+    width: 180px;
+  }
+
+  #quiz-button-instructions {
+    height: 60px;
+    width: 180px;
+  }
+
+
   #instructions-container,
   #quiz-instructions {
-    top: 200px;
+    top: 160px;
   }
 }
 
 /* Media Query: Desktops */
 @media (min-width: 2000px) {
   h1 {
-    font-size: 9.5rem;
+    font-size: 11.5rem;
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+  }
+
+  #reading-button {
+    margin-top: 180px;
+    height: 100px;
+    width: 300px;
+    font-size: 22px;
+  }
+
+  #quiz-button-instructions {
+    height: 100px;
+    width: 300px;
+    font-size: 22px;
   }
 
   #tarot-quiz,
@@ -616,7 +665,5 @@ background-position: center bottom;
   }
 
 }
-
-
 
 /* Media Queries Needed for landscape mode */

@@ -25,20 +25,20 @@
             </div>
             <br>
             <!--<button id="quiz-button" class="inner-shadow-btn" onclick="displayQuiz()">Test Your Knowledge</button>-->
-            <button id="quiz-button-instructions" class="inner-shadow-btn" onclick="displayInstructions()">Test Your Knowledge</button>
+            <button id="quiz-button-instructions" class="inner-shadow-btn" onclick="displayInstructions()">Take the Quiz</button>
             <div id="quiz-instructions" style="display: none;">
               <div id="instructions-container">
                 <h3>Ready to test yourself?</h3>
                   <div id="instructions-content">
                     <h4>How to play</h4>
                 <ul>
-                  <li>The quiz has 10 questions</li>
-                  <li>Click the <span><i id="speaker-icon" class="fa-solid fa-volume-high"></i></span> to toggle off or on. Sound is on</li>
                   <li>Your subject matter is The Major Arcana of the Tarot deck</li>
+                  <li>The quiz has 10 questions</li>
+                  <li>Click <span><i class="fa-solid fa-volume-high"></i></span> to toggle sound off or on</li>
                   <li>Tap your answer to see if you're correct</li>
                   <li>Hit <span class="instructions-span">Next</span> to move to the next question</li>
                   <li>Answer all 10 questions to get your final results</li>
-                  <li><span class="instructions-span">Play again</span> or hit <span class="instructions-span">Exit</span> to get your tarot reading</li>
+                  <li><span class="instructions-span">Play again</span> or hit <span class="instructions-span">Exit</span> and get your tarot reading</li>
                 </ul>
               </div>
               <button id="quiz-button" onclick="displayQuiz()">Take the quiz</button>
@@ -56,7 +56,7 @@
                 <div id="navigation">
                 <button id="next-question-button">Next <i class="fa-solid fa-angles-right" style="color: #FFF;"></i></button>
                 <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
-                <button id="toggle-audio" onclick=soundOff()><span><i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i></span></button>
+                <button id="toggle-audio" title="toggle-audio" onclick=soundOff()><span><i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i></span></button>
               </div>
               </div>
               <h3 id="points">Tap an answer to find out!</h3>
