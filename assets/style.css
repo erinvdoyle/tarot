@@ -105,10 +105,10 @@ h3 {
 }
 
 #quiz-button {
-  background-color: #ed786c;
+  background-color: goldenrod;
   color: #fff;
   font-family: "Libre Baskerville", serif;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   font-weight: bold;
   border-radius: 5px;
   border: 0px;
@@ -145,8 +145,8 @@ h3 {
 }
 
 #quiz-button-back {
-  background-color: #ed786c;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  background-color: goldenrod;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -159,8 +159,8 @@ h3 {
 }
 
 #next-question-button {
-  background-color: #BA55D3;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  background-color: goldenrod;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
   border-radius: 5px;
@@ -175,12 +175,13 @@ h3 {
 
 #next-question-button:hover {
   background-color: #2b464f;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
 }
 
 button {
   /*background-color: #f494e3;*/
   background-color: #BA55D3;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -198,8 +199,8 @@ button:hover {
 #toggle-audio {
   height: 40px;
   width: 76px;
-  background-color: #ed786c;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  background-color: goldenrod;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   color: #fff;
   margin: -3px 1px 0 1px;
 }
@@ -336,7 +337,7 @@ li {
 
 #questions {
   margin-top: 5px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /* Code base for correct answer animation: https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
