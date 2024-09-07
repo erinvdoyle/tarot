@@ -15,13 +15,30 @@
 </head>
 <body>
   <header>
-        <h1>Tarot</h1>
+        <h1><a href="/" style="text-decoration: none; color: inherit;">Tarot</a></h1>
         <h2 class="h2glow">Card of the Day</h2>
   </header>
         <!-- Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show -->
         <div id="buttons">
             <button id="reading-button" class="inner-shadow-btn" onclick="displayReading()">Get Your Reading</button>
-            <div id="tarot-reading">
+            <div id="tarot-reading" style="display:none;">
+              <div id="reading-instructions-container">
+                <h3>Let's pick your card!</h3>
+                <div id="reading-instructions-content">
+                  <h4>How to get your reading</h4>
+                <ul>
+                  <li>Visualize your question</li>
+                  <li>Tap the deck to shuffle</li>
+                  <li>Choose your card</li>
+                  <li>Hit expand for your full reading</li>
+                  <li><span><i class="fa-solid fa-volume-high"></i></span> toggles sound off or on</li>
+                  <li>Save your result, redraw, or exit</li>
+                </ul>
+                <div id="reading-instructions-image">
+                <img src="assets/images/tarotteller1.png">
+                </div>
+                </div>
+              </div>
             </div>
             <br>
             <!--<button id="quiz-button" class="inner-shadow-btn" onclick="displayQuiz()">Test Your Knowledge</button>-->
@@ -38,10 +55,10 @@
                   <li>Tap your answer to see if you're correct</li>
                   <li>Hit <span class="instructions-span">Next</span> to move to the next question</li>
                   <li>Answer all 10 questions to get your final results</li>
-                  <li><span class="instructions-span">Play again</span> or hit <span class="instructions-span">Exit</span> and get your tarot reading</li>
+                  <li><span class="instructions-span">Play again</span> or <span class="instructions-span">Exit</span> and get your tarot reading</li>
                 </ul>
               </div>
-              <button id="quiz-button" onclick="displayQuiz()">Take the quiz</button>
+              <button id="quiz-button" onclick="displayQuiz()">Take the quiz!</button>
               </div>
             </div>
             <div id="tarot-quiz" style="display: none;">
@@ -60,7 +77,6 @@
               </div>
               </div>
               <h3 id="points">Tap an answer to find out!</h3>
-              <div id="tarot-teller"></div>
             </div>
           </div>
         <!-- Image credit: Image by storyset on Freepik -->
