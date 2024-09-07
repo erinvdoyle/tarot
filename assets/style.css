@@ -626,7 +626,8 @@ color: transparent;
     z-index: 99;
   }
 
-  #instructions-container {
+  #instructions-container,
+  #reading-instructions-container {
     margin-top: 20px;
     z-index: 98;
   }
@@ -692,7 +693,9 @@ color: transparent;
 
 
   #instructions-container,
-  #quiz-instructions {
+  #quiz-instructions,
+  #reading-instructions-container,
+  #tarot-reading {
     top: 160px;
   }
 }
