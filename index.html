@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-        <h1><a href="/" style="text-decoration: none; color: inherit;">Tarot</a></h1>
+        <h1><a href="https://erinvdoyle.github.io/tarot" style="text-decoration: none; color: inherit;">Tarot</a></h1>
         <h2 class="h2glow">Card of the Day</h2>
   </header>
         <!-- Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show -->
@@ -23,7 +23,7 @@
             <button id="reading-button" class="inner-shadow-btn" onclick="displayReading()">Get Your Reading</button>
             <div id="tarot-reading" style="display:none;">
               <div id="reading-instructions-container">
-                <h3>Let's pick your card!</h3>
+                <h3>DESTINY AWAITS...</h3>
                 <div id="reading-instructions-content">
                   <h4>How to get your reading</h4>
                 <ul>
@@ -44,14 +44,14 @@
             <br>
             <div id="tarot-draw" style="display: none;">
               <div id="draw-container">
-                <h3>Tap the deck!</h3>
+                <h3>TAP DECK TO SHUFFLE!</h3>
                 <div id="tarot-deck">
                   <img src="assets/images/tarotcard.png">
                 </div>
                 <navigation>
-                <button class="draw-button"><span><i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i></button>
-                <button class="draw-button">Save</button>
-                <button class="draw-button">Redraw</button>
+                <button class="draw-button"><span><i id="draw-audio" class="fa-solid fa-volume-high" style="color: #FFF;"></i></button>
+                <button class="draw-button">Draw</button>
+                <button class="draw-button">Reshuffle</button>
                 <button class="draw-button">Exit</button>
                 </navigation>
               </div>
@@ -96,6 +96,7 @@
         <!-- Image credit: Image by storyset on Freepik -->
         <div id="background-image"><!--<img src="assets/images/tarotbg.png" alt="an illustration of two hand on several tarot cards">-->
         </div>
+        <audio id="shuffle-sound" src="assets/media/shuffle.mp3"></audio>
         <script src="assets/script.js"></script>
 </body>
 </html>

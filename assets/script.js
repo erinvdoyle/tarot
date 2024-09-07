@@ -13,6 +13,24 @@ function displayReading() {
     }
   }
 
+/**
+ * Function to play Tarot draw shuffle sound 
+ */
+
+document.getElementById('tarot-deck').addEventListener('click', playShuffleSound);
+
+function playShuffleSound() {
+    const shuffleSound = document.getElementById('shuffle-sound');
+    shuffleSound.play()
+}
+
+
+
+
+
+
+
+
   /**
    * Toggle button displays quiz instructions on click
    */
