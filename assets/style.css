@@ -56,7 +56,7 @@ h1 {
   color: goldenrod;
   text-shadow: 1px 1px rgb(212, 132, 3);
   /*color: #2b464f;*/
-  margin: -1.3rem 0 -.95rem 0;
+  margin: -1.6rem 0 -.95rem 0;
   /*min-height: 15vh;*/
 }
 
@@ -82,7 +82,7 @@ h3 {
   max-width: 625px;
   /*border-top:2px solid #fff;
   border-bottom: 2px solid #fff;*/
-  margin-top: -5px;
+  margin-top: -10px;
 }
 
 /* Inner shadow tutorial: https://devdevout.com/css/css-inner-shadow */
@@ -140,7 +140,7 @@ h3 {
   border: 0px;
   height: 45px;
   width: 160px;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 #reading-button {
@@ -188,6 +188,17 @@ h3 {
 #next-question-button:hover {
   background-color: #2b464f;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
+}
+
+.draw-button {
+  height: 40px;
+  width: 68px;
+  margin-left: -2px;
+  background-color: #53717b;
+}
+
+.draw-button:hover {
+  background-color: #ff9ea9;
 }
 
 button {
@@ -262,6 +273,7 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
   overflow: auto;
+  margin-top: -5px;
 }
 
 #reading-instructions-content > h4 {
@@ -275,7 +287,7 @@ button:hover {
 
 #reading-instructions-image {
   background-color: #fdeca6;
-  padding-top: 25px;
+  padding-top: 15px;
   display: flex;
   justify-content: center;
   border-top-left-radius: 40%;
@@ -305,6 +317,24 @@ button:hover {
 }
 
 #draw-container {
+  position: fixed;
+  top: 148px; /*media queries need to start at 768px*/
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background-color:#fdeca6;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#draw-container > h3 {
+  background-color: #53717b;
+}
+
+#tarot-deck {
   position: relative; 
   text-align: center;
   padding: 10px;
