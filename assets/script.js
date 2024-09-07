@@ -154,7 +154,17 @@ const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
 const resultsContent = document.getElementById('quiz-results');
 const resultsBlurb = document.getElementById('results-blurb');
+const tarotCardElement = document.getElementById('tarot-draw');
 
+/**
+ * Toggle buttons displays tarot card on click
+ */
+
+function displayCard() {
+const tarotInstructions = document.getElementById("tarot-reading");
+tarotInstructions.style.display = "none";
+tarotCardElement.style.display = 'flex';
+}
 
 /** 
  * Toggle button displays quiz on click  
