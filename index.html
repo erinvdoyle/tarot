@@ -27,7 +27,7 @@
                 <div id="reading-instructions-content">
                   <h4>How to get your reading</h4>
                 <ul>
-                  <li>Visualize your question</li>
+                  <li>Think of your question</li>
                   <li>Tap the deck to shuffle</li>
                   <li>Choose your card</li>
                   <li>Hit expand for your full reading</li>
@@ -46,21 +46,20 @@
               <div id="draw-container">
                 <h3 id="card-name">TAP DECK TO SHUFFLE!</h3>
                 <div id="tarot-deck" class="card-container">
-                  <div class="card">
+                  <div class="card" onclick="showMeaning()">
                     <div class="cardFront">
                   <img src="assets/images/tarotcard.png" alt="A tarot card">
                 </div>
                 <div class="cardBack">
-                  <h2>Meaning</h2>
-                    <p id="card-meaning">Card Meaning</p>
+                    <p id="card-meaning" class="meaning-container">Card Meaning</p>
                   </div>
                 </div>
             </div>
                 <navigation>
                 <button class="draw-button"><span><i id="draw-audio" class="fa-solid fa-volume-high" style="color: #FFF;"></i></button>
                 <button id="draw" class="draw-button">Draw</button>
-                <button class="draw-button">Reshuffle</button>
-                <button class="draw-button">Exit</button>
+                <button id="redraw" class="draw-button" style="display:none;">Redraw</button>
+                <button id="exit-reading" class="draw-button">Exit</button>
                 </navigation>
               </div>
               </div>

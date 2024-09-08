@@ -24,10 +24,10 @@ document.getElementById('tarot-deck').addEventListener('click', playShuffleSound
 
 function playShuffleSound() {
     const shuffleSound = document.getElementById('shuffle-sound');
-    shuffleSound.play()
+    shuffleSound.play();
 }  
 
-/* Tarot Reading Variables */
+/* Tarot Deck Array */
 const tarotDeck = [
     {
       name: "The Hierophant",
@@ -98,6 +98,36 @@ function shuffleArray(array) {
     return array;
 }
 
+/**
+ * Draws the card with flip action and sound effect
+ */
+
+function drawCard() {
+    const drawAudio = new Audio("assets/media/draw.mp3");
+    drawAudio.play();
+
+    const shuffledDeck = shuffleArray(tarotDeck);
+    const randomIndex = Math.floor(Math.random() * shuffledDeck.length);
+    currentCard = shuffledDeck[randomIndex];
+
+    const cardImage = document.querySelector(".cardFront img");
+    const tarotCardElement = document.querySelector(".card");
+    
+    cardImage.src = currentCard.image;
+    const cardName = document.getElementById("card-name");
+    cardName.childNodes[0].nodeValue = currentCard.name; 
+
+    tarotCardElement.classList.remove('flipped');
+
+    const drawButton = document.getElementById("draw");
+    const redrawButton = document.getElementById("redraw");
+    drawButton.style.display = 'none';
+    redrawButton.style.display = 'inline-block';
+
+    const shuffleSound = document.getElementById('shuffle-sound');
+    shuffleSound.pause();
+    shuffleSound.currentTime = 0;
+}
 
 
   /**
