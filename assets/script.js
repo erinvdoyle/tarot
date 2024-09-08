@@ -16,6 +16,8 @@ function displayReading() {
     }
   }
 
+let isDrawButtonClicked = true;
+
 /**
  * Play card shuffle sound 
  */
@@ -91,6 +93,11 @@ const tarotDeck = [
     } 
   ];
 
+  let currentCard = null;
+  let cardFlipped = false;
+  let resultsContent = null;
+
+
 /**
  * Shuffle an array
  */
@@ -145,6 +152,18 @@ document.getElementById('tarot-deck').addEventListener('click', function() {
 document.getElementById("redraw").addEventListener("click", function() {
     playShuffleSound();
 });
+
+/**
+ * Toggle buttons displays tarot card on click
+ */
+
+function displayCard() {
+    const readingDiv = document.getElementById("tarot-reading");
+    readingDiv.style.display = "none"; 
+    const drawDiv = document.getElementById("tarot-draw");
+    drawDiv.style.display = "flex"; 
+}
+
 
 
   /**
