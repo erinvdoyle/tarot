@@ -1,3 +1,6 @@
+
+/* Tarot Reading */
+
 /* Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show */
 
 /**
@@ -13,8 +16,12 @@ function displayReading() {
     }
   }
 
+/* Tarot Reading Variables */
+
+
+
 /**
- * Function to play Tarot draw shuffle sound 
+ * Play card shuffle sound 
  */
 
 document.getElementById('tarot-deck').addEventListener('click', playShuffleSound);
@@ -24,7 +31,9 @@ function playShuffleSound() {
     shuffleSound.play()
 }
 
-
+/**
+ * Shuffle Deck on click
+ */
 
 
 
