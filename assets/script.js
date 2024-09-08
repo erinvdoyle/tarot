@@ -17,7 +17,64 @@ function displayReading() {
   }
 
 /* Tarot Reading Variables */
-
+const tarotDeck = [
+    {
+      name: "The Hierophant",
+      image: "assets/images/cards/hierophant.png",
+      meaning: "Seek guidance from wise mentors and authorities. Follow traditions and societal norms. Engage in spiritual practices and rituals. Maintain a sense of order and structure."
+    },
+    {
+      name: "Justice",
+      image: "assets/images/cards/justice.png",
+      meaning: "Seek fairness, balance and accountability. Make decisions based on logic, reason and ethics. Take responsibility for your actions and their consequences. Karma is at play."
+    }, 
+    {
+      name: "The Lovers",
+      image: "assets/images/cards/lovers.png",
+      meaning: "Celebrate your intimate relationships and connections. Make choices that align with your values and beliefs. Embrace duality and find balance between opposites. Love and harmony abound."
+    },
+    {
+      name: "Strength",
+      image: "assets/images/cards/strength.png",
+      meaning: "Tap into your inner courage, compassion and self-control. Face your fears and challenges with bravery and resilience. Tame your wild impulses and find the strength to persevere."
+    },
+    {
+      name: "The Chariot",
+      image: "assets/images/cards/thechariot.png",
+      meaning: "Harness your willpower and determination to achieve your goals. Maintain control over your emotions and impulses. Overcome obstacles and move forward with confidence. Victory is yours!"
+    },
+    {
+      name: "The Emperor",
+      image: "assets/images/cards/theemperor.png",
+      meaning: "Take charge of your life and make decisive decisions. Establish boundaries and structures to create order and stability. Use your authority and leadership skills to guide others."
+    },
+    {
+      name: "The Fool",
+      image: "assets/images/cards/thefool.png",
+      meaning: "You are about to embark on an exciting new adventure! Embrace your inner child and approach life with optimism, curiosity and a sense of wonder. Don't overthink things - just go with the flow and see where your journey takes you."
+    },
+    {
+      name: "The Hermit",
+      image: "assets/images/cards/thehermit.png",
+      meaning: "Seek solitude and introspection to gain clarity and wisdom. Turn inward to find your own answers and truths. Shine your light to guide others on their path. Solitude and self-reflection are healing."
+    },
+    {
+      name: "The Tower",
+      image: "assets/images/cards/thetower.png",
+      meaning: "Sudden upheaval, chaos and destruction lead to liberation. Shake up the status quo and break down rigid structures. Unexpected change and revelations are coming. Let go and start anew."
+    },
+    {
+      name: "The World",
+      image: "assets/images/cards/theworld.png",
+      meaning: "Celebrate your achievements and the completion of a major life cycle. Embrace wholeness, fulfillment and a sense of belonging. Travel, education and cultural exchange are favored. Enjoy a sense of closure and satisfaction."
+    },
+    {
+      name: "The Wheel of Fortune",
+      image: "assets/images/cards/wheeloffortune.png",
+       meaning: "Embrace the ups and downs of life with grace and acceptance. Fate is on your side as you ride the ever-turning wheel. Good luck and unexpected opportunities are coming your way. Go with the flow."
+    } 
+  ];
+  
 
 
 /**
