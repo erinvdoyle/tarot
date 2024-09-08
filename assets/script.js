@@ -142,6 +142,9 @@ document.getElementById('tarot-deck').addEventListener('click', function() {
     }
 });
 
+document.getElementById("redraw").addEventListener("click", function() {
+    playShuffleSound();
+});
 
 
   /**
