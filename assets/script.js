@@ -25,7 +25,12 @@ document.getElementById('tarot-deck').addEventListener('click', playShuffleSound
 function playShuffleSound() {
     const shuffleSound = document.getElementById('shuffle-sound');
     shuffleSound.play();
+
+    if (!isDrawButtonClicked) {
+        drawCard();
+    }
 }  
+  
 
 /* Tarot Deck Array */
 const tarotDeck = [
@@ -127,7 +132,16 @@ function drawCard() {
     const shuffleSound = document.getElementById('shuffle-sound');
     shuffleSound.pause();
     shuffleSound.currentTime = 0;
+
+    isDrawButtonClicked = false;
 }
+
+document.getElementById('tarot-deck').addEventListener('click', function() {
+    if (isDrawButtonClicked) {
+        playShuffleSound();
+    }
+});
+
 
 
   /**
