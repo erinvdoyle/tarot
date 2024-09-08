@@ -44,13 +44,21 @@
             <br>
             <div id="tarot-draw" style="display: none;">
               <div id="draw-container">
-                <h3>TAP DECK TO SHUFFLE!</h3>
-                <div id="tarot-deck">
-                  <img src="assets/images/tarotcard.png">
+                <h3 id="card-name">TAP DECK TO SHUFFLE!</h3>
+                <div id="tarot-deck" class="card-container">
+                  <div class="card">
+                    <div class="cardFront">
+                  <img src="assets/images/tarotcard.png" alt="A tarot card">
                 </div>
+                <div class="cardBack">
+                  <h2>Meaning</h2>
+                    <p id="card-meaning">Card Meaning</p>
+                  </div>
+                </div>
+            </div>
                 <navigation>
                 <button class="draw-button"><span><i id="draw-audio" class="fa-solid fa-volume-high" style="color: #FFF;"></i></button>
-                <button class="draw-button">Draw</button>
+                <button id="draw" class="draw-button">Draw</button>
                 <button class="draw-button">Reshuffle</button>
                 <button class="draw-button">Exit</button>
                 </navigation>
