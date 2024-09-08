@@ -16,6 +16,17 @@ function displayReading() {
     }
   }
 
+/**
+ * Play card shuffle sound 
+ */
+
+document.getElementById('tarot-deck').addEventListener('click', playShuffleSound);
+
+function playShuffleSound() {
+    const shuffleSound = document.getElementById('shuffle-sound');
+    shuffleSound.play()
+}  
+
 /* Tarot Reading Variables */
 const tarotDeck = [
     {
@@ -74,26 +85,18 @@ const tarotDeck = [
        meaning: "Embrace the ups and downs of life with grace and acceptance. Fate is on your side as you ride the ever-turning wheel. Good luck and unexpected opportunities are coming your way. Go with the flow."
     } 
   ];
-  
-
 
 /**
- * Play card shuffle sound 
+ * Shuffle an array
  */
 
-document.getElementById('tarot-deck').addEventListener('click', playShuffleSound);
-
-function playShuffleSound() {
-    const shuffleSound = document.getElementById('shuffle-sound');
-    shuffleSound.play()
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
 }
-
-/**
- * Shuffle Deck on click
- */
-
-
-
 
 
 
