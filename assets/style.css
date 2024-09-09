@@ -194,7 +194,7 @@ h3 {
   height: 40px;
   width: 68px;
   margin-left: -2px;
-  background-color: #53717b;
+  background-color: #7f75b2;
 }
 
 .draw-button:hover {
@@ -318,10 +318,7 @@ button:hover {
 
 
 #card-name {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 40.8px;
+ 
 }
 
 #draw-container {
@@ -339,7 +336,7 @@ button:hover {
 }
 
 #draw-container > h3 {
-  background-color: #53717b;
+  background-color: #7f75b2;
 }
 
 #tarot-deck {
@@ -423,7 +420,7 @@ button:hover {
 }
 
 .cardBack {
-  /*background-color: #ebf4ff;*/
+  background-color:  rgb(246, 244, 244);
   transform: rotateY(180deg); 
   box-shadow: 0 0 0 2px #ffcde0, 6px 6px 0 0 #ff9ea9;
 }
@@ -434,13 +431,31 @@ button:hover {
 
 .meaning-container {
   display: none; 
-  margin-top: 10px;
+  margin: 10px 10px 0 10px;
+  font-weight: bold;
+  padding-top: 15px;
+  overflow: auto;
 }
 
 .meaning-container.show {
   display: block;
 }
 
+#meaning-image {
+  margin-top: 1px;
+  height: 55px;
+  width: auto;
+  background-color: #ff9ea9;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#meaning-image > img {
+  height: 55px;
+  width: auto;
+}
 /* Tarot Quiz */
 /* Tarot Quiz Layout */
 
@@ -761,16 +776,16 @@ color: transparent;
     margin-top: 40px;
   }
 
-  h3 {
+ /* h3 {
     margin-top: 5px;
-  }
+  }*/
 }
 
 
 @media (min-width: 700px) {
   .meaning-container {
       display: block;
-      margin-left: 20px;
+      margin-top: 10px;
   }
 }
 

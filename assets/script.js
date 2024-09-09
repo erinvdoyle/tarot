@@ -315,9 +315,8 @@ const answersElement = document.getElementById('answers');
 const nextQuestionButton = document.getElementById('next-question-button');
 const pointsElement = document.getElementById('points');
 const tarotQuizElement = document.getElementById('tarot-quiz');
-const resultsContent = document.getElementById('quiz-results');
 const resultsBlurb = document.getElementById('results-blurb');
-const tarotCardElement = document.getElementById('tarot-draw');
+
 
   /**
    * Toggle button displays quiz instructions on click
@@ -340,6 +339,9 @@ const tarotCardElement = document.getElementById('tarot-draw');
 function displayQuiz() {
     const quizInstructions = document.getElementById("quiz-instructions");
     quizInstructions.style.display = "none";
+    
+    
+    resultsContent = document.getElementById('quiz-results');
     resultsContent.style.display = 'none';
     tarotQuizElement.style.display = 'flex';
     currentQuestionIndex = 0;
