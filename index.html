@@ -29,10 +29,10 @@
                 <ul>
                   <li>Think of your question</li>
                   <li>Tap the deck to shuffle</li>
-                  <li>Choose your card</li>
-                  <li>Hit expand for your full reading</li>
+                  <li><span id="draw-span">Draw</span> your card</li>
+                  <li>Tap your card to reveal the meaning</li>
                   <li><span><i class="fa-solid fa-volume-high"></i></span> toggles sound off or on</li>
-                  <li>Save your result, redraw, or exit</li>
+                  <li>Click <span id="redraw-span">Redraw</span> for a new reading or <span id="exit-span">Exit</span></li>
                 </ul>
                 <div id="reading-instructions-image">
                 <img src="assets/images/tarotteller1.png">
@@ -79,7 +79,7 @@
                   <li>Tap your answer to see if you're correct</li>
                   <li>Hit <span class="instructions-span">Next</span> to move to the next question</li>
                   <li>Answer all 10 questions to get your final results</li>
-                  <li><span class="instructions-span">Play again</span> or <span class="instructions-span">Exit</span> and get your tarot reading</li>
+                  <li><span class="instructions-span">Replay</span> or <span class="instructions-span">Exit</span> and get your tarot reading</li>
                 </ul>
               </div>
               <button id="quiz-button" onclick="displayQuiz()">Take the quiz!</button>
@@ -96,6 +96,7 @@
                 <div id="answers"></div><br>
                 <div id="navigation">
                 <button id="next-question-button">Next <i class="fa-solid fa-angles-right" style="color: #FFF;"></i></button>
+                <button id="play-again-button" class="hidden quiz-button">Replay</button>
                 <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
                 <button id="toggle-audio" title="toggle-audio" onclick=soundOff()><span><i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i></span></button>
               </div>

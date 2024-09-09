@@ -83,6 +83,8 @@ const tarotDeck = [
   let resultsContent = null;
 
 
+/* Tutorial Credit: https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/ */
+
 /**
  * Shuffle an array
  */
@@ -94,6 +96,10 @@ function shuffleArray(array) {
     }
     return array;
 }
+
+/* Tutorial Credit: https://code-hl.com/javascript/tutorials/how-to-play-sound-with-javascript */
+/* https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript */
+/* https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes */
 
 /**
  * Draws the card with flip action and sound effect
@@ -185,86 +191,11 @@ document.getElementById("tarot-reading-button").addEventListener("click", displa
 /**
  * Toggle button displays the Tarot Reading div on click
  */
+
 function displayReading() {
     var readingDiv = document.getElementById("tarot-reading");
     readingDiv.style.display = "block";
 }
-
-/**
- * Resets the tarot draw settings so that exitReading may be used and functionality is restored if the reader enters the tarot draw again
- */
-/*
-function resetCard() {
-    const cardImage = document.querySelector(".cardFront img");
-    if (cardImage) {
-        cardImage.src = "assets/images/tarotcard.png"; 
-    }
-
-    const cardName = document.getElementById("card-name");
-    if (cardName) {
-        cardName.textContent = "TAP DECK TO SHUFFLE!";
-    }
-
-    const cardMeaning = document.getElementById("card-meaning");
-    if (cardMeaning) {
-        cardMeaning.textContent = ""; 
-        cardMeaning.classList.remove('show'); 
-    }
-
-    const tarotCardElement = document.querySelector(".card");
-    if (tarotCardElement) {
-        tarotCardElement.classList.remove('flipped'); 
-    }
-
-    tarotCardElement.removeEventListener("click", showMeaning);
-
-    const deckElement = document.getElementById("tarot-deck");
-    if (deckElement) {
-        deckElement.removeEventListener("click", playShuffleSound);
-        deckElement.addEventListener("click", function() {
-            if (!isDrawButtonClicked) {
-                playShuffleSound(); 
-            }
-        });
-    }
-} */
-
-/**
- * Exits the tarot reading section
- */
-/*
-function exitReading() {
-    const readingDiv = document.getElementById("tarot-reading");
-    if (readingDiv) {
-        readingDiv.style.display = "none"; 
-    }
-
-    const drawDiv = document.getElementById("tarot-draw");
-    if (drawDiv) {
-        drawDiv.style.display = "none"; 
-    }
-
-    resetCard();
-
-    const drawButton = document.getElementById("draw");
-    const redrawButton = document.getElementById("redraw");
-    if (drawButton) {
-        drawButton.style.display = "inline-block"; 
-        drawButton.disabled = false; 
-    }
-    if (redrawButton) {
-        redrawButton.style.display = "none";
-    }
-
-    const readingButton = document.getElementById("reading-button");
-    if (readingButton) {
-        readingButton.style.display = "block"; 
-    }
-
-    isDrawButtonClicked = false; 
-}
-
-document.getElementById("exit-reading").addEventListener("click", exitReading); */
 
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
@@ -593,6 +524,28 @@ function showScore() {
     resultsContent.style.display = 'flex';
     pointsElement.classList.remove('hidden');
     nextQuestionButton.classList.add('hidden');
+   
+    const playAgainButton = document.getElementById('play-again-button');
+    playAgainButton.classList.remove('hidden');
+    playAgainButton.onclick = function() {
+        resetQuiz();
+        playAgainButton.classList.add('hidden');
+};
+}
+
+/** 
+ * Resets the quiz so that play again button starts quiz anew
+ */
+
+function resetQuiz() {
+    score = 0;
+    currentQuestionIndex = 0;
+    tenQuestions = shuffle(questions);
+    resultsContent.style.display = 'none';
+    tarotQuizElement.style.display = 'flex';
+    pointsElement.classList.add('hidden');
+    nextQuestionButton.classList.remove('hidden');
+    showQuestion(); 
 }
 
 

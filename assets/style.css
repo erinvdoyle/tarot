@@ -165,9 +165,21 @@ h3 {
   border-radius: 5px;
   border: 0px;
   height: 40px;
-  /*width: 115px;*/
   width: 76px;
   margin: -5px 0 0 0;
+}
+
+#play-again-button {
+  background-color: goldenrod;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
+  color: #fff;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 0px;
+  height: 40px;
+  width: 76px;
+  margin-right: .5px;
 }
 
 #next-question-button {
@@ -178,11 +190,8 @@ h3 {
   border-radius: 5px;
   border: 0px;
   height: 40px;
-  /*width: 115px;*/
   width: 76px;
   margin: -3px 0 0 -2px;
-  /*margin: -3px 3px 0 -2px;*/
-
 }
 
 #next-question-button:hover {
@@ -297,6 +306,16 @@ button:hover {
 #reading-instructions-image > img {
   height: 135px;
   width: auto;
+}
+
+#draw-span, 
+#redraw-span,
+#exit-span {
+  background-color: #7f75b2;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid goldenrod;
+  padding: 4px;
 }
 
 /* Tarot Reading */
