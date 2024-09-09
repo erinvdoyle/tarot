@@ -72,7 +72,7 @@ const tarotDeck = [
       meaning: "Celebrate your achievements and the completion of a major life cycle. Embrace wholeness, fulfillment and a sense of belonging. Travel, education and cultural exchange are favored. Enjoy a sense of closure and satisfaction."
     },
     {
-      name: "The Wheel of Fortune",
+      name: "Wheel of Fortune",
       image: "assets/images/cards/wheeloffortune.png",
        meaning: "Embrace the ups and downs of life with grace and acceptance. Fate is on your side as you ride the ever-turning wheel. Good luck and unexpected opportunities are coming your way. Go with the flow."
     } 
@@ -112,7 +112,7 @@ function drawCard() {
     
     cardImage.src = currentCard.image;
     const cardName = document.getElementById("card-name");
-    cardName.childNodes[0].nodeValue = currentCard.name; 
+    cardName.childNodes[0].nodeValue = `${currentCard.name}!`; 
 
     tarotCardElement.classList.remove('flipped');
 
@@ -189,6 +189,82 @@ function displayReading() {
     var readingDiv = document.getElementById("tarot-reading");
     readingDiv.style.display = "block";
 }
+
+/**
+ * Resets the tarot draw settings so that exitReading may be used and functionality is restored if the reader enters the tarot draw again
+ */
+/*
+function resetCard() {
+    const cardImage = document.querySelector(".cardFront img");
+    if (cardImage) {
+        cardImage.src = "assets/images/tarotcard.png"; 
+    }
+
+    const cardName = document.getElementById("card-name");
+    if (cardName) {
+        cardName.textContent = "TAP DECK TO SHUFFLE!";
+    }
+
+    const cardMeaning = document.getElementById("card-meaning");
+    if (cardMeaning) {
+        cardMeaning.textContent = ""; 
+        cardMeaning.classList.remove('show'); 
+    }
+
+    const tarotCardElement = document.querySelector(".card");
+    if (tarotCardElement) {
+        tarotCardElement.classList.remove('flipped'); 
+    }
+
+    tarotCardElement.removeEventListener("click", showMeaning);
+
+    const deckElement = document.getElementById("tarot-deck");
+    if (deckElement) {
+        deckElement.removeEventListener("click", playShuffleSound);
+        deckElement.addEventListener("click", function() {
+            if (!isDrawButtonClicked) {
+                playShuffleSound(); 
+            }
+        });
+    }
+} */
+
+/**
+ * Exits the tarot reading section
+ */
+/*
+function exitReading() {
+    const readingDiv = document.getElementById("tarot-reading");
+    if (readingDiv) {
+        readingDiv.style.display = "none"; 
+    }
+
+    const drawDiv = document.getElementById("tarot-draw");
+    if (drawDiv) {
+        drawDiv.style.display = "none"; 
+    }
+
+    resetCard();
+
+    const drawButton = document.getElementById("draw");
+    const redrawButton = document.getElementById("redraw");
+    if (drawButton) {
+        drawButton.style.display = "inline-block"; 
+        drawButton.disabled = false; 
+    }
+    if (redrawButton) {
+        redrawButton.style.display = "none";
+    }
+
+    const readingButton = document.getElementById("reading-button");
+    if (readingButton) {
+        readingButton.style.display = "block"; 
+    }
+
+    isDrawButtonClicked = false; 
+}
+
+document.getElementById("exit-reading").addEventListener("click", exitReading); */
 
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
