@@ -3,26 +3,11 @@
 
 /* Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show */
 
-/**
- * Toggle button displays the Tarot Reading div on click
- */
-
-function displayReading() {
-    var x = document.getElementById("tarot-reading");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
 let isDrawButtonClicked = true;
 
 /**
  * Play card shuffle sound 
  */
-
-document.getElementById('tarot-deck').addEventListener('click', playShuffleSound);
 
 function playShuffleSound() {
     const shuffleSound = document.getElementById('shuffle-sound');
@@ -154,6 +139,30 @@ document.getElementById("redraw").addEventListener("click", function() {
 });
 
 /**
+ * Show the meaning of the drawn card
+ */
+
+function showMeaning() {
+    const cardMeaning = document.getElementById("card-meaning");
+    const tarotCardElement = document.querySelector(".card");
+
+    if (cardMeaning && currentCard) {
+        cardMeaning.textContent = currentCard.meaning;
+        cardMeaning.classList.add('show');
+        
+        tarotCardElement.classList.add('flipped');
+
+        tarotCardElement.onclick = null;
+    }
+}
+
+const cardImageElement = document.querySelector(".cardFront img");
+if (cardImageElement) {
+    cardImageElement.addEventListener("click", showMeaning);
+}
+
+
+/**
  * Toggle buttons displays tarot card on click
  */
 
@@ -164,21 +173,22 @@ function displayCard() {
     drawDiv.style.display = "flex"; 
 }
 
+document.getElementById("draw").addEventListener("click", drawCard);
 
+const toggleButton = document.querySelector('.toggle-button');
+const meaningContainer = document.getElementById('card-meaning');
 
-  /**
-   * Toggle button displays quiz instructions on click
-   */
+document.getElementById("reading-button").addEventListener("click", displayReading);
 
-  function displayInstructions() {
-    var x = document.getElementById("quiz-instructions");
-    if (x.style.display === "none") {
-        x.style.display = "flex";
-    } else {
-      x.style.display = "none";
-    }
-  }
-  
+document.getElementById("tarot-reading-button").addEventListener("click", displayCard);
+
+/**
+ * Toggle button displays the Tarot Reading div on click
+ */
+function displayReading() {
+    var readingDiv = document.getElementById("tarot-reading");
+    readingDiv.style.display = "block";
+}
 
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
@@ -309,15 +319,19 @@ const resultsContent = document.getElementById('quiz-results');
 const resultsBlurb = document.getElementById('results-blurb');
 const tarotCardElement = document.getElementById('tarot-draw');
 
-/**
- * Toggle buttons displays tarot card on click
- */
+  /**
+   * Toggle button displays quiz instructions on click
+   */
 
-function displayCard() {
-const tarotInstructions = document.getElementById("tarot-reading");
-tarotInstructions.style.display = "none";
-tarotCardElement.style.display = 'flex';
-}
+  function displayInstructions() {
+    var x = document.getElementById("quiz-instructions");
+    if (x.style.display === "none") {
+        x.style.display = "flex";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
 
 /** 
  * Toggle button displays quiz on click  
