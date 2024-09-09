@@ -1,4 +1,28 @@
-# Tarot
+# Tarot Card of the Day
+
+About blurb, amIresponsive, live site link
+
+#Table of Contents
+- Project
+  - User Stories
+- User Experience
+  - Wireframes
+  - Site Structure
+  - Design Choices
+- Features
+- Future Features
+- Technologies
+- Testing
+  - Code Validation
+  - Responsiveness 
+  - Browser Compatibility
+  - Additional Testing
+  - Bugs
+- Deployment
+- Credits
+- Acknowledgements
+- Contact
+
 
 ### User Stories 
 - User Stories
@@ -46,7 +70,7 @@ Quiz Background: Freepik (attribution to come)
 
 Tarot Card: https://www.freepik.com/free-vector/hand-drawn-tarot-cards-illustration_39555275.htm#fromView=search&page=2&position=24&uuid=e85cc8e3-0795-4d80-90d6-bc56a9b1ca1e Image by freepik
 
-### Sound Credit 
+### Sound Credits 
 Wrong answer Sound Effect by <a href="https://pixabay.com/users/eritnhut1992-25656588/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20582">Nhựt Bùi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20582">Pixabay</a>
 
 Correct answer: Sound Effect from <a href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6033">Pixabay</a>
@@ -63,7 +87,10 @@ Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background im
 
 *** Add remaining JS tutorials as noted in script.js; shimmer text css effect
 
+### Other Resources
+
+
 ### Acknowledgements
 
-My mentor Precious Igjebe
+My mentor Precious Ijebe
 Our cohort standup leader Laura Mayock
