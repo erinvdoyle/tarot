@@ -106,7 +106,6 @@ function shuffleArray(array) {
  */
 
 function drawCard() {
-    const drawAudio = new Audio("assets/media/draw.mp3");
     drawAudio.play();
 
     const shuffledDeck = shuffleArray(tarotDeck);
@@ -196,6 +195,36 @@ function displayReading() {
     var readingDiv = document.getElementById("tarot-reading");
     readingDiv.style.display = "block";
 }
+
+/**
+ * Toggle sound on or off
+ */
+
+let isSoundOn = true;
+
+const shuffleSound = document.getElementById('shuffle-sound');
+const drawAudio = new Audio("assets/media/draw.mp3"); 
+
+function toggleSound() {
+  if (isSoundOn) {
+    shuffleSound.muted = true; 
+    drawAudio.muted = true;     
+    const volumeIcon = document.getElementById('draw-audio');
+    volumeIcon.classList.remove('fa-volume-high');
+    volumeIcon.classList.add('fa-volume-xmark');
+    isSoundOn = false;
+  } else {
+    shuffleSound.muted = false; 
+    drawAudio.muted = false;     
+    const volumeIcon = document.getElementById('draw-audio');
+    volumeIcon.classList.remove('fa-volume-xmark');
+    volumeIcon.classList.add('fa-volume-high');
+    isSoundOn = true;
+  }
+}
+
+const audioToggleButton = document.getElementById('draw-audio');
+audioToggleButton.addEventListener('click', toggleSound);
 
   /* JS for Quiz guided by:
    Tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" 
