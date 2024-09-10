@@ -73,9 +73,177 @@ const tarotDeck = [
     },
     {
       name: "Wheel of Fortune",
-      image: "assets/images/cards/wheeloffortune.web",
-       meaning: "Embrace the ups and downs of life with grace and acceptance. Fate is on your side as you ride the ever-turning wheel. Good luck and unexpected opportunities are coming your way. Go with the flow."
-    } 
+      image: "assets/images/cards/wheeloffortune.webp",
+      meaning: "Embrace the ups and downs of life with grace and acceptance. Fate is on your side as you ride the ever-turning wheel. Good luck and unexpected opportunities are coming your way. Go with the flow."
+    },
+    {
+      name: "The Fool REVERSED",
+      image: ,
+      meaning: "You may be feeling stuck in a rut or afraid to take risks. It's time to break free from your self-imposed limitations and get out of your comfort zone. Shake things up and try something new!"
+    },
+    {
+        name: "The Magician REVERSED",
+        image: ,
+        meaning: "You may be feeling powerless or lacking in motivation. Avoid trying to manipulate others or using your skills for selfish reasons. Instead, find ways to empower yourself and use your abilities for good."
+      },
+      {
+        name: "The High Priestess REVERSED" ,
+        image: ,
+        meaning: "You may be ignoring your intuition or suppressing your emotions. Avoid getting caught up in gossip or spreading secrets. It's time to be more open and honest with yourself and others."
+      },
+      {
+        name: "The Empress REVERSED",
+        image: "" ,
+        meaning: "You may be neglecting your own needs or feeling smothered by others. Avoid being overly controlling or indulgent. It's time to find a healthy balance between giving and receiving."
+      },
+      {
+        name: "The Emperor REVERSED",
+        image: "",
+        meaning: "You may be feeling like you've lost control or that others are taking advantage of you. Avoid being too rigid or domineering. It's time to be more flexible and collaborative."
+      },
+      {
+        name: "The Hierophant REVERSED",
+        image: "",
+        meaning: "You may be rebelling against rules and institutions. Avoid blindly following the crowd or being too conventional. It's time to think outside the box and find your own path."
+      },
+      {
+        name: "The Lovers REVERSED",
+        image: "",
+        meaning: "You may be experiencing relationship challenges or inner conflicts. Avoid making decisions based on fear or lust. It's time to communicate openly, compromise and find common ground."
+      },
+      {
+        name: "The Chariot REVERSED",
+        image: "",
+        meaning: "You may be feeling out of control or pulled in different directions. Avoid being overly aggressive or bulldozing your way through challenges. It's time to find balance and work with others."
+      },
+      {
+        name: "Strength REVERSED",
+        image: "",
+        meaning: "You may be feeling weak, timid or lacking in confidence. Avoid being overly aggressive or domineering. It's time to be more gentle, patient and understanding with yourself and others."
+      },
+      {
+        name: "The Hermit REVERSED",
+        image: "",
+        meaning: "You may be feeling isolated, lonely or disconnected. Avoid withdrawing completely from the world. It's time to reach out to others, share your knowledge and connect in meaningful ways."
+      },
+      {
+        name: "Wheel of Fortune REVERSED",
+        image: "",
+        meaning: "You may be feeling stuck in a rut or that you have no control over your circumstances. Avoid trying to manipulate the wheel. It's time to be more adaptable and resilient in the face of change."
+      },
+
+      {
+        name: "Justice REVERSED" ,
+        image: "",
+        meaning: "You may feel that the scales are tipped unfairly in someone else's favor. Avoid being too harsh or rigid in your judgments. It's time to find compromise and see things from a different perspective."
+      },
+
+      {
+        name: "The Hanged Man REVERSED",
+        image: "",
+        meaning: "You may be feeling stuck, frustrated or unwilling to make sacrifices. Avoid being too stubborn or rigid in your thinking. It's time to let go, be more flexible and see the bigger picture."
+      },
+
+      {
+        name: "Death REVERSED",
+        image: "",
+        meaning: "You may be resisting necessary endings or fearing change. Avoid clinging to the past or denying the inevitable. It's time to let go, grieve losses, and embrace the new."
+      },
+      {
+        name: "Temperance REVERSED",
+        image: "",
+        meaning: "You may be feeling impatient, intolerant or out of balance. Avoid extremes and excess. It's time to slow down, find the middle ground and bring different aspects of yourself into harmony."
+      },
+      {
+        name: "The Devil REVERSED",
+        image: "",
+        meaning: "You may be in denial about your shadow side or feeling trapped by your own negative thoughts and behaviors. Avoid blaming others for your problems. It's time to take responsibility and find the courage to change."
+      },
+      {
+        name: "The Tower REVERSED",
+        image: "",
+        meaning: "You may be resisting necessary change or fearing the unknown. Avoid clinging to the past or denying the inevitable. It's time to let go, adapt and rebuild in the aftermath of crisis."
+      },
+      {
+        name: "The Star REVERSED",
+        image: "",
+        meaning: "You may be feeling disillusioned, hopeless or disconnected from your spiritual side. Avoid dwelling on negative thoughts or giving up on your dreams. It's time to nurture your inner light and have faith in the future."
+      },
+      {
+        name: "The Moon REVERSED",
+        image: "",
+        meaning: "You may be feeling paranoid, confused or disconnected from your intuition. Avoid getting caught up in your own fantasies or being misled by others. It's time to face reality, ground yourself and trust your instincts."
+      },
+      {
+        name: "The Sun REVERSED",
+        image: "",
+        meaning: "You may be feeling down, pessimistic or lacking in confidence. Avoid dwelling on failures or comparing yourself to others. It's time to focus on the positives, express your authentic self and spread your sunshine."
+      },
+      {
+        name: "Judgement REVERSED",
+        image: "",
+        meaning: "You may be feeling guilty, ashamed or unwilling to face your past mistakes. Avoid being overly critical of yourself or others. It's time to forgive, let go and move forward with a clean slate."
+      },
+      {
+        name: "The World REVERSED",
+        image: "",
+        meaning: "You may be feeling stuck in a rut, unfulfilled or disconnected from the bigger picture. Avoid getting bogged down in the details or losing sight of your goals. It's time to expand your horizons, learn new things and find a greater sense of purpose."
+      },
+      {
+        name: "The Magician",
+        image: "",
+        meaning: "You have all the tools and abilities you need to manifest your desires. Channel your energy and willpower to make things happen. Stay focused and don't let distractions derail you from your goals."
+      },
+      {
+        name: "The High Priestess",
+        image: "",
+        meaning: "Trust your intuition and inner wisdom. Listen to the quiet voice within that guides you. Dive deep into your subconscious and explore the mysteries of life. Maintain healthy boundaries."
+      },
+      {
+        name: "The Empress",
+        image: "",
+        meaning: "Embrace your feminine energy and creativity. Nurture yourself and others with love and compassion. Enjoy the simple pleasures in life and connect with nature. Abundance and fertility are yours."
+      },
+      {
+        name: "The Hanged Man",
+        image: "",
+        meaning: "Surrender, let go and see things from a new angle. Embrace a new perspective and allow things to unfold in their own time. Sacrifice and patience are required. Enlightenment comes through surrender."
+      },
+      {
+        name: "Death",
+        image: "",
+        meaning: "Endings lead to new beginnings. Let go of what no longer serves you to make room for transformation. Embrace change and the cycle of life. Regeneration and rebirth are at hand."
+      },
+      {
+        name: "Temperance",
+        image: "",
+        meaning: "Blend opposites to create harmony. Find balance, moderation and patience in all things. Combine your skills and resources to create something new. Healing and wholeness are yours."
+      },
+      {
+        name: "The Devil",
+        image: "",
+        meaning: "Face your fears, addictions and dark impulses. Confront the shadow aspects of yourself and others. Break free from self-imposed limitations and unhealthy attachments. Reclaim your power."
+      },
+      {
+        name: "The Star",
+        image: "",
+        meaning: "Hope, inspiration and healing are on the horizon. Trust that your wishes will be granted as you move forward with optimism. Connect with your higher self and the divine. Serenity and rejuvenation are yours."
+      },
+      {
+        name: "The Moon",
+        image: "",
+        meaning: "Tap into your intuition and subconscious. Face your fears and illusions. Embrace the unknown and the mysteries of life. Creativity and imagination are heightened. Beware of deception."
+      },
+      {
+        name: "The Sun",
+        image: "",
+        meaning: "Bask in the light of joy, success and optimism. Celebrate your accomplishments and share your radiance with others. Embrace your inner child and find pleasure in simple things. Happiness and vitality abound."
+      },
+      {
+        name: "Judgement",
+        image: "",
+        meaning: "Heed the call to awaken, transform and rise again. Take responsibility for your past actions and make amends. Embrace a new life purpose and spiritual calling. Redemption and rebirth are at hand."
+      }
   ];
 
   let currentCard = null;
