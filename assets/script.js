@@ -1,13 +1,11 @@
 
 /* Tarot Reading */
 
-/* Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show */
-
 let isDrawButtonClicked = true;
 
 /**
  * Play card shuffle sound 
- */
+/* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
 function playShuffleSound() {
     const shuffleSound = document.getElementById('shuffle-sound');
@@ -18,8 +16,9 @@ function playShuffleSound() {
     }
 }  
   
-
 /* Tarot Deck Array */
+/* Image Credit for all Tarot Cards: freepik.com */
+
 const tarotDeck = [
     {
       name: "The Hierophant",
@@ -251,10 +250,9 @@ const tarotDeck = [
   let resultsContent = null;
 
 
-/* Tutorial Credit: https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/ */
-
 /**
  * Shuffle an array
+ * Tutorial Credit: https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/ 
  */
 
 function shuffleArray(array) {
@@ -318,7 +316,7 @@ document.getElementById("redraw").addEventListener("click", function() {
 });
 
 /**
- * Show the meaning of the drawn card
+ * Shows the meaning of the drawn card
  */
 
 function showMeaning() {
@@ -365,6 +363,7 @@ document.getElementById("tarot-reading-button").addEventListener("click", displa
 
 /**
  * Toggle button displays the Tarot Reading div on click
+ *  Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show 
  */
 
 function displayReading() {
@@ -626,7 +625,6 @@ function resetState() {
 }
 
 
-
 /* Tutorial for playing a sound with JavaScript: https://sabe.io/blog/javascript-play-sound-audio */
 
 let audio = {
@@ -636,7 +634,7 @@ let audio = {
 };
 
 
-/** Mutes or enables audio via toggle button */
+/** Mutes or enables audio via toggle button 
 /* function code based off of Marcus Eriksson's muteAudio(): https://github.com/worldofmarcus/project-portfolio-2 */ 
 
 function soundOff() {
@@ -711,7 +709,8 @@ function selectOption(selectedIndex) {
 }
 
 
-/** Displays Final Score */
+/** 
+ * Displays Final Score */
 
 function showScore() {
     resetState();

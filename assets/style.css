@@ -33,14 +33,14 @@ header {
   align-items: center;
 }
 
-/*Hero/ Background Image */
+/* Hero/ Background Image */
 
 #background-image {
 position: fixed;
 bottom: 0;
 left: 0;
 width: 100%;
-height: 50%; /* Adjust height as needed */
+height: 50%;
 background-image: url('../assets/images/tarotbg.webp'); 
 background-size: contain; 
 background-repeat: no-repeat;
@@ -55,9 +55,7 @@ h1 {
   font-size: 5rem;
   color: goldenrod;
   text-shadow: 1px 1px rgb(212, 132, 3);
-  /*color: #2b464f;*/
   margin: -1.6rem 0 -.95rem 0;
-  /*min-height: 15vh;*/
 }
 
 h2 {
@@ -65,7 +63,6 @@ h2 {
   font-size: 1.8rem;
   color: goldenrod;
   text-shadow: 1px 1px rgb(212, 132, 3);
-  /*color: #2b464f;*/
   margin: -0.75rem 0 2.1rem;
 }
 
@@ -77,24 +74,11 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
-  /*width: calc(100% - 15px);*/
   min-width: 290px;
   padding: 8px 6px;
   max-width: 625px;
-  /*border-top:2px solid #fff;
-  border-bottom: 2px solid #fff;*/
   margin-top: -10px;
 }
-
-/* Inner shadow tutorial: https://devdevout.com/css/css-inner-shadow */
-
-
-.inner-shadow-btn {
-  width: 160px;
-  height: 40px;
-  box-shadow: inset rgba(248, 151, 138, 0.5) 0px 0px 40px 0px, rgba(248, 170, 170, 0.3) 0px 30px 100px -24px;
-}
-
 
 /* Buttons */
 
@@ -222,7 +206,6 @@ h3 {
 }
 
 button {
-  /*background-color: #f494e3;*/
   background-color: #dda0ddDD;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
@@ -258,11 +241,12 @@ button:hover {
   width: 100%;
 }
 
+/* Tarot Reading Section */
 /* Tarot Reading Instructions */
 
 #tarot-reading {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -276,7 +260,7 @@ button:hover {
 
 #reading-instructions-container {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px; 
   left: 0;
   right: 0;
   bottom: 0; 
@@ -290,7 +274,7 @@ button:hover {
 
 #reading-instructions-content {
   width: 90%;
-  max-width: 400px;
+  max-width: 310px;
   height: auto;
   background-color: rgb(246, 244, 244);
   border-radius: 5px;
@@ -306,7 +290,6 @@ button:hover {
 #reading-instructions-content > li {
   margin-left: 10px;
 }
-
 
 #reading-instructions-image {
   background-color: #fdeca6;
@@ -337,7 +320,7 @@ button:hover {
 #tarot-draw {
   display: flex;
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -349,14 +332,9 @@ button:hover {
   overflow: auto;
 }
 
-
-#card-name {
- 
-}
-
 #draw-container {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -375,10 +353,7 @@ button:hover {
 #tarot-deck {
   position: relative; 
   text-align: center;
-  /*padding: 10px;*/
   margin: 0 10px 22px 10px;
-  /*max-width: 425px; /*test for responsiveness- was 625px *//*
-  height: auto; /*edited 09/05 to try layout solutions - was 350px */
   height: 350px;
   width: auto;
   border-radius: 15px;
@@ -401,7 +376,6 @@ button:hover {
 /* Tutorial credit: W3 Schools - https://www.w3schools.com/howto/howto_css_shake_image.asp */
 
 #tarot-deck:active {
-  /*animation: tremble 0.5s ease-in-out;*/
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
@@ -428,12 +402,9 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
-  /*width: calc(100% - 15px);*/
   min-width: 290px;
   padding: 8px 6px;
   max-width: 625px;
-  /*border-top:2px solid #fff;
-  border-bottom: 2px solid #fff;*/
   margin: -5px 0 2px 0;
 }
 
@@ -495,7 +466,6 @@ button:hover {
 }
 
 #meaning-image {
-  /*margin-top: 1px; */
   height: 55px;
   width: auto;
   background-color: #f8c6e3;
@@ -509,15 +479,17 @@ button:hover {
   height: 55px;
   width: auto;
 }
-/* Tarot Quiz */
+/* Tarot Quiz Section */
 /* Tarot Quiz Layout */
 
 #tarot-quiz {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px;
   left: 0;
   right: 0;
   bottom: 0; 
+  padding-top: 18px;
+  margin-top: -5px;
   background-color:#fdeca6;
   z-index: 90;
   display: flex;
@@ -555,8 +527,8 @@ button:hover {
   text-align: center;
   padding: 10px;
   margin: 0 10px 22px 10px;
-  max-width: 425px; /*test for responsiveness- was 625px */
-  height: auto; /*edited 09/05 to try layout solutions - was 350px */
+  max-width: 310px;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 6px 6px 0 0 goldenrod;
   background-color: rgb(246, 244, 244);
@@ -571,7 +543,7 @@ button:hover {
 /* Quiz Instructions */
 #quiz-instructions {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px; 
   left: 0;
   right: 0;
   bottom: 0; 
@@ -585,7 +557,7 @@ button:hover {
 
 #instructions-container {
   position: fixed;
-  top: 148px; /*media queries need to start at 768px*/
+  top: 148px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -596,8 +568,6 @@ button:hover {
   justify-content: flex-start;
   align-items: center;
   }
-
-/* Box shadow code: https://htmlcssfreebies.com/css-box-shadow-examples/ */
 
 #instructions-content {
   width: 90%;
@@ -700,16 +670,12 @@ li {
   height: 250px;
 }
 
-
-#points {
-
-
-}
-
 .correct {
  font-weight: bold;
  animation: pulse 0.9s ease;
 }
+
+/* Pulse effect for incorrect answers */
 
 @keyframes pulse {
   0% {
@@ -723,14 +689,14 @@ li {
   }
 }
 
-
 .incorrect {
   text-decoration: line-through;
   animation: pulse 0.2s ease;
 }
 
-/* Text Effects */  
-/* Glow Effect */
+/* Misc. Text Effects */  
+
+/* Glow Effect for header */
 @-webkit-keyframes glow {
 from {
   text-shadow: 0 0 5px #fff, 0 0 10px #fdeca6, 0 0 15px #fde380 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
@@ -747,79 +713,17 @@ to {
 animation: glow 2s ease-in-out infinite alternate;  
 }
 
-
-/* Shimmer */
-/* Base code credit to Joshua Pekera https://codepen.io/joshuapekera/pen/xGjMMq */
-#shimmer {
-text-align: center;
-color: rgba(255, 255, 255, 0.1);
-background: -webkit-gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
-background: -moz-gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
-background: gradient(linear, left top, right top, from(#2b464f), to(#2b464f), color-stop(0.5, #fff));
--webkit-background-size: 125px 100%;
--moz-background-size: 125px 100%;
-background-size: 125px 100%;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
--webkit-animation-name: shimmer;
--moz-animation-name: shimmer;
-animation-name: shimmer;
--webkit-animation-duration: 3s;
--moz-animation-duration: 3s;
-animation-duration: 3s;
--webkit-animation-iteration-count: infinite;
--moz-animation-iteration-count: infinite;
-animation-iteration-count: infinite;
-background-repeat: no-repeat;
-background-position: 0 0;
-background-color: #222;
-color: transparent;
-}
-
-@-moz-keyframes shimmer {
-0% {
-    background-position: top left;
-}
-100% {
-    background-position: top right;
-}
-}
-
-@-webkit-keyframes shimmer {
-0% {
-    background-position: top left;
-}
-100% {
-    background-position: top right;
-}
-}
-
-@-o-keyframes shimmer {
-0% {
-    background-position: top left;
-}
-100% {
-    background-position: top right;
-}
-}
-
-@keyframes shimmer {
-0% {
-    background-position: top left;
-}
-100% {
-    background-position: top right;
-}
-}
-
-
 /* Media Queries */
 /* Media query: Mobile phones (375px and below) */
 
 @media (max-width: 374px) {
   #next-question-button {
     margin-bottom: 20px;
+  }
+
+  #tarot-quiz {
+    margin-top: 0px;
+    padding-top: 10px;
   }
 }   
 
@@ -828,10 +732,6 @@ color: transparent;
   #reading-button {
     margin-top: 40px;
   }
-
- /* h3 {
-    margin-top: 5px;
-  }*/
 }
 
 
@@ -872,13 +772,6 @@ color: transparent;
   }
 }
 
-/* Media Query: Screens wider than 780px and taller than 750px */
-/*@media (min-width: 781px) and (min-height: 751px) {
-  #quiz-container {
-    max-width: 625px;
-  }
-}*/
-
 /* Media Query: Screens heights less than 580px */
 
 @media (max-height: 580px) {
@@ -886,23 +779,6 @@ color: transparent;
   margin-top: -15px;
 }
 }
-
-/*
-@media (min-height: 760) {
-  header,
-  buttons,
-  #instructions-container {
-    transform: scale(1, 1.2);
-  }
-}*/
-
-/* Media Query: Screens taller than 1010px */
-/*@media (min-height: 1010px) {
- #background-image {
-    height: 45%;
-    z-index: 97;
-  }
-}*/
 
 /* Media Query small laptops and above */
 @media (min-width: 1439px) {
@@ -970,7 +846,6 @@ color: transparent;
   #instructions-container {
     top: 340px;
   }
-
 }
 
 /* Media Queries Needed for landscape mode */
