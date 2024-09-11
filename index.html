@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for SEO-->
@@ -15,108 +15,129 @@
     <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/85da640026.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-        <h1><a href="https://erinvdoyle.github.io/tarot" style="text-decoration: none; color: inherit;">Tarot</a></h1>
-        <h2 class="h2glow">Card of the Day</h2>
-  </header>
-        <!-- Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show -->
-        <div id="buttons">
-            <button id="reading-button" onclick="displayReading()">Get Your Reading</button>
-            <div id="tarot-reading" style="display:none;">
-              <div id="reading-instructions-container">
-                <h3>DESTINY AWAITS...</h3>
-                <div id="reading-instructions-content">
-                  <h4>How to get your reading</h4>
-                <ul>
-                  <li>Think of your question</li>
-                  <li>Tap the deck to shuffle</li>
-                  <li><span id="draw-span">Draw</span> your card</li>
-                  <li>Tap your card to reveal the meaning</li>
-                  <li><span><i class="fa-solid fa-volume-high"></i></span> toggles sound off or on</li>
-                  <li>Click <span id="redraw-span">Redraw</span> for a new reading or <span id="exit-span">Exit</span></li>
-                </ul>
-                <div id="reading-instructions-image">
-                <!-- Image Credit: Freepik.com -->
-                <img src="assets/images/tarotteller1.webp" alt="an illustration of a tarot fortune teller">
-                </div>
-                </div>
-                <button id="tarot-reading-button" onclick="displayCard()">Get your Reading!</button>
-              </div>
-            </div>
-            <br>
-            <div id="tarot-draw" style="display: none;">
-              <div id="draw-container">
-                <h3 id="card-name">TAP DECK TO SHUFFLE!</h3>
-                <div id="tarot-deck" class="card-container">
-                  <div class="card" onclick="showMeaning()">
-                    <div class="cardFront">
-                      <!-- Image Credit: Freepik.com -->
-                  <img src="assets/images/tarotcard.webp" alt="A tarot card">
-                </div>
-                <div class="cardBack">
-                  <div id="meaning-image">
-                    <!-- Image Credit: Freepik.com -->
-                    <img src="assets/images/taroteye2.webp" alt="an eye inside a purple triangle">
-                    </div>
-                    <p id="card-meaning" class="meaning-container">Card Meaning</p>
-                  </div>
-                </div>
-            </div>
-            <h3 id="tap-meaning" class="hidden">Tap card for Meaning!</h3>
-                <navigation>
-                <button class="draw-button"><span><i id="draw-audio" class="fa-solid fa-volume-high" style="color: #FFF;"></i></button>
-                <button id="draw" class="draw-button">Draw</button>
-                <button id="redraw" class="draw-button" style="display:none;">Redraw</button>
-                <button id="exit-reading" class="draw-button" onclick="window.location.href='https://erinvdoyle.github.io/tarot';">Exit</button>
-                </navigation>
-              </div>
-              </div>
-            <button id="quiz-button-instructions" onclick="displayInstructions()">Take the Quiz</button>
-            <div id="quiz-instructions" style="display: none;">
-              <div id="instructions-container">
-                <h3>Ready to test yourself?</h3>
-                  <div id="instructions-content">
-                    <h4>How to play</h4>
-                <ul>
-                  <li>Your subject matter is The Major Arcana of the Tarot deck</li>
-                  <li>The quiz has 10 questions</li>
-                  <li>Click <span><i class="fa-solid fa-volume-high"></i></span> to toggle sound off or on</li>
-                  <li>Tap your answer to see if you're correct</li>
-                  <li>Hit <span class="instructions-span">Next</span> to move to the next question</li>
-                  <li>Answer all 10 questions to get your final results</li>
-                  <li><span class="instructions-span">Replay</span> or <span class="instructions-span">Exit</span> and get your tarot reading</li>
-                </ul>
-              </div>
-              <button id="quiz-button" onclick="displayQuiz()">Take the quiz!</button>
-              </div>
-            </div>
-            <div id="tarot-quiz" style="display: none;">
-              <h3>Think you know Your Tarot?</h3>
-              <div id="quiz-container">
-                <div id="questions"></div>
-                <div id="quiz-results" style="display: none;">
-                   <p id="results-blurb"></p>
-                   <!-- Image Credit: Freepik.com -->
-                   <img id="results-image" src="assets/images/hand.webp" alt="a mystical hand">
-                </div>
-                <div id="answers"></div><br>
-                <div id="navigation">
-                <button id="next-question-button">Next <i class="fa-solid fa-angles-right" style="color: #FFF;"></i></button>
-                <button id="play-again-button" class="hidden quiz-button">Replay</button>
-                <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
-                <button id="toggle-audio" title="toggle-audio" onclick=soundOff()><span><i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i></span></button>
-              </div>
-              </div>
-              <h3 id="points">Tap an answer to find out!</h3>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="https://erinvdoyle.github.io/tarot" style="text-decoration: none; color: inherit;">Tarot</a>
+      </h1>
+      <h2 class="h2glow">Card of the Day</h2>
+    </header>
+    <!-- Tutorial Credit: W3 Schools: How TO - Toggle Hide and Show -->
+    <div id="buttons">
+      <button id="reading-button" onclick="displayReading()">Get Your Reading</button>
+      <div id="tarot-reading" style="display:none;">
+        <div id="reading-instructions-container">
+          <h3>DESTINY AWAITS...</h3>
+          <div id="reading-instructions-content">
+            <h4>How to get your reading</h4>
+            <ul>
+              <li>Think of your question</li>
+              <li>Tap the deck to shuffle</li>
+              <li>
+                <span id="draw-span">Draw</span> your card
+              </li>
+              <li>Tap your card to reveal the meaning</li>
+              <li>
+                <span>
+                  <i class="fa-solid fa-volume-high"></i>
+                </span> toggles sound off or on
+              </li>
+              <li>Click <span id="redraw-span">Redraw</span> for a new reading or <span id="exit-span">Exit</span>
+              </li>
+            </ul>
+            <div id="reading-instructions-image">
+              <!-- Image Credit: Freepik.com -->
+              <img src="assets/images/tarotteller1.webp" alt="an illustration of a tarot fortune teller">
             </div>
           </div>
-        <!-- Image credit: Image by storyset on Freepik -->
-        <div id="background-image">
+          <button id="tarot-reading-button" onclick="displayCard()">Get your Reading!</button>
         </div>
-        <!-- Audiot credit: www.pixabay.com -->
-        <audio id="shuffle-sound" src="assets/media/shuffle.mp3"></audio>
-        <script src="assets/script.js"></script>
-</body>
+      </div>
+      <br>
+      <div id="tarot-draw" style="display: none;">
+        <div id="draw-container">
+          <h3 id="card-name">TAP DECK TO SHUFFLE!</h3>
+          <div id="tarot-deck" class="card-container">
+            <div class="card" onclick="showMeaning()">
+              <div class="cardFront">
+                <!-- Image Credit: Freepik.com -->
+                <img src="assets/images/tarotcard.webp" alt="A tarot card">
+              </div>
+              <div class="cardBack">
+                <div id="meaning-image">
+                  <!-- Image Credit: Freepik.com -->
+                  <img src="assets/images/taroteye2.webp" alt="an eye inside a purple triangle">
+                </div>
+                <p id="card-meaning" class="meaning-container">Card Meaning</p>
+              </div>
+            </div>
+          </div>
+          <h3 id="tap-meaning" class="hidden">Tap card for Meaning!</h3>
+          <navigation>
+            <button class="draw-button">
+              <span>
+                <i id="draw-audio" class="fa-solid fa-volume-high" style="color: #FFF;"></i>
+            </button>
+            <button id="draw" class="draw-button">Draw</button>
+            <button id="redraw" class="draw-button" style="display:none;">Redraw</button>
+            <button id="exit-reading" class="draw-button" onclick="window.location.href='https://erinvdoyle.github.io/tarot';">Exit</button>
+          </navigation>
+        </div>
+      </div>
+      <button id="quiz-button-instructions" onclick="displayInstructions()">Take the Quiz</button>
+      <div id="quiz-instructions" style="display: none;">
+        <div id="instructions-container">
+          <h3>Ready to test yourself?</h3>
+          <div id="instructions-content">
+            <h4>How to play</h4>
+            <ul>
+              <li>Your subject matter is The Major Arcana of the Tarot deck</li>
+              <li>The quiz has 10 questions</li>
+              <li>Click <span>
+                  <i class="fa-solid fa-volume-high"></i>
+                </span> to toggle sound off or on </li>
+              <li>Tap your answer to see if you're correct</li>
+              <li>Hit <span class="instructions-span">Next</span> to move to the next question </li>
+              <li>Answer all 10 questions to get your final results</li>
+              <li>
+                <span class="instructions-span">Replay</span> or <span class="instructions-span">Exit</span> and get your tarot reading
+              </li>
+            </ul>
+          </div>
+          <button id="quiz-button" onclick="displayQuiz()">Take the quiz!</button>
+        </div>
+      </div>
+      <div id="tarot-quiz" style="display: none;">
+        <h3>Think you know Your Tarot?</h3>
+        <div id="quiz-container">
+          <div id="questions"></div>
+          <div id="quiz-results" style="display: none;">
+            <p id="results-blurb"></p>
+            <!-- Image Credit: Freepik.com -->
+            <img id="results-image" src="assets/images/hand.webp" alt="a mystical hand">
+          </div>
+          <div id="answers"></div>
+          <br>
+          <div id="navigation">
+            <button id="next-question-button">Next <i class="fa-solid fa-angles-right" style="color: #FFF;"></i>
+            </button>
+            <button id="play-again-button" class="hidden quiz-button">Replay</button>
+            <button id="quiz-button-back" class="quiz-button" onclick="exitQuiz()">Exit</button>
+            <button id="toggle-audio" title="toggle-audio" onclick=soundOff()>
+              <span>
+                <i id="speaker-icon" class="fa-solid fa-volume-high" style="color: #FFF;"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <h3 id="points">Tap an answer to find out!</h3>
+      </div>
+    </div>
+    <!-- Image credit: Image by storyset on Freepik -->
+    <div id="background-image"></div>
+    <!-- Audiot credit: www.pixabay.com -->
+    <audio id="shuffle-sound" src="assets/media/shuffle.mp3"></audio>
+    <script src="assets/script.js"></script>
+  </body>
 </html>
