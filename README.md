@@ -1,31 +1,43 @@
-# Tarot Card of the Day
+# Welcome to Tarot Card of the Day,
+## Your destiny awaits...
 
-About blurb, amIresponsive, live site link
+<p align="center">
+  <img src="am-i-responsive">
+</p>
 
-#Table of Contents
-- Project
-  - User Stories
-- User Experience
-  - Wireframes
-  - Site Structure
-  - Design Choices
-- Features
-- Future Features
-- Technologies
-- Testing
-  - Code Validation
-  - Responsiveness 
-  - Browser Compatibility
-  - Additional Testing
-  - Bugs
-- Deployment
-- Credits
-- Acknowledgements
-- Contact
+[Visit the deployed site](https://erinvdoyle.github.io/tarot)
 
 
-### User Stories 
-- User Stories
+# Introduction
+
+Tarot Card of the Day about
+
+# Table of Contents
+- [Project](#project)
+  - [User Stories](#user-stories)
+- [User Experience](#user-experience)
+  - [Wireframes](#wireframes)
+  - [Site Structure](#site-structure)
+  - [Design Choices](#design-choices)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Technologies](#technologies)
+  - [Languages](#languages)
+- [Testing](#testing)
+  - [Code Validation](#code-validation)
+  - [Responsiveness](#responsiveness) 
+  - [Browser Compatibility](#browser-compatibility)
+  - [Additional Testing](#additional-testing)
+  - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
+
+# Project 
+
+## User Stories
    - As a new visitor, I want:
       - A cleanly designed and intuitive layout so I can easily navigate the site
       - An engaging experience with bright colors and sounds
@@ -43,7 +55,9 @@ About blurb, amIresponsive, live site link
       - More than one interest point for the visitor: The choice between a tarot reading or a quiz
       - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
 
-### Wireframes
+# User Experience
+
+## Wireframes
 <details>
   <summary>Planned and assembled in Balsamiq Wireframes</summary>
    <p>Mobile</p>
@@ -54,12 +68,64 @@ About blurb, amIresponsive, live site link
    <img src="assets/documentation/tarotlaptopwf.png">
   </details>
 
-### Future Features
+## Site Structure
+
+## Design Choices
+
+# Features
+
+# Future Features
 - A glossary or dictionary of each of the Major Arcana cards and their meanings
 - A history of a visitor's previous readings
 - A multi-card reading option (3, 7)
 - An explanded quiz with a larger number of questions to draw from
 - An expanded tarot reading which draws from a full 78 card deck 
+
+# Technologies
+
+## Languages Used
+
+## Frameworks, Libraries, and Software
+
+# Testing
+
+## Code Validation
+
+### HTML Validation
+
+### CSS Validation
+
+### JavaScript Validation
+
+## Responsiveness Test
+
+## Browser Compatibility
+
+## Additional Testing
+
+### Lighthouse
+
+### Peer Review
+
+## Fixed Bugs
+
+# Deployment
+
+## To Deploy The Project
+
+## How to Fork The Repository on GitHub
+
+## Creating A Local Clone of The Project
+
+# Credits
+
+## Content
+
+## Technical Content
+
+## Media
+
+# Acknowledgements
 
 ### Image Credits
 Main Image: https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections Image by storyset on Freepik
