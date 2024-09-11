@@ -273,6 +273,8 @@ function shuffleArray(array) {
  * Draws the card with flip action and sound effect
  */
 
+const tapMeaning = document.querySelector("#tap-meaning");
+
 function drawCard() {
     drawAudio.play();
 
@@ -289,10 +291,14 @@ function drawCard() {
 
     tarotCardElement.classList.remove('flipped');
 
+    const tapMeaning = document.querySelector("#tap-meaning");
+    tapMeaning.classList.remove('hidden');
+
     const drawButton = document.getElementById("draw");
     const redrawButton = document.getElementById("redraw");
     drawButton.style.display = 'none';
     redrawButton.style.display = 'inline-block';
+    tapMeaning.classList.remove('hidden');
 
     const shuffleSound = document.getElementById('shuffle-sound');
     shuffleSound.pause();
@@ -324,6 +330,8 @@ function showMeaning() {
         cardMeaning.classList.add('show');
         
         tarotCardElement.classList.add('flipped');
+        tapMeaning.classList.add('hidden');
+        
 
         tarotCardElement.onclick = null;
     }
