@@ -10,7 +10,7 @@
 
 # Introduction
 
-Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intends to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intends to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # Table of Contents
 - [Project](#project)
@@ -38,8 +38,8 @@ Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This ful
 # Project 
 
 ## User Stories
-   
-   - As a new visitor, I want:
+   <details>
+   <summary>- As a new visitor, I want:</summary>
       - A cleanly designed and intuitive layout so I can easily navigate the site
       - An engaging experience with bright colors and sounds
       - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
@@ -48,15 +48,20 @@ Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This ful
       - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
       - A points tally and a results feature that tells me how I've done
       - A button that allows me to exit the quiz or tarot draw when I wish
-      - A fully responsive experience so that I can use any of my screens  
-  
-  - As a returning visitor, I want:
+      - A fully responsive experience so that I can use any of my screens
+      </details>  
+   
+   <details>
+  <summary>- As a returning visitor, I want:</summary>
       - A random selection of quiz questions so that I can test myself with fresh content
       - A random tarot draw so that I can get a new reading every time I visit
-   
-  - As the owner of the site, I want:
+   </details>
+
+   <details>
+  <summary>- As the owner of the site, I want:</summary>
       - More than one interest point for the visitor: The choice between a tarot reading or a quiz
       - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
+    </details>
 
 # User Experience
 
@@ -75,11 +80,11 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 ## Site Structure
 
-Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" buttons at center screen. A fixed header above displays the site logo, and a hero illustration of a Tarot draw takes bottom screen of the starting area until either of the main section buttons are clicked. 
+Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw in action takes the bottom screen of the starting area. This image will be covered when either of the main section buttons are clicked. 
 
-Each button clicks to its own instructions section, which occupies the entire viewport onclick, starting below the header. Once the visitor has read the instructions on how to play, the game described is accessed by another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own instructions section, which occupies the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
-More about each section and all of its features can be found in the [#features] section.
+More about each section and all of their features can be found in the [#features] section.
 
 
 ## Design Choices
@@ -87,7 +92,7 @@ More about each section and all of its features can be found in the [#features] 
 ### Color Scheme
 
 <p align="center">
-    <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
+    <img src="assets/images/screenshots/" alt="" height="150"/>
     </p>
 
     -  Hex codes:
@@ -96,21 +101,22 @@ More about each section and all of its features can be found in the [#features] 
 
 ### Typography
 
-- Fonts courtesy of Google Fonts. " ": Headers and accent text. " ": All other copy.
+- Fonts courtesy of Google Fonts. "Uncial Antiqua": Headers and accent text. "Libre Baskerville": All other copy.
     <p align="center">
-    <img src="assets/images/screenshots/" alt="" height="50"/>
-    <img src="assets/images/screenshots/" alt="" height="45"/>
+    <img src="assets/documentation/font1.png" height="50px"/>
+    <img src="assets/documentation/font2.png" height="50px"/>
     </p>
-    - The font " " was chosen to 
+    
+    - The font "Uncial Antiqua" was chosen to evoke a mystical, fun, and old-timey feel, like something one might see at a fair
 
-    - The font " " was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors.
+    - The font "Libre Baskerville" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors
 
 
 # Features
 
 ## Favicon
 
-![alt text](assets/images/screenshots/)
+![alt text](assets/documentation/favicon.png)
 
 ## Header
 
