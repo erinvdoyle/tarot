@@ -246,7 +246,6 @@ const tarotDeck = [
   ];
 
   let currentCard = null;
-  let cardFlipped = false;
   let resultsContent = null;
 
 
@@ -353,9 +352,6 @@ function displayCard() {
 }
 
 document.getElementById("draw").addEventListener("click", drawCard);
-
-const toggleButton = document.querySelector('.toggle-button');
-const meaningContainer = document.getElementById('card-meaning');
 
 document.getElementById("reading-button").addEventListener("click", displayReading);
 

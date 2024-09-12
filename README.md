@@ -405,25 +405,31 @@ There are four navigation buttons: A Next button, which is hidden or displayed b
 | CSS          | Pass       |
 | JavaScript          | Pass       |
 
+No errors were returned in any of the three code validators
+
 ### HTML Validation
-- [HTML Validator](https://validator.w3.org/) -
+- [W3C HTML Validator](https://validator.w3.org/) -
 <details>
     <summary>HTML Validation Screenshot</summary>
-     <img src="assets/images/screenshots/">
+     <img src="assets/documentation/htmlvalidation.png">
+     <p>No errors were returned</p>
   </details>
 
 ### CSS Validation
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) -
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) -
 <details>
     <summary>CSS Validation Screenshot</summary>
-     <img src="assets/images/screenshots/">
+     <img src="assets/documentation/cssvalidation.png">
+     <p>No errors returned</p>
   </details>
 
 ### JavaScript Validation
-- [JavaScript Validator](https://) -
+- [JSHint JavaScript Validator](https://) -
 <details>
     <summary>JavaScript Validation Screenshot</summary>
-     <img src="assets/images/screenshots/">
+     <img src="assets/documentation/jsvalidation1.png">
+     <img src="assets/documentation/jsvalidation2.png">
+     <p>No errors returned. Three unused variables were noted, but each of these is a function used in the quiz game</p>
   </details>
 
 ## Responsiveness Test
@@ -488,6 +494,20 @@ There are four navigation buttons: A Next button, which is hidden or displayed b
 <details>
   <summary>Lighthouse Test Results (Pictured)</summary> 
 <img src="assets/documentation/lighthousedesktop.png">
+</details>
+
+### WAVE Testing
+
+<details>
+  <summary>WAVE Web Accessibility Evaluation Tool (Pictured)</summary> 
+<img src="assets/documentation/wave.png">
+<p>After changing the header and navigation buttons to darker colors for better contrast, the site passed the WAVE evaluation with zero contrast errors. One error and two alerts were highlighted:
+
+- The error is due to an "empty" button, which is actually the Sound Toggle for the Tarot Draw section. This button is not empty but uses the Font Awesome speaker icon rather than text 
+
+- The first alert is due to a device dependent event handler. This concerns the shake animation for the tarot deck when clicked. While the deck does shake on mobile screens, this animation does not function with the same reliability as it does on desktop. However, the shuffle sound that accompanies it does play on mobile so I felt justified in leaving the animation as a bonus feature
+
+- The second alert concerns the audio tag for the deck shuffle sound. I have added an aria-label for accessibility to address this alert</p>
 </details>
 
 ### Accessibility
