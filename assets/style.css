@@ -384,8 +384,6 @@ button:hover {
   box-shadow: 0 0 0 2px #ffcde0, 6px 6px 0 0 #ff9ea9;
   background-color: #ffcde0;
   /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
-  overflow: auto;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -433,6 +431,8 @@ button:hover {
 }
 
 /* Tarot Reading Flip Cards */
+/* Tutorial credit: https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
 .card-container {
   perspective: 1000px; 
 }
@@ -471,8 +471,6 @@ button:hover {
   box-shadow: 0 0 0 2px #ffcde0, 6px 6px 0 0 #ff9ea9;
   border-radius: 15px;
   border: .5px solid #8281fd;
-  overflow: scroll;
-  height:fit-content;
 }
 
 .card.flipped {
@@ -532,13 +530,13 @@ button:hover {
   text-align: center;
   padding: 10px;
   margin: 0 10px 22px 10px;
-  max-width: 310px;
+  max-width: 290px;
   height: auto;
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 6px 6px 0 0 goldenrod;
   background-color: rgb(246, 244, 244);
   /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
-  overflow: auto;
+  /*overflow: auto;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -654,7 +652,7 @@ li {
   position: relative;
   margin: 5px 0;
   min-height: 300px;
-  min-width: 300px;
+  max-width: 290px;
 }
 
 /* Tutorial: https://www.w3schools.com/Css/css3_2dtransforms.asp */
@@ -671,7 +669,7 @@ li {
 
 #results-blurb {
   margin-top: 9px;
-  width: 300px;
+  width: 290px;
   height: 250px;
 }
 
@@ -710,7 +708,6 @@ to {
   text-shadow: 0 0 10px #fff, 0 0 15px #fdeca6, 0 0 20px #fde380, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
 }
 }
-
 
 .h2glow {
 -webkit-animation: glow 2s ease-in-out infinite alternate;
@@ -758,10 +755,16 @@ animation: glow 2s ease-in-out infinite alternate;
 @media (min-width: 1023px) {
   h1 {
     font-size: 5rem;
+    margin-top: 0;
   }
 
   h2 {
     font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    margin-top: -5px;
   }
 
   #tarot-quiz {
