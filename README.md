@@ -10,7 +10,7 @@
 
 # Introduction
 
-Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intends to give the visitor a fun distraction (one might say a cosmic GPS for life's little questions) from their day, one tarot card at a time.
+Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intends to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # Table of Contents
 - [Project](#project)
@@ -48,13 +48,13 @@ Welcome to Tarot Card of the Day, where the mystic meets the whimsical. This ful
       - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
       - A points tally and a results feature that tells me how I've done
       - A button that allows me to exit the quiz or tarot draw when I wish
-      - A fully responsive experience so that I can use any of my screens
-    
-    - As a returning visitor, I want:
+      - A fully responsive experience so that I can use any of my screens  
+  
+  - As a returning visitor, I want:
       - A random selection of quiz questions so that I can test myself with fresh content
       - A random tarot draw so that I can get a new reading every time I visit
    
-    - As the owner of the site, I want:
+  - As the owner of the site, I want:
       - More than one interest point for the visitor: The choice between a tarot reading or a quiz
       - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
 
@@ -75,11 +75,11 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 ## Site Structure
 
-Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" buttons at center screen. A fixed header above displays the site logo, and a hero illustration of a Tarot draw takes bottom screen on the starting area until either of the main section buttons are clicked. 
+Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" buttons at center screen. A fixed header above displays the site logo, and a hero illustration of a Tarot draw takes bottom screen of the starting area until either of the main section buttons are clicked. 
 
-Each button clicks to its own instructions section, which occupies the entire viewport onclick, starting below the header. Once the visitor has read the instructions on how to play, the game described is accessed by another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting throughout each game.
+Each button clicks to its own instructions section, which occupies the entire viewport onclick, starting below the header. Once the visitor has read the instructions on how to play, the game described is accessed by another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
-More about each section and all of the features can be found in the (#features) section.
+More about each section and all of its features can be found in the [#features] section.
 
 
 ## Design Choices
@@ -118,7 +118,7 @@ More about each section and all of the features can be found in the (#features) 
 
 #### Tarot Deck
 
-- Starting mode is the deck of cards, featuring the back of one of the cards
+- The Tarot Deck starting mode is the deck of cards, featuring the back of one of the cards
 
 - When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffling sound
 
@@ -157,11 +157,11 @@ More about each section and all of the features can be found in the (#features) 
 
 - Each answer vibrates when a choice is made, with the correct answer momentarily enlarging and changing to a green background color, while the incorrect answers change to a red background with text struck through
 
-- A "Next" button appears when the question answers are revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that the visitor may not skip questions
+- A "Next" button appears when the answers are revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
 
-- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect and resets each question to its standard background color when the "next" button is clicked to advance to the next question
+- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect. This banner resets to its standard background color when the "next" button is clicked and the visitor advances to the next question
 
-- Once all ten questions have been answered, final score is displayed and the Next button is replaced with a Results button
+- Once all ten questions have been answered, the final score is displayed and the Next button is replaced with a Results button
 
 #### Results Section
 
@@ -169,21 +169,35 @@ More about each section and all of the features can be found in the (#features) 
 
 #### Navigation Buttons
 
-There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; and Exit button, which exits to the main area at any time; a sound toggle; and a Results button, which replaces Next after all the questions have been answered  
+There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
 
 
 # Future Features
 - A glossary or dictionary of each of the Major Arcana cards and their meanings
 - A history of a visitor's previous readings
-- A multi-card reading option (3, 7)
-- An explanded quiz with a larger number of questions to draw from
+- A multi-card reading option (choices of 3 or 7 with an expanded meaning section)
+- An updated quiz with a larger number of questions to draw from
 - An expanded tarot reading which draws from a full 78 card deck 
 
 # Technologies
 
 ## Languages Used
+- [JavaScript](https://www.javascript.com/) - provides the majority of application functionality
+- [HTML](https://html.spec.whatwg.org/) - provides the framework and content
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling
 
 ## Frameworks, Libraries, and Software
+- [Am I Responsive](https://ui.dev/amiresponsive) -
+- [Balsamiq](https://balsamiq.com/wireframes/) -
+- [Coolors](https://coolors.co/) -
+- [Font Awesome:](https://fontawesome.com/) -
+- [Github](https://github.com/) -
+- [Gitpod](https://www.gitpod.io/#get-started) -
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) -
+- [Google Fonts](https://fonts.google.com/) -
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - 
+- [Pixabay](https://www.pixabay.com) -
+* [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) -
 
 # Testing
 
