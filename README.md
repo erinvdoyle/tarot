@@ -472,7 +472,12 @@ There are four navigation buttons: A Next button, which is hidden or displayed b
 
 <details>
   <summary>Lighthouse Test Results (Pictured)</summary> 
-<img src="assets/images/screenshots/">
+<img src="assets/documentation/lighthousemobile.png">
+</details>
+
+<details>
+  <summary>Lighthouse Test Results (Pictured)</summary> 
+<img src="assets/documentation/lighthousedesktop.png">
 </details>
 
 ### Accessibility
