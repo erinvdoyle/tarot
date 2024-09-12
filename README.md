@@ -86,52 +86,109 @@ More about each section and all of its features can be found in the [#features] 
 
 ### Color Scheme
 
+<p align="center">
+    <img src="assets/images/screenshots/colorkit.png" alt="" height="150"/>
+    </p>
+
+    -  Hex codes:
+        - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
+        
+
 ### Typography
 
+- Fonts courtesy of Google Fonts. " ": Headers and accent text. " ": All other copy.
+    <p align="center">
+    <img src="assets/images/screenshots/" alt="" height="50"/>
+    <img src="assets/images/screenshots/" alt="" height="45"/>
+    </p>
+    - The font " " was chosen to 
+
+    - The font " " was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors.
 
 
 # Features
 
 ## Favicon
 
+![alt text](assets/images/screenshots/)
+
 ## Header
+
+![alt text](assets/images/screenshots/)
+
+  - The header is in a fixed position and remains static at the top of the page
+  - It can be clicked at any point to return the visitor back to the main starting area
 
 ## Hero Image
 
+![alt text](assets/images/screenshots/)
+
+- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main sections
+
 ## Main Navigation Buttons
+
+![alt text](assets/images/screenshots/)
 
 ## Tarot Draw Section
 
 ### Instructions
 
+![alt text](assets/images/screenshots/)
+
 #### h3
+
+![alt text](assets/images/screenshots/)
 
 #### Instructions content
 
+![alt text](assets/images/screenshots/)
+
 #### Instructions image
+
+![alt text](assets/images/screenshots/)
 
 #### Navigation button to "Get your Reading!"
 
+![alt text](assets/images/screenshots/)
+
 ### The Tarot Draw
+
+![alt text](assets/images/screenshots/)
 
 #### h3 
 
+![alt text](assets/images/screenshots/)
+
 #### Tarot Deck
+
+![alt text](assets/images/screenshots/)
 
 - The Tarot Deck starting mode is the deck of cards, featuring the back of one of the cards
 
+![alt text](assets/images/screenshots/)
+
 - When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffling sound
 
+![alt text](assets/images/screenshots/)
+
 - There are three navigation buttons: The sound toggle, the "Draw" button" and the "Exit" button
+
+![alt text](assets/images/screenshots/)
 
 - When the visitor taps "Draw", a magical chime sound plays, and a card is chosen at random and displayed
   - An h3 banner appears below the card, instructing the visitor to tap the card again to read its meaning
 
+  ![alt text](assets/images/screenshots/)
+
 - When the card is tapped, the fortune is revealed
+
+![alt text](assets/images/screenshots/)
 
 - From this point, the visitor can choose to "Redraw" another card and repeat the same process for a new fortune, or "Exit" back to the starting area
 
 #### Navigation Buttons
+
+![alt text](assets/images/screenshots/)
 
 - As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A Redraw button, which allows the visitor to draw a different card; and an Exit button, which clicks back to the starting area
 
@@ -139,35 +196,66 @@ More about each section and all of its features can be found in the [#features] 
 
 ### Instructions 
 
+![alt text](assets/images/screenshots/)
+
 #### h3
+
+![alt text](assets/images/screenshots/)
 
 #### Instructions Content
 
+![alt text](assets/images/screenshots/)
+
 #### Navigation Button
+
+![alt text](assets/images/screenshots/)
 
 ### The Tarot Quiz
 
+![alt text](assets/images/screenshots/)
+
 #### h3
+
+![alt text](assets/images/screenshots/)
 
 #### Quiz Content
 
+![alt text](assets/images/screenshots/)
+
 - The quiz is laid out with question, answer options, and internal navigation buttons in the same container
+
+![alt text](assets/images/screenshots/)
 
 - Once the visitor has read the question, they can click on their answer choice
 
+![alt text](assets/images/screenshots/)
+
 - Each answer vibrates when a choice is made, with the correct answer momentarily enlarging and changing to a green background color, while the incorrect answers change to a red background with text struck through
+
+![alt text](assets/images/screenshots/)
 
 - A "Next" button appears when the answers are revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
 
+![alt text](assets/images/screenshots/)
+
 - An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect. This banner resets to its standard background color when the "next" button is clicked and the visitor advances to the next question
+
+![alt text](assets/images/screenshots/)
 
 - Once all ten questions have been answered, the final score is displayed and the Next button is replaced with a Results button
 
 #### Results Section
 
+![alt text](assets/images/screenshots/)
+![alt text](assets/images/screenshots/)
+![alt text](assets/images/screenshots/)
+
 - The results section features a cheeky blurb based on the success (or lack thereof) of the visitor's quiz results. There are three grades based on points total, from 0-3, 4-6, and 7-10
 
 #### Navigation Buttons
+
+![alt text](assets/images/screenshots/)
+![alt text](assets/images/screenshots/)
 
 There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
 
@@ -201,29 +289,232 @@ There are four navigation buttons: A Next button, which is hidden or displayed b
 
 # Testing
 
+## Feature Testing 
+
+<details>
+  <summary>Testing the Main Navigation Buttons (Pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+</p>
+</details>
+
+- The "Get Your Reading" button clicks to the Tarot Draw Instructions Page
+- The "Test Your Knowledge" Button clicks to the Tarot Quiz Instructions Page
+
+<details>
+  <summary>Testing Tarot Reading Instructions Navigation Button (Pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+</p>
+</details>
+
+- The "Get Your Reading Button" clicks through to the Tarot Draw Section
+
+<details>
+  <summary>Testing the Tarot Draw Section (Pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+</p>
+</details>
+
+- The h3 banner above the Tarot Deck instructs the user to Tap the Deck to shuffle
+- The Deck plays a shuffle sound and shakes onclick
+- The Sound Toggle turns sound off and on and the icon changes to reflect the status
+- The Draw button plays a chime sound and the top card of the deck changes to the drawn card
+- An h3 banner appears below the deck instructing the visitor to tap the card for meaning. It disappears when the deck is tapped
+- The card flips to its meaning when the deck is tapped
+- The Redraw button correctly plays the chime sound and restarts the draw process
+- The Exit button returns the visitor to the main starting area
+
+<details>
+  <summary>Testing the Tarot Quiz Instructions Navigation Button (Pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+</p>
+</details>
+
+- The "Take the quiz" button naviagtes to the Tarot Quiz Section
+
+<details>
+  <summary>Testing the Tarot Quiz Section (Pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+
+- The question appears with four clickable answers beneath it
+- The buttons change color when hovered over
+- The answers vibrate when a selection is made. The correct answer changes background color to green and momentarily enlarges. The incorrect answers change background color to red and the text is struck through. The Next button appears to allow advancement to the next question
+- The next button disappears until the next question is answered
+- The h3 banner beneath the quiz container changes color to red or green based on whether the answer is correct and the points tally is updated. The banner returns to its base background color once the quiz is advanced and until the next question is answered
+- The Sound Toggle works to allow the visitor to turn the sound on or off
+- The exit button return to use to the starting area
+- The Results button appears after the tenth question is answered
+- The results blurb corresponds to the number of correct answers as designed
+
+</p>
+</details>
+
+### Feature Testing Table
+
+<details>
+
+ <summary>A Table of Feature Tests</summary>
+
+| Feature                     | Test Case                 | Outcome                   |
+</details>
+
 ## Code Validation
 
+| W3 Validator | index.html | 
+|--------------|------------|
+| html         | Pass       |
+| CSS          | Pass       |
+| JavaScript          | Pass       |
+
 ### HTML Validation
+- [HTML Validator](https://validator.w3.org/) -
+<details>
+    <summary>HTML Validation Screenshot</summary>
+     <img src="assets/images/screenshots/">
+  </details>
 
 ### CSS Validation
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) -
+<details>
+    <summary>CSS Validation Screenshot</summary>
+     <img src="assets/images/screenshots/">
+  </details>
 
 ### JavaScript Validation
+- [JavaScript Validator](https://) -
+<details>
+    <summary>JavaScript Validation Screenshot</summary>
+     <img src="assets/images/screenshots/">
+  </details>
 
 ## Responsiveness Test
+- All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
+    - Mobile S (320px)
+    - Mobile M (375px)
+    - Mobile L (425px)
+    - Tablet (768px)
+    - Laptop (1024px)
+    - Laptop (1440px)
+
+### Screenshots of each section of the site as tested in Chrome DevTools
+
+<details>
+  <summary>Screenshots of the Starting Area</summary>
+<img src="assets/images/screenshots/">
+</details>
+
+<details>
+  <summary>Screenshots of the Tarot Quiz Instructions</summary>
+<img src="assets/images/screenshots/">
+</details>
+
+<details>
+  <summary>Screenshots of the Tarot Quiz</summary>
+<img src="assets/images/screenshots/">
+</details>
+
+<details>
+  <summary>Screenshots of the Tarot Quiz Results</summary>
+<img src="assets/images/screenshots/">
+</details>
+
+<details>
+  <summary>Screenshots of the Tarot Draw Instructions</summary>
+<img src="assets/images/screenshots/">
+</details>
+
+<details>
+  <summary>Screenshots of the Tarot Draw</summary>
+<img src="assets/images/screenshots/">
+</details>
 
 ## Browser Compatibility
+
+| Browser Tested          | Intended Appearance | Intended Responsiveness |
+|-------------------------|---------------------|-------------------------|
+| Chrome (Mobile/Desktop) | Good                | Good                    |
+| Edge (Mobile/ Desktop)  | Good                | Good                    |
+| Safari (Mobile)         | Good                | Good                    |
+
 
 ## Additional Testing
 
 ### Lighthouse
 
-### Peer Review
+<details>
+  <summary>Lighthouse Test Results (Pictured)</summary> 
+<img src="assets/images/screenshots/">
+</details>
+
+### Accessibility
+This website was developed with special consideration for accessibility through the following methods:
+- The use of semantic HTML
+- Alt text for images
+- Appropriate contrast levels between background and foreground features and background colors and text.
+- 100% Lighthouse testing scores for Accessibility and SEO on both Mobile and Desktop formats
+
+### Manual Testing
+
+- Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
+
+<details>
+  <summary>Screenshots of each section of the site as tested on Am I Responsive?</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+</details>
+<details>
+  <summary>Screenshots of each page of the site as tested on my own device, iPhone 13Pro</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   
+</details>
 
 ## Fixed Bugs
 
 # Deployment
 
 ## To Deploy The Project
+
+<details>
+  <summary>How to Deploy (pictured)</summary> 
+<p align="center">
+<img src="assets/images/screenshots/">
+</p>
+<br>
+
+<p align="center">
+<img src="assets/images/screenshots/">
+<img src="assets/images/screenshots/">
+</p>
+</details>
+
+This site was deployed through GitHub repository [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
+1. Follow the link above and click the Settings tab in the top navigation bar.
+2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
+3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
+4. Under Branch, select "main" with folder "/root" and click Save.
+Congratulations, your site is now deployed.
 
 ## How to Fork The Repository on GitHub
 
@@ -234,11 +525,16 @@ There are four navigation buttons: A Next button, which is hidden or displayed b
 ## Content
 
 ## Technical Content
+Glowing Text Tutorial from w3 Schools, "How to Create A Glowing Text": https://www.w3schools.com/howto/howto_css_glowing_text.asp
+
+JavaScript Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show"
+https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+
+JS for Quiz guided by tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+
+Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
 
 ## Media
-
-# Acknowledgements
-
 ### Image Credits
 Main Image: https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections Image by storyset on Freepik
 
@@ -253,22 +549,15 @@ Wrong answer Sound Effect by <a href="https://pixabay.com/users/eritnhut1992-256
 
 Correct answer: Sound Effect from <a href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6033">Pixabay</a>
 
-### Tutorials
-Glowing Text Tutorial from w3 Schools, "How to Create A Glowing Text": https://www.w3schools.com/howto/howto_css_glowing_text.asp
-
-JavaScript Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show"
-https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
-
-JS for Quiz guided by tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
-
-Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
-
-*** Add remaining JS tutorials as noted in script.js; shimmer text css effect
-
 ### Other Resources
 
 
-### Acknowledgements
+# Acknowledgements
+- My mentor, Precious Ijege
+- Our cohort standup leader, Laura Mayock
 
-My mentor Precious Ijebe
-Our cohort standup leader Laura Mayock
+# Contact
+Thank you for viewing my project. Please feel free to contact me with any questions or comments.
+  
+ - [erin.v.doyle@gmail.com](mailto:erin.v.doyle@gmail.com)
+ - [linkedin.com/erinvdoyle](https://linkedin.com/erinvdoyle)
