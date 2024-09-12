@@ -40,7 +40,6 @@ Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This f
 ## User Stories
    <details>
    <summary>User Stories for Tarot Card of The Day</summary>
-   </details>
  
  - As a new visitor, I want:
     - A cleanly designed and intuitive layout so I can easily navigate the site
@@ -83,12 +82,14 @@ Tarot Card of the Day has two main game sections, as indicated by the bright red
 
 Each button clicks to its own instructions section, which occupies the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
-More about each section and all of their features can be found in the [#features] section.
+More about each section and all of their features can be found in the [Features](<#features>) section.
 
 
 ## Design Choices
 
 ### Color Scheme
+
+The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to select shades of pale yellow, gold, red, teal, and dark blue from the image. 
 
 <p align="center">
     <img src="assets/images/screenshots/" alt="" height="150"/>
@@ -500,7 +501,37 @@ This website was developed with special consideration for accessibility through 
    
 </details>
 
-## Fixed Bugs
+# Bugs
+
+## Solved Bugs
+<details>
+  <summary>Misplaced Event Listeners</summary>
+<img src="assets/documentation/bug1.png">
+</details>
+
+<details>
+  <summary>Uncaught (in promise) Error</summary>
+<img src="assets/documentation/bug2.png">
+</details>
+
+<details>
+  <summary>A missing stylesheet semicolon that affected the layout </summary>
+<img src="assets/documentation/bug3.png">
+<p></p>
+</details>
+
+<details>
+  <summary>A missing comma in script.js that broke the entire site!</summary>
+<p></p>
+</details>
+
+## Unsolved Bugs
+
+After implementing the above solutions and running all code through the necessary validators, no console errors remain. There are not any unsolved bug, but there are a couple areas on mobile screens that do not function entirely as designed. Neither issue affect the overall performance of the site or impede gameplay.
+
+- The shake effect when the tarot deck is tapped does not reliably work on Safari or Chrome mobile. A sustained tap usually results in an OS pop up to "Share" or "Save to Photos". Sometimes this can be avoided and the deck shakes properly
+- The glow on the header h2 appears harsher on mobile devices than desktop, which creates slightly more contrast between the text and the background than intended
+
 
 # Deployment
 
