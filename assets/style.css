@@ -53,16 +53,16 @@ z-index: -1;
 h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
-  color: goldenrod;
-  text-shadow: 1px 1px rgb(212, 132, 3);
+  color: #2a444eb3; /*#55767f;*/
+  text-shadow: 1px 1px #75939b;
   margin: -1.8rem 0 -.95rem 0;
 }
 
 h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
-  color: goldenrod;
-  text-shadow: 1px 1px rgb(212, 132, 3);
+  color: #466068fa; /*#55767f;*/
+  text-shadow: 1px 1px #75939b;
   margin: -0.75rem 0 2.3rem;
 }
 
@@ -127,9 +127,9 @@ h3 {
 }
 
 #quiz-button-instructions {
-  background-color: #ed786c;
+  background-color: #d96b62;
   color: #fff;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   font-family: "Libre Baskerville", serif;
   text-shadow: 1px 1px black;
   font-weight: bold;
@@ -155,9 +155,9 @@ h3 {
 }
 
 #reading-button {
-  background-color: #ed786c;
+  background-color: #d96b62;
   color: #fff;
-  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #ed786c;
+  box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   text-shadow: 1px 1px black;
   font-family: "Libre Baskerville", serif;
   font-weight: bold;
@@ -939,7 +939,7 @@ h2 {
 
 #draw-container > h3 {
   margin-top: -58px;
-  transform: scale(80%);
+  /*transform: scale(80%);*/
 }
 
 #tarot-deck {

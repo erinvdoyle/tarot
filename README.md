@@ -10,7 +10,7 @@
 
 # Introduction
 
-Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intends to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intendsis designed to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # Table of Contents
 - [Project](#project)
@@ -36,6 +36,10 @@ Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This f
 
 
 # Project 
+
+This website was created for Portfolio Project #2 (JavaScript) for The Code Institute Full Stack Software Developer program.
+
+It is intended for users of all age, race, and gender, from all walks of life. Tarot Card of the Day is for anyone who would enjoy taking a break from the daily grind to engage with their msytical side.
 
 ## User Stories
    <details>
@@ -78,9 +82,9 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 ## Site Structure
 
-Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw in action takes the bottom screen of the starting area. This image will be covered when either of the main section buttons are clicked. 
+Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
-Each button clicks to its own instructions section, which occupies the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own game area instructions section, which occupies the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
 More about each section and all of their features can be found in the [Features](<#features>) section.
 
@@ -89,7 +93,7 @@ More about each section and all of their features can be found in the [Features]
 
 ### Color Scheme
 
-The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to select shades of pale yellow, gold, red, teal, and dark blue from the image. 
+The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to select shades of pale yellow, gold, red, teal, and dark blue from it. This palette is accented by pops of purple and pink lifted from the image used for the back of the tarot deck. I chose these bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the pale yellow background provides contrast and readability.
 
 <p align="center">
     <img src="assets/images/screenshots/" alt="" height="150"/>
@@ -113,15 +117,21 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
   <img src="assets/documentation/font2.png" height="50px"/>
   </p>
 
-- The font "Libre Baskerville" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors
+- The font "Libre Baskerville" was chosen for readability and contrast so that all pertinent information could be read easily by all visitors
 
 
 
 # Features
 
+I have aimed to give this site a simple, intuitive interface. Ease of navigation allows the visitor to engage with their game of choice without delay. 
+
+Examples of this site's interactive features include sound toggle buttons, sound effects and animations for correct and incorrect answers, sound effects and animations througout the tarot draw, and the option to exit out of whichever game is being played.
+
 ## Favicon
 
 ![alt text](assets/documentation/favicon.png)
+
+- The favicon features a pair of ace cards to indicate the content matter
 
 ## Header
 
@@ -134,7 +144,7 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
 
 ![alt text](assets/images/screenshots/)
 
-- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main sections
+- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main game sections
 
 ## Main Navigation Buttons
 
