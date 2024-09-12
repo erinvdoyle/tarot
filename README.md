@@ -515,11 +515,6 @@ This website was developed with special consideration for accessibility through 
 </details>
 
 <details>
-  <summary>Uncaught (in promise) Error</summary>
-<img src="assets/documentation/bug2.png">
-</details>
-
-<details>
   <summary>A missing stylesheet semicolon that affected the layout </summary>
 <img src="assets/documentation/bug3.png">
 <p></p>
@@ -532,11 +527,19 @@ This website was developed with special consideration for accessibility through 
 
 ## Unsolved Bugs
 
-After implementing the above solutions and running all code through the necessary validators, no console errors remain. There are not any unsolved bug, but there are a couple areas on mobile screens that do not function entirely as designed. Neither issue affect the overall performance of the site or impede gameplay.
+After implementing the above solutions and running all code through the necessary validators, one console error remains when I view the site through Microsoft Edge. 
+
+<details>
+  <summary>Uncaught (in promise) Error</summary>
+<img src="assets/documentation/bug2.png">
+<p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my latop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
+</details>
+
+There are no further unsolved bugs, but there are a couple areas on mobile screens that do not function entirely as designed. Neither issue affect the overall performance of the site or impede gameplay:
 
 - The shake effect when the tarot deck is tapped does not reliably work on Safari or Chrome mobile. A sustained tap usually results in an OS pop up to "Share" or "Save to Photos". Sometimes this can be avoided and the deck shakes properly
-- The glow on the header h2 appears harsher on mobile devices than desktop, which creates slightly more contrast between the text and the background than intended
 
+- The glow on the header h2 appears harsher on mobile devices than desktop, which creates slightly more contrast than intended between the text and the background
 
 # Deployment
 
