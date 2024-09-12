@@ -39,28 +39,27 @@ Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This f
 
 ## User Stories
    <details>
-   <summary>- As a new visitor, I want:</summary>
-      - A cleanly designed and intuitive layout so I can easily navigate the site
-      - An engaging experience with bright colors and sounds
-      - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
-      - A concise reading that I can engage with briefly or delve into for a deeper explanation 
-      - A quiz with a simple format
-      - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
-      - A points tally and a results feature that tells me how I've done
-      - A button that allows me to exit the quiz or tarot draw when I wish
-      - A fully responsive experience so that I can use any of my screens
-      </details>  
-   
-   <details>
-  <summary>- As a returning visitor, I want:</summary>
-      - A random selection of quiz questions so that I can test myself with fresh content
-      - A random tarot draw so that I can get a new reading every time I visit
+   <summary>User Stories for Tarot Card of The Day</summary>
    </details>
+ 
+ - As a new visitor, I want:
+    - A cleanly designed and intuitive layout so I can easily navigate the site
+    - An engaging experience with bright colors and sounds
+    - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
+    - A concise reading that I can engage with briefly or delve into for a deeper explanation 
+    - A quiz with a simple format
+    - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
+    - A points tally and a results feature that tells me how I've done
+    - A button that allows me to exit the quiz or tarot draw when I wish
+    - A fully responsive experience so that I can use any of my screens  
+   
+ - As a returning visitor, I want:
+    - A random selection of quiz questions so that I can test myself with fresh content
+    - A random tarot draw so that I can get a new reading every time I visit
 
-   <details>
-  <summary>- As the owner of the site, I want:</summary>
-      - More than one interest point for the visitor: The choice between a tarot reading or a quiz
-      - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
+  - As the owner of the site, I want:
+    - More than one interest point for the visitor: The choice between a tarot reading or a quiz
+    - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
     </details>
 
 # User Experience
@@ -95,21 +94,26 @@ More about each section and all of their features can be found in the [#features
     <img src="assets/images/screenshots/" alt="" height="150"/>
     </p>
 
-    -  Hex codes:
-        - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
+-  Hex codes:
+  - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
         
 
 ### Typography
 
 - Fonts courtesy of Google Fonts. "Uncial Antiqua": Headers and accent text. "Libre Baskerville": All other copy.
-    <p align="center">
-    <img src="assets/documentation/font1.png" height="50px"/>
-    <img src="assets/documentation/font2.png" height="50px"/>
-    </p>
     
-    - The font "Uncial Antiqua" was chosen to evoke a mystical, fun, and old-timey feel, like something one might see at a fair
+  <p align="center">
+  <img src="assets/documentation/font1.png" height="50px"/>
+  </p>
+    
+- The font "Uncial Antiqua" was chosen to evoke a mystical, fun, and old-timey feel, like something one might see at a fair
+     
+  <p align="center">
+  <img src="assets/documentation/font2.png" height="50px"/>
+  </p>
 
-    - The font "Libre Baskerville" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors
+- The font "Libre Baskerville" was chosen for legibility and contrast so that all pertinent information could be read easily by all visitors
+
 
 
 # Features
