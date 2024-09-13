@@ -39,7 +39,7 @@ Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This f
 
 This website was created for Portfolio Project #2 (JavaScript) for The Code Institute Full Stack Software Developer program.
 
-It is intended for users of all age, race, and gender, from all walks of life. Tarot Card of the Day is for anyone who would enjoy taking a break from the daily grind to engage with their msytical side.
+It is intended for users of all age, race, and gender, from all walks of life. Tarot Card of the Day is for anyone who would enjoy taking a break from the daily grind to engage with their mystical side. Sense of humor required!
 
 ## User Stories
    <details>
@@ -49,7 +49,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
     - A cleanly designed and intuitive layout so I can easily navigate the site
     - An engaging experience with bright colors and sounds
     - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
-    - A concise reading that I can engage with briefly or delve into for a deeper explanation 
+    - The ability to draw more than one card and receive multiple fortunes
     - A quiz with a simple format
     - A quiz that tests my knowledge of tarot cards and helps me to learn more about them
     - A points tally and a results feature that tells me how I've done
@@ -105,7 +105,7 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
 
 ### Typography
 
-- Fonts courtesy of Google Fonts. "Uncial Antiqua": Headers and accent text. "Libre Baskerville": All other copy.
+- Fonts are provided by Google Fonts. "Uncial Antiqua": Headers and accent text. "Libre Baskerville": All other copy.
     
   <p align="center">
   <img src="assets/documentation/font1.png" height="50px"/>
@@ -125,7 +125,13 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
 
 I have aimed to give this site a simple, intuitive interface. Ease of navigation allows the visitor to engage with their game of choice without delay. 
 
-Examples of this site's interactive features include sound toggle buttons, sound effects and animations for correct and incorrect answers, sound effects and animations througout the tarot draw, and the option to exit out of whichever game is being played.
+Examples of this site's interactive features include:
+ 
+- Sound toggle buttons
+- Sound effects and animations for correct and incorrect answers
+- Sound effects and animations througout the tarot draw 
+- The option to exit out of whichever game is being played
+- A quiz results blurb determined by the number of points scored
 
 ## Favicon
 
@@ -162,7 +168,7 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
 ![alt text](assets/images/screenshots/)
 
-Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
+- Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
 
 #### Instructions content
 
@@ -188,7 +194,7 @@ Each section features an h3 element to introduce the content below. This one has
 
 ![alt text](assets/images/screenshots/)
 
-This header gives the visitor their first direction to play the game: Tap the deck!
+- This header gives the visitor their first direction to play the game: Tap the deck!
 
 #### Tarot Deck
 
@@ -288,7 +294,7 @@ This header gives the visitor their first direction to play the game: Tap the de
 ![alt text](assets/images/screenshots/)
 ![alt text](assets/images/screenshots/)
 
-There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
+- There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
 
 
 # Future Features
