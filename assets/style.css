@@ -53,7 +53,7 @@ z-index: -1;
 h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
-  color: #A97E10; /*#55767f;*/
+  color: #A97E10;
   text-shadow: 1px 5px #fdeca6;
   margin: -1.8rem 0 -.95rem 0;
 }
@@ -61,7 +61,7 @@ h1 {
 h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
-  color: #A97E10; /*#55767f;*/
+  color: #A97E10; 
   text-shadow: 1px 1px #ead46c;
   margin: -0.75rem 0 2.3rem;
 }
@@ -115,6 +115,7 @@ h3 {
 
 #quiz-button {
   background-color: goldenrod;
+  background-image: linear-gradient(to right, goldenrod, #A97E10);
   color: #fff;
   font-family: "Libre Baskerville", serif;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
@@ -129,6 +130,7 @@ h3 {
 
 #quiz-button-instructions {
   background-color: #d96b62;
+  background-image: linear-gradient(to right, #ee7a6c, #d96b62);
   color: #fff;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   font-family: "Libre Baskerville", serif;
@@ -157,6 +159,7 @@ h3 {
 
 #reading-button {
   background-color: #d96b62;
+  background-image: linear-gradient(to right, #ee7a6c, #d96b62);
   color: #fff;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   text-shadow: 1px 1px black;
@@ -221,6 +224,7 @@ h3 {
   width: 91px;
   margin-left: 3px;
   background-color: #7f75b2;
+  background-image: linear-gradient(to right, #7c75af, #544287);
   text-shadow: 1px 1px black;
 }
 
@@ -378,6 +382,7 @@ button:hover {
 
 #draw-container > h3 {
   background-color: #7f75b2;
+  background-image: linear-gradient(to right, #7c75af, #544287);
   margin-top: 0;
 }
 
@@ -427,6 +432,7 @@ button:hover {
   font-family: "Uncial Antiqua", system-ui;
   color: #fff;
   background-color: goldenrod !important;
+  background-image: linear-gradient(to right, goldenrod, #A97E10) !important;
   border-radius: 45px;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
@@ -657,6 +663,10 @@ li {
 #answers {
   margin: 5px 0;
   transition: transform 0.2s ease;
+}
+
+#points {
+  background-image: none !important;
 }
 
 #quiz-results {
