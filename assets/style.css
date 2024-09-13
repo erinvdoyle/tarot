@@ -54,7 +54,7 @@ h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
   color: #A97E10;
-  text-shadow: 1px 5px #fdeca6;
+  text-shadow: 1px 4px #fdeca6;
   margin: -1.8rem 0 -.95rem 0;
 }
 
@@ -62,7 +62,7 @@ h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
   color: #A97E10; 
-  text-shadow: 1px 1px #ead46c;
+  /*text-shadow: 1px 1px #ead46c;*/
   margin: -0.75rem 0 2.3rem;
 }
 
@@ -724,10 +724,10 @@ li {
 /* Glow Effect for header */
 @-webkit-keyframes glow {
 from {
-  text-shadow: 0 0 5px #fff, 0 0 10px #fdf4ce, 0 0 15px #fde48096 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
+  text-shadow: 0 0 5px #fdf4ce, 0 0 10px #fdf4ce, 0 0 15px #fde48096 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
 }
 to {
-  text-shadow: 0 0 10px #fff, 0 0 15px #fdf4ce, 0 0 20px #fde48089, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
+  text-shadow: 0 0 10px #fdf4ce, 0 0 15px #fdf4ce, 0 0 20px #fde48089, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
 }
 }
 
@@ -777,7 +777,7 @@ animation: glow 2s ease-in-out infinite alternate;
 @media (min-width: 1023px) {
   h1 {
     font-size: 5rem;
-    margin-top: 0;
+    margin-top: -35px;
   }
 
   h2 {
@@ -786,19 +786,20 @@ animation: glow 2s ease-in-out infinite alternate;
   }
 
   h3 {
-    margin-top: -5px;
+    margin-top: -10px;
   }
 
   #tarot-quiz {
-    margin-top: 30px;
-    z-index: 99;
+    margin-top: 5px;
   }
 
-  #instructions-container,
+  #instructions-container {
+    margin-top: 20px;
+  }
+
   #reading-instructions-container,
   #draw-container {
-    margin-top: 20px;
-    z-index: 98;
+    margin-top: 5px;
   }
 }
 
@@ -810,9 +811,26 @@ animation: glow 2s ease-in-out infinite alternate;
 }
 }
 
-/* Media Query small laptops and above */
+/* Media Query: Screens taller than 750px */
+
+@media (min-height: 750px) {
+h1 {
+  margin-top: -20px;
+}
+
+#reading-instructions-container > h3,
+#draw-container > h3 {
+  margin-top: 20px;
+}
+
+}
+
+
+/* Media Query: small laptops and above */
+
 @media (min-width: 1439px) {
   h1 {
+    margin-top: -10px;
     font-size: 6rem;
   }
 
@@ -832,22 +850,38 @@ animation: glow 2s ease-in-out infinite alternate;
   }
 
   #quiz-button {
-    height: 60px;
+    height: 45px;
     width: 180px;
   }
 
-
-  #instructions-container,
   #quiz-instructions,
   #reading-instructions-container,
   #tarot-reading,
   #tarot-draw,
   #draw-container                                                                                                                                                                                                                     {
-    top: 160px;
+    top: 170px;
+  }
+
+  #instructions-container {
+    top: 190px;
+  }
+
+  #tarot-quiz {
+    top: 195px;
+  }
+
+  #quiz-container {
+    margin-top: 5px;
+  }
+
+  #points {
+    margin-top: 10px;
   }
 }
 
+
 /* Media Query: Desktops */
+/*
 @media (min-width: 2000px) {
   h1 {
     font-size: 11.5rem;
@@ -876,7 +910,7 @@ animation: glow 2s ease-in-out infinite alternate;
   #instructions-container {
     top: 340px;
   }
-}
+}*/
 
 /* Media Queries: Landscape mode */
 @media (max-width: 767px) and (orientation: landscape) {
