@@ -769,7 +769,7 @@ animation: glow 2s ease-in-out infinite alternate;
 /* Media query: Tablets and larger (768px and above) */
 @media (min-width: 767px) {
   #reading-button {
-    margin-top: 25px;
+    margin-top: 45px;
   }
 }
 
