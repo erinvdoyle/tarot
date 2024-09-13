@@ -63,7 +63,7 @@ h2 {
   font-size: 1.8rem;
   color: #A97E10; 
   /*text-shadow: 1px 1px #ead46c;*/
-  margin: -0.75rem 0 2.3rem;
+  margin: -0.75rem 0 2.2rem;
 }
 
 h3 {
@@ -130,7 +130,7 @@ h3 {
 
 #quiz-button-instructions {
   background-color: #d96b62;
-  background-image: linear-gradient(to right, #ee7a6c, #d96b62);
+  background-image: linear-gradient(to right, #ee7a6c, #d6594f);
   color: #fff;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   font-family: "Libre Baskerville", serif;
@@ -159,7 +159,7 @@ h3 {
 
 #reading-button {
   background-color: #d96b62;
-  background-image: linear-gradient(to right, #ee7a6c, #d96b62);
+  background-image: linear-gradient(to right, #ee7a6c, #d6594f);
   color: #fff;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 #d96b62;
   text-shadow: 1px 1px black;
@@ -670,7 +670,7 @@ li {
 #quiz-results {
   position: relative;
   margin: 5px 0;
-  min-height: 300px;
+  min-height: 260px;
   max-width: 290px;
   overflow:hidden;
 }
@@ -682,15 +682,16 @@ li {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  max-height: 150px;
+  max-height: 145px;
   z-index: -5;
-  margin-top: -15px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 #results-blurb {
   margin-top: 9px;
   width: 290px;
-  height: 250px;
+  height: 235px;
 }
 
 .correct {
@@ -877,7 +878,7 @@ h1 {
 
 /* Media Query: Large Laptops */
 
-@media  (min-width: 1439px) and (min-height: 991px) {
+@media (min-height: 991px) {
   h1 {
     font-size: 7rem;
     margin-top: 50px;
@@ -908,7 +909,7 @@ h1 {
   #tarot-reading,
   #tarot-draw,
   #draw-container                                                                                                                                                                                                                     {
-    top: 270px;
+    top: 275px;
   }
   
   #instructions-container {
@@ -986,25 +987,3 @@ h2 {
   margin-bottom: 4px;
 }
 }
-
-/*
-#reading-button {
-  margin-bottom: -10px;
-  height: 30px;
-}
-/*
-#quiz-button-instructions {
-  height: 30px;
-}
-
-#tarot-reading-button {
-  margin-top: 2px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-.draw-button {
-  height: 20px;
-}
-
-}*/
