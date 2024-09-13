@@ -17,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdeca68c;
+  background-color: #fdf4ce;
   font-family: "Libre Baskerville", serif;
   color: #2b464f;
   min-height: 100vh;
@@ -54,7 +54,7 @@ h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
   color: #A97E10; /*#55767f;*/
-  text-shadow: 2px 5px #fbc705;
+  text-shadow: 1px 5px #fdeca6;
   margin: -1.8rem 0 -.95rem 0;
 }
 
@@ -62,7 +62,7 @@ h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
   color: #A97E10; /*#55767f;*/
-  text-shadow: 1px 1px #fbc705;
+  text-shadow: 1px 1px #ead46c;
   margin: -0.75rem 0 2.3rem;
 }
 
@@ -383,12 +383,12 @@ button:hover {
 #tarot-deck {
   position: relative; 
   text-align: center;
-  margin: 0 10px 20px 10px;
+  margin: -2px 10px 15px 10px;
   height: 350px;
   width: auto;
   border-radius: 15px;
-  box-shadow: 0 0 0 2px #ffcde0, 6px 6px 0 0 #ff9ea9;
-  background-color: #ffcde0;
+  box-shadow: 0 0 0 1px #7f75b2, 6px 6px 0 0 #ff9ea9;
+  background-color: #7f75b2;
   /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
   display: flex;
   flex-direction: column;
@@ -427,11 +427,11 @@ button:hover {
   font-family: "Uncial Antiqua", system-ui;
   color: #fff;
   background-color: goldenrod !important;
-  border-radius: 5px;
+  border-radius: 45px;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
-  min-width: 290px;
-  padding: 6px 6px;
+  min-width: 250px;
+  padding: 8px 6px;
   max-width: 625px;
   margin: -1px 0 2px 0;
 }
@@ -476,7 +476,7 @@ button:hover {
 .cardBack {
   background-color:  rgb(246, 244, 244);
   transform: rotateY(180deg); 
-  box-shadow: 0 0 0 2px #ffcde0, 6px 6px 0 0 #ff9ea9;
+  box-shadow: 0 0 0 1px #7f75b2, 6px 6px 0 0 #ff9ea9;
   border-radius: 15px;
   border: .5px solid #8281fd;
 }
