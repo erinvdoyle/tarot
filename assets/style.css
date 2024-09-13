@@ -78,6 +78,7 @@ h3 {
   padding: 8px 6px;
   max-width: 625px;
   margin-top: -10px;
+  background-image: linear-gradient(to right, goldenrod, #A97E10);
 }
 
 /* Custom Scroll Bar */
@@ -210,7 +211,7 @@ h3 {
 }
 
 #next-question-button:hover {
-  background-color: #2b464f;
+  background-color: #A97E10;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
 }
@@ -229,7 +230,7 @@ h3 {
 }
 
 button {
-  background-color: #dda0ddDD;
+  background-color: #7f75b2;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
   color: #fff;
@@ -243,7 +244,7 @@ button {
 }
 
 button:hover {
-  background-color: #BA55D3;
+  background-color: #ff9ea9;
   text-shadow: 1px 1px black;
 }
 
@@ -389,7 +390,6 @@ button:hover {
   border-radius: 15px;
   box-shadow: 0 0 0 1px #7f75b2, 6px 6px 0 0 #ff9ea9;
   background-color: #7f75b2;
-  /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -543,8 +543,6 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 6px 6px 0 0 goldenrod;
   background-color: rgb(246, 244, 244);
-  /*background-image: linear-gradient(to right, lightgray, #f494e3);*/
-  /*overflow: auto;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -614,7 +612,7 @@ li {
 
 
 .instructions-span {
-  background-color: #dda0ddDD;
+  background-color: #7f75b2;
   color: white;
   border-radius: 5px;
   border: 1px solid goldenrod;
@@ -716,10 +714,10 @@ li {
 /* Glow Effect for header */
 @-webkit-keyframes glow {
 from {
-  text-shadow: 0 0 5px #fff, 0 0 10px #fdeca6, 0 0 15px #fde380 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fdf4ce, 0 0 15px #fde48096 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
 }
 to {
-  text-shadow: 0 0 10px #fff, 0 0 15px #fdeca6, 0 0 20px #fde380, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
+  text-shadow: 0 0 10px #fff, 0 0 15px #fdf4ce, 0 0 20px #fde48089, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
 }
 }
 
