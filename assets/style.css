@@ -53,16 +53,16 @@ z-index: -1;
 h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
-  color: #2a444eb3; /*#55767f;*/
-  text-shadow: 1px 1px #75939b;
+  color: #3e266a; /*#55767f;*/
+  text-shadow: 2px 5px goldenrod;
   margin: -1.8rem 0 -.95rem 0;
 }
 
 h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
-  color: #466068fa; /*#55767f;*/
-  text-shadow: 1px 1px #75939b;
+  color: #3e266a; /*#55767f;*/
+  text-shadow: 1px 1px goldenrod;
   margin: -0.75rem 0 2.3rem;
 }
 
@@ -217,8 +217,8 @@ h3 {
 
 .draw-button {
   height: 40px;
-  width: 68px;
-  margin-left: -2px;
+  width: 91px;
+  margin-left: 3px;
   background-color: #7f75b2;
   text-shadow: 1px 1px black;
 }
@@ -283,7 +283,7 @@ button:hover {
 
 #reading-instructions-container {
   position: fixed;
-  top: 148px; 
+  top: 136px; 
   left: 0;
   right: 0;
   bottom: 0; 
@@ -293,6 +293,11 @@ button:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: auto;
+}
+
+#reading-instructions-container > h3 {
+  margin-top: 0;
 }
 
 #reading-instructions-content {
@@ -302,7 +307,7 @@ button:hover {
   background-color: rgb(246, 244, 244);
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
-  overflow: auto;
+  /*overflow: auto;*/
   margin-top: -5px;
 }
 
@@ -357,7 +362,7 @@ button:hover {
 
 #draw-container {
   position: fixed;
-  top: 148px;
+  top: 136px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -367,17 +372,18 @@ button:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: auto;
 }
 
 #draw-container > h3 {
   background-color: #7f75b2;
-  margin-top: -10px;
+  margin-top: 0;
 }
 
 #tarot-deck {
   position: relative; 
   text-align: center;
-  margin: 0 10px 22px 10px;
+  margin: 0 10px 20px 10px;
   height: 350px;
   width: auto;
   border-radius: 15px;
@@ -425,10 +431,12 @@ button:hover {
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
   min-width: 290px;
-  padding: 8px 6px;
+  padding: 6px 6px;
   max-width: 625px;
-  margin: -5px 0 2px 0;
+  margin: -1px 0 2px 0;
 }
+
+
 
 /* Tarot Reading Flip Cards */
 /* Tutorial credit: https://www.w3schools.com/howto/howto_css_flip_card.asp */
@@ -482,7 +490,7 @@ button:hover {
   margin: 0 10px;
   font-weight: bold;
   padding-top: 15px;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 .meaning-container.show {
@@ -560,7 +568,7 @@ button:hover {
 
 #instructions-container {
   position: fixed;
-  top: 148px;
+  top: 136px;
   left: 0;
   right: 0;
   bottom: 0; 
@@ -570,7 +578,12 @@ button:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  overflow: auto;
   }
+
+#instructions-container > h3 {
+  margin-top: 0;
+}
 
 #instructions-content {
   width: 90%;
@@ -579,7 +592,7 @@ button:hover {
   background-color: rgb(246, 244, 244);
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 h4 {
@@ -653,6 +666,7 @@ li {
   margin: 5px 0;
   min-height: 300px;
   max-width: 290px;
+  overflow:hidden;
 }
 
 /* Tutorial: https://www.w3schools.com/Css/css3_2dtransforms.asp */
@@ -890,37 +904,36 @@ h2 {
   left: 38%;
 }
 
-#reading-button {
-  margin-bottom: -10px;
-  height: 30px;
+#reading-instructions-container,
+#draw-container,
+#instructions-container {
+  top: 92px;
 }
 
-#quiz-button-instructions {
-  height: 30px;
+#tarot-quiz {
+  top: 103px;
 }
 
 #reading-instructions-container > h3,
 #draw-container > h3,
 #instructions-container > h3 {
-  margin-top: -52px;
+  margin-top: 10px;
 }
 
-#reading-instructions-content,
-#instructions-content {
-  margin-top: -15px;
-  overflow-x:hidden;
+#tarot-deck {
+  margin-top: -1px;
+  margin-bottom: 4px;
+}
 }
 
-#tarot-quiz {
-  margin-top: -55px;
+/*
+#reading-button {
+  margin-bottom: -10px;
+  height: 30px;
 }
-
-#quiz-container {
-  margin-top: -10px;
-}
-
-#quiz-button {
-  margin-top: 5px;
+/*
+#quiz-button-instructions {
+  height: 30px;
 }
 
 #tarot-reading-button {
@@ -933,25 +946,4 @@ h2 {
   height: 20px;
 }
 
-#tap-meaning {
- display: none;
-}
-
-#draw-container > h3 {
-  margin-top: -58px;
-  /*transform: scale(80%);*/
-}
-
-#tarot-deck {
-  margin-top: -20px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  margin-bottom: 0;
-  background-color: #ffcde0;
- }
-
- .cardBack {
-  overflow: scroll;
-  height:fit-content;
- }
-}
+}*/
