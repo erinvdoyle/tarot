@@ -2,7 +2,7 @@
 ## Your destiny awaits...
 
 <p align="center">
-  <img src="am-i-responsive">
+  <img src="assets/documentation/amiresp1.png">
 </p>
 
 [Visit the deployed site](https://erinvdoyle.github.io/tarot)
@@ -69,7 +69,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
 
 ## Wireframes
 <details>
-  <summary>Planned and assembled in Balsamiq Wireframes</summary>
+  <summary>This project was planned and assembled in Balsamiq Wireframes</summary>
    <p>Mobile</p>
    <img src="assets/documentation/tarotmobilewf.png">
    <p>Tablet</p>
@@ -84,16 +84,16 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
-Each button clicks to its own game area instructions section, which occupies the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own game area instructions section, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
-More about each section and all of their features can be found in the [Features](<#features>) section.
+More about each section and all of the features can be found in the [Features](<#features>) section.
 
 
 ## Design Choices
 
 ### Color Scheme
 
-The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to select shades of pale yellow, gold, red, teal, and dark blue from it. This palette is accented by pops of purple and pink lifted from the image used for the back of the tarot deck. I chose these bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the pale yellow background provides contrast and readability.
+The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the creamy yellow background provides contrast and readability.
 
 <p align="center">
     <img src="assets/images/screenshots/" alt="" height="150"/>
@@ -111,13 +111,13 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
   <img src="assets/documentation/font1.png" height="50px"/>
   </p>
     
-- The font "Uncial Antiqua" was chosen to evoke a mystical, fun, and old-timey feel, like something one might see at a fair
+- The font "Uncial Antiqua" was chosen to evoke a mystical, fun, and old-time feel, like something one might see at a fair
      
   <p align="center">
   <img src="assets/documentation/font2.png" height="50px"/>
   </p>
 
-- The font "Libre Baskerville" was chosen for readability and contrast so that all pertinent information could be read easily by all visitors
+- The font "Libre Baskerville" was chosen for readability and contrast so that all pertinent information could be read easily by visitors
 
 
 
@@ -150,6 +150,8 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
 ![alt text](assets/images/screenshots/)
 
+- Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen
+
 ## Tarot Draw Section
 
 ### Instructions
@@ -160,13 +162,19 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
 ![alt text](assets/images/screenshots/)
 
+Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
+
 #### Instructions content
 
 ![alt text](assets/images/screenshots/)
 
+- The instructions section explains how to play the Tarot Draw game, step by step. The game navigation buttons are replicated for ease of understanding 
+
 #### Instructions image
 
 ![alt text](assets/images/screenshots/)
+
+- An image of a tarot mystic keeps the instructions section fun and true to tone. Border radius on the top corners lends visual interest and compliments the hand-drawn style of illustation 
 
 #### Navigation button to "Get your Reading!"
 
@@ -180,6 +188,8 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
 ![alt text](assets/images/screenshots/)
 
+This header gives the visitor their first direction to play the game: Tap the deck!
+
 #### Tarot Deck
 
 ![alt text](assets/images/screenshots/)
@@ -188,7 +198,7 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
 ![alt text](assets/images/screenshots/)
 
-- When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffling sound
+- When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffle sound
 
 ![alt text](assets/images/screenshots/)
 
@@ -201,7 +211,7 @@ Examples of this site's interactive features include sound toggle buttons, sound
 
   ![alt text](assets/images/screenshots/)
 
-- When the card is tapped, the fortune is revealed
+- When the card is tapped, the h3 disappears, and the card meaning or fortune is revealed
 
 ![alt text](assets/images/screenshots/)
 
