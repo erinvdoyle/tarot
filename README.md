@@ -144,74 +144,94 @@ Examples of this site's interactive features include:
 
 ## Favicon
 
-![alt text](assets/documentation/favicon.png)
+<p align="center">
+  <img src="assets/documentation/favicon.png">
+</p>
 
 - The favicon features a pair of ace cards to indicate the content matter
 
 ## Starting Area
 
-![alt text](assets/documentation/rmstartingarea.png)
+<p align="center">
+<img src="assets/documentation/rmstartingarea.png" height="350px"/>
+</p>
 
 - The landing page
 
-## Header
+### Header
 
-![alt text](assets/documentation/rmheading.png)
+<p align="center">
+<img src="assets/documentation/rmheading.png" height="200px"/>
+</p>
 
-  - The header is in a fixed position and remains static at the top of the page
-  - It can be clicked at any point to return the visitor back to the main starting area
+- The header is in a fixed position and remains static at the top of the page
+- It can be clicked at any point to return the visitor back to the main starting area
 
-## Hero Image
+### Hero Image
 
-![alt text](assets/documentation/rmhero.png)
+<p align="center">
+<img src="assets/documentation/rmhero.png" height="200px"/>
+</p>
 
 - This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main game sections
 
-## Main Navigation Buttons
+### Main Navigation Buttons
 
-![alt text](assets/documentation/rmmainnav.png)
+<p align="center">
+<img src="assets/documentation/rmmainnav.png" height="200px"/>
+</p>
 
 - Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen
 
-## Tarot Draw Section
+## Tarot Draw Instructions Section
+
+<p align="center">
+<img src="assets/documentation/drawinstructions.png" height="350px"/>
+</p>
 
 ### Instructions
 
-![alt text](assets/images/screenshots/)
+### h3
 
-#### h3
-
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawinstructionsh3.png" height="200px"/>
+</p>
 
 - Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
 
-#### Instructions content
+### Instructions content
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawinstructionscontent.png" height="300px"/>
+</p>
 
 - The instructions section explains how to play the Tarot Draw game, step by step. The game navigation buttons are replicated for ease of understanding 
 
-#### Instructions image
+### Instructions image
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawinstructionsimage.png" height="200px"/>
+</p>
 
 - An image of a tarot mystic keeps the instructions section fun and true to tone. Border radius on the top corners lends visual interest and compliments the hand-drawn style of illustation 
 
-#### Navigation button to "Get your Reading!"
+### Navigation button to "Get your Reading!"
+
+<p align="center">
+<img src="assets/documentation/drawinstructionsnav.png" height="200px"/>
+</p>
+
+## Tarot Draw Section
 
 ![alt text](assets/images/screenshots/)
 
-### The Tarot Draw
-
-![alt text](assets/images/screenshots/)
-
-#### h3 
+### h3 
 
 ![alt text](assets/images/screenshots/)
 
 - This header gives the visitor their first direction to play the game: Tap the deck!
 
-#### Tarot Deck
+### Tarot Deck
 
 ![alt text](assets/images/screenshots/)
 
@@ -238,7 +258,7 @@ Examples of this site's interactive features include:
 
 - From this point, the visitor can choose to "Redraw" another card and repeat the same process for a new fortune, or "Exit" back to the starting area
 
-#### Navigation Buttons
+### Navigation Buttons
 
 ![alt text](assets/images/screenshots/)
 
