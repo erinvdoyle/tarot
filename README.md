@@ -1,4 +1,4 @@
-# Welcome to Tarot Card of the Day
+# Tarot Card of the Day
 ## Your destiny awaits...
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 # Introduction
 
-Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Its punchy vector images and bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site intendsis designed to give the visitor a fun distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # Table of Contents
 - [Project](#project)
@@ -100,8 +100,14 @@ The color scheme for Tarot Card of the Day was inspired by the colors in the her
     </p>
 
 -  Hex codes:
-  - C7C6C6, ![Static Badge](https://img.shields.io/badge/Silver-C7C6C6)
-        
+  - #fdf4ce, ![Static Badge](https://img.shields.io/badge/BarleyWhite-fdf4ce)
+  - #2b464f, ![Static Badge](https://img.shields.io/badge/BlueDianne-2b464f)
+  - #A97E10, ![Static Badge](https://img.shields.io/badge/ButteredRum-A97E10)
+  - #fdeca6, ![Static Badge](https://img.shields.io/badge/SandWisp-fdeca6)
+  - #d96b62, ![Static Badge](https://img.shields.io/badge/SunGlo-d96b62)
+  - #7f75b2, ![Static Badge](https://img.shields.io/badge/Kimberly-7f75b2)
+  - #385d65, ![Static Badge](https://img.shields.io/badge/Casal-385d65)
+
 
 ### Typography
 

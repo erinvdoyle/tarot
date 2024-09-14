@@ -66,7 +66,7 @@ const tarotDeck = [{
 	{
 		name: "The World",
 		image: "assets/images/cards/theworld.webp",
-		meaning: "Celebrate your achievements and the completion of a major life cycle. Embrace wholeness, fulfillment and a sense of belonging. Travel, education and cultural exchange are favored. Enjoy a sense of closure and satisfaction."
+		meaning: "Celebrate your achievements and the completion of a major life cycle. Embrace wholeness, fulfillment and a sense of belonging. Travel, education and cultural exchange are favored. Enjoy a sense of closure."
 	},
 	{
 		name: "Wheel of Fortune",
