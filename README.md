@@ -618,11 +618,11 @@ This site was deployed through GitHub repository [/erinvdoyle/tarot](https://git
 
 1. Follow the link above and click the Settings tab in the top navigation bar
 
-![Github Deploy Page 1](../tarot/assets/documentation/deploy1.png)
+![Github Deploy Page 1](assets/documentation/deploy1.png)
 
 2. From there, navigate to the Code and Automation section on the left side of the screen and click the Pages tab
 
-![Github Deploy Page 2](../tarot/assets/documentation/deploy2.png)
+![Github Deploy Page 2](assets/documentation/deploy2.png)
 
 3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source
 
@@ -646,7 +646,7 @@ To make a copy of a repository, fork it through Github:
 1. Find the repository either by using the search bar or by navigating to the URL [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
 2. Once on the repository main page, navigate to the "Fork" button in the upper-right corner, between the "Watch"(/"Unwatch") and "Star" buttons
 
-![Github Fork](tarot/assets/documentation/fork.png)
+![Github Fork](assets/documentation/fork.png)
 
 3. Click the "Fork" button to create a copy of the repository that can altered without affecting the source code
 </p>
@@ -670,6 +670,8 @@ To clone the repository of this site:
  ![Github Clone Page 2](assets/documentation/clone2.png)
 
 4. Type the following command: git clone <github.com/erinvdoyle/tarot> to create a local clone
+
+![Github Clone Page 2](assets/documentation/clone3.png)
 </p>
 </details>
 
