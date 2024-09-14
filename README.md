@@ -1,5 +1,5 @@
-# Tarot Card of the Day
-## Your destiny awaits...
+# **Tarot Card of the Day**
+## *Your destiny awaits...*
 
 <p align="center">
   <img src="assets/documentation/amiresp.png">
@@ -8,11 +8,11 @@
 [Visit the deployed site](https://erinvdoyle.github.io/tarot)
 
 
-# Introduction
+# **Introduction**
 
 Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
-# Table of Contents
+# **Table of Contents**
 - [Project](#project)
   - [User Stories](#user-stories)
 - [User Experience](#user-experience)
@@ -84,7 +84,7 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 **Tarot Card of the Day** has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
-Each button clicks to its own game area instructions section, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own game area instructions section, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions for how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
 More about each section and all of the features can be found in the [Features](<#features>) section.
 
@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="250"/>
+    <img src="assets/documentation/cardscolor.png" height="175"/>
 </p>
 
 **Hex codes:**
@@ -576,22 +576,23 @@ This website was developed with special consideration for accessibility through 
 <details>
   <summary>Misplaced Event Listeners</summary>
 <img src="assets/documentation/bug1.png">
+<p>These errors occurred while writing showMeaning(). This function utilizes CSS flipcards to show the meaning of the displayed card when the deck is tapped. Due to the several sides of card and the overall complexity of the drawCard function, I misplaced the needed event listener and also struggled with selecting the proper element. I worked through these errors through trial and error, using gitpod's port to preview the implementation of the functions</p>
 </details>
 
 <details>
   <summary>A missing stylesheet semicolon that affected the layout </summary>
 <img src="assets/documentation/bug3.png">
-<p></p>
+<p>Several hours were spent trying to debug my JavaScript as I failed to recognize an obvious syntactical error in my CSS. I learned the importance of my working tree as I retraced each change between commits until I found the culprit: A missed semicolon</p>
 </details>
 
 <details>
   <summary>A missing comma in script.js that broke the entire site!</summary>
-<p></p>
+<p>No image for this one as there was no visible error; the main navigation buttons simply stopped working and neither of the gameplay areas were accessible. I consulted the differences in code between my recent commit and the one before it and realized my mistake. After updating my tarotDeck array in JavaScript, I neglected to place a comma after one of the array items</p>
 </details>
 
 ## Unsolved Bugs
 
-After implementing the above solutions and running all code through the necessary validators, one console error remains when I view the site through Microsoft Edge. 
+After implementing the above solutions and running all code through the necessary validators, one console error remains when I view the site through Microsoft Edge 
 
 <details>
   <summary>Uncaught (in promise) Error</summary>
