@@ -161,7 +161,7 @@ Examples of this site's interactive features include:
 ### Header
 
 <p align="center">
-<img src="assets/documentation/rmheading.png" height="200px"/>
+<img src="assets/documentation/rmheading.png" width="250px"/>
 </p>
 
 - The header is in a fixed position and remains static at the top of the page
@@ -194,7 +194,7 @@ Examples of this site's interactive features include:
 ### h3
 
 <p align="center">
-<img src="assets/documentation/drawinstructionsh3.png" width="200px"/>
+<img src="assets/documentation/drawinstructionsh3.png" width="250px"/>
 </p>
 
 - Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
@@ -218,7 +218,7 @@ Examples of this site's interactive features include:
 ### Navigation button to "Get your Reading!"
 
 <p align="center">
-<img src="assets/documentation/drawinstructionsnav.png" width="200px"/>
+<img src="assets/documentation/drawinstructionsnav.png" width="250px"/>
 </p>
 
 ## Tarot Draw Section
@@ -230,7 +230,7 @@ Examples of this site's interactive features include:
 ### h3 
 
 <p align="center">
-<img src="assets/documentation/drawh3.png" width="200px"/>
+<img src="assets/documentation/drawh3.png" width="250px"/>
 </p>
 
 - This header gives the visitor their first direction to play the game: Tap the deck!
@@ -246,7 +246,7 @@ Examples of this site's interactive features include:
 - When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffle sound
 
 <p align="center">
-<img src="assets/documentation/drawnav.png" width="200px"/>
+<img src="assets/documentation/drawnav.png" width="250px"/>
 </p>
 
 - There are three navigation buttons: The sound toggle, the "Draw" button" and the "Exit" button
@@ -259,7 +259,7 @@ Examples of this site's interactive features include:
   - An h3 banner appears below the card, instructing the visitor to tap the card again to read its meaning
 
 <p align="center">
-<img src="assets/documentation/drawmeaning.png" height="300px"/>
+<img src="assets/documentation/drawmeaning.png" height="400px"/>
 </p>
 
 - When the card is tapped, the h3 disappears, and the card meaning or fortune is revealed
@@ -269,7 +269,7 @@ Examples of this site's interactive features include:
 ### Navigation Buttons
 
 <p align="center">
-<img src="assets/documentation/drawnav.png" width="200px"/>
+<img src="assets/documentation/drawnav.png" width="250px"/>
 </p>
 
 - As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A Redraw button, which allows the visitor to draw a different card; and an Exit button, which clicks back to the starting area
@@ -278,29 +278,37 @@ Examples of this site's interactive features include:
 
 ### Instructions 
 
+<p align="center">
+<img src="assets/documentation/quizinstructions.png" height="450px"/>
+</p>
+
+### h3
+
+<p align="center">
+<img src="assets/documentation/quizinstructionsh3.png" width="250px"/>
+</p>
+
+### Instructions Content
+
+<p align="center">
+<img src="assets/documentation/quizinstructionscontent.png" height="300px"/>
+</p>
+
+### Navigation Button
+
+<p align="center">
+<img src="assets/documentation/quizinstructionsnav.png" width="250px"/>
+</p>
+
+## Tarot Quiz Section
+
 ![alt text](assets/images/screenshots/)
 
-#### h3
+### h3
 
 ![alt text](assets/images/screenshots/)
 
-#### Instructions Content
-
-![alt text](assets/images/screenshots/)
-
-#### Navigation Button
-
-![alt text](assets/images/screenshots/)
-
-### The Tarot Quiz
-
-![alt text](assets/images/screenshots/)
-
-#### h3
-
-![alt text](assets/images/screenshots/)
-
-#### Quiz Content
+### Quiz Content
 
 ![alt text](assets/images/screenshots/)
 
@@ -326,7 +334,7 @@ Examples of this site's interactive features include:
 
 - Once all ten questions have been answered, the final score is displayed and the Next button is replaced with a Results button
 
-#### Results Section
+### Results Section
 
 ![alt text](assets/images/screenshots/)
 ![alt text](assets/images/screenshots/)
@@ -334,7 +342,7 @@ Examples of this site's interactive features include:
 
 - The results section features a cheeky blurb based on the success (or lack thereof) of the visitor's quiz results. There are three grades based on points total, from 0-3, 4-6, and 7-10
 
-#### Navigation Buttons
+### Navigation Buttons
 
 ![alt text](assets/images/screenshots/)
 ![alt text](assets/images/screenshots/)
