@@ -429,19 +429,20 @@ Examples of this site's interactive features include:
  <summary>A Table of Feature Tests (click)</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
+|-----------------------------|---------------------------|---------------------------|
 | Favicon | Load Site | Icon and title appear in tab |
 | Header | Click text | Page refreshes |
 | Header | Scroll (on mobile and devTools small screens) | Header remains fixed |
-| **Starting Area** | | |
+| **Starting Area**  |
 | Hero Image | Load page, scroll small screens | Image loads and remains fixed when smaller screens require scrolling
 | Main Navigation Button #1 | Click "Get Your Reading" button | Tarot Reading Instructions area loads|
 | Main Navigation Button #2 | Click "Take The Quiz" button | Tarot Quiz Instructions area loads |
-| **Tarot Draw Instructions Area** | | |
+| **Tarot Draw Instructions Area**  |
 | Tarot Draw Instructions Section | Open Instructions area by clicking "Get Your Reading" button |Area loads and fills viewport below header 
 | Tarot Draw Instructions Section | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
 | Tarot Draw Instructions Image | Open Instructions area by clicking "Get Your Reading" button | Image loads properly and is centered on the x-axis |
 | Navigation Button to Tarot Reading Section | Click "Get Your Reading!" | Tarot Draw section replaces Tarot Intructions Section|
-| **Tarot Draw Area** | | |
+| **Tarot Draw Area**  |
 | Tarot Deck | Click or Tap Deck | Shuffle sound plays and deck Shakes |
 | "Draw" Button | Click button | Chime sound plays, tarot card is displayed, lower h3 appears |
 | Card Meaning | Tap deck as instructed | Card flips to reveal its meaning |
