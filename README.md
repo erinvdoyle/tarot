@@ -302,52 +302,64 @@ Examples of this site's interactive features include:
 
 ## Tarot Quiz Section
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quizsection.png" height="450px"/>
+</p>
 
 ### h3
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quizh3.png" width="250px"/>
+</p>
 
 ### Quiz Content
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quizcontent.png" height="350px"/>
+</p>
 
 - The quiz is laid out with question, answer options, and internal navigation buttons in the same container
 
-![alt text](assets/images/screenshots/)
-
 - Once the visitor has read the question, they can click on their answer choice
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quizanswers.png" height="350px"/>
+</p>
 
 - Each answer vibrates when a choice is made, with the correct answer momentarily enlarging and changing to a green background color, while the incorrect answers change to a red background with text struck through
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quiznext.png" width="250px"/>
+</p>
 
 - A "Next" button appears when the answers are revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quizh3score.png" width="250px"/>
+</p>
 
 - An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect. This banner resets to its standard background color when the "next" button is clicked and the visitor advances to the next question
 
-![alt text](assets/images/screenshots/)
-
 - Once all ten questions have been answered, the final score is displayed and the Next button is replaced with a Results button
-
-### Results Section
-
-![alt text](assets/images/screenshots/)
-![alt text](assets/images/screenshots/)
-![alt text](assets/images/screenshots/)
-
-- The results section features a cheeky blurb based on the success (or lack thereof) of the visitor's quiz results. There are three grades based on points total, from 0-3, 4-6, and 7-10
 
 ### Navigation Buttons
 
-![alt text](assets/images/screenshots/)
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/quiznext.png" width="250px"/>
+<img src="assets/documentation/quizresultsbutton.png" width="250px"/>
+</p>
 
 - There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
+
+### Results Section
+
+<p align="center">
+<img src="assets/documentation/quizresults1.png" height="300px"/>
+<img src="assets/documentation/quizresults1.png" height="300px"/>
+<img src="assets/documentation/quizresults3.png" height="300px"/>
+</p>
+
+- The results section features a cheeky blurb based on the success (or lack thereof) of the visitor's quiz results. There are three grades based on points total, from 0-3, 4-6, and 7-10
 
 
 # Future Features
