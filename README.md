@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="200"/>
+    <img src="assets/documentation/cardscolor.png" height="185"/>
 </p>
 
 **Hex codes:**
@@ -600,7 +600,7 @@ After implementing the above solutions and running all code through the necessar
 <p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my latop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
 </details>
 
-There are no further unsolved bugs, but there are a couple areas on mobile screens that do not function entirely as designed. Neither issue affect the overall performance of the site or impede gameplay:
+There are no further unsolved bugs, but there are a couple areas on mobile screens that do not function entirely as designed. Neither of the issues affect the overall performance of the site or impede gameplay:
 
 - The shake effect when the tarot deck is tapped does not reliably work on Safari or Chrome mobile. A sustained tap usually results in an OS pop up to "Share" or "Save to Photos". Sometimes this can be avoided and the deck shakes properly
 
@@ -643,56 +643,71 @@ Congratulations, your site is now deployed.
 All tutorials used have been credited throughout the code. Tutorials were used as a jumping off point and code was manipulated to perform per my own design and specification
 
 ### CSS Tutorials
-Glowing text tutorial from w3 Schools, "How to Create A Glowing Text": https://www.w3schools.com/howto/howto_css_glowing_text.asp
+[Glowing text tutorial from w3 Schools, "How to Create A Glowing Text":](https://www.w3schools.com/howto/howto_css_glowing_text.asp)
 
-Background image opacity tutorial from Stack Overflow: "Can I set an opacity only to the background image of a div?": https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+[Background image opacity tutorial from Stack Overflow: "Can I set an opacity only to the background image of a div?":](https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div)
 
-Custom scroll bar tutorial from W3 Schools, "How to Create a Custom Scroll Bar": https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+[Custom scroll bar tutorial from W3 Schools, "How to Create a Custom Scroll Bar":](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
-Shaking an image tutorial from W3 Schools, "How to Shake an Image with CSS": https://www.w3schools.com/howto/howto_css_shake_image.asp 
+[Shaking an image tutorial from W3 Schools, "How to Shake an Image with CSS":](https://www.w3schools.com/howto/howto_css_shake_image.asp) 
 
-Flip Card tutorial from W3 Schools, "How to Create CSS Flip Cards": https://www.w3schools.com/howto/howto_css_flip_card.asp 
+[Flip Card tutorial from W3 Schools, "How to Create CSS Flip Cards":](https://www.w3schools.com/howto/howto_css_flip_card.asp )
 
-CSS 2d Transforms tutorial from W3 Schools: https://www.w3schools.com/Css/css3_2dtransforms.asp 
+[CSS 2d Transforms tutorial from W3 Schools:](https://www.w3schools.com/Css/css3_2dtransforms.asp) 
 
 ### JavaScript Tutorials
 
-Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show": https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+[Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show":](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
 
-Building a Quiz Application from Code with Farraz, "Build a Quiz Application with HTML, CSS, and JavaScript": https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+[Building a Quiz Application from Code with Farraz, "Build a Quiz Application with HTML, CSS, and JavaScript"](https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide)
 
-Build a Quiz App with JavaScript from Web Dev Simplified: https://youtu.be/riDzcEQbX6k 
+[Build a Quiz App with JavaScript from Web Dev Simplified:](https://youtu.be/riDzcEQbX6k) 
 
-"How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial" from Brian Design: https://www.youtube.com/watch?v=f4fB9Xg2JEY 
+["How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial" from Brian Design:](https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
 
-Building an Interactive Quiz tutorial from Codepicker57: https://youtu.be/xZXW5SnCiWI 
-https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript
+[Building an Interactive Quiz tutorial from Codepicker57:](https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript)
 
-Tutorial for playing a sound with JavaScript from Sabe.io: https://sabe.io/blog/javascript-play-sound-audio 
+[Tutorial for playing a sound with JavaScript from Sabe.io:](https://sabe.io/blog/javascript-play-sound-audio)
 
-Tutorial for how to shuffle an array of items from FreeCodeCamp.org: https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/ 
+[Tutorial for how to shuffle an array of items from FreeCodeCamp.org:](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/) 
 
-How to randomly shuffle a JavaScript array, question asked on Stack Overflow: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+[How to randomly shuffle a JavaScript array, question asked on Stack Overflow:](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-How to code a card deck in JavaScript: https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript 
+[How to code a card deck in JavaScript:](https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript)
 
-How to utilize Child Nodes: https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes
+[How to utilize Child Nodes:](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)
 
 
 ## Media
 ### Image Credits
-Main Image: https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections Image by storyset on Freepik
+[Main Image by Storyset on Freepik:](https://www.freepik.com/free-vector/tarot-concept-illustration_197101846.htm#position=1&from_element=collections)
 
-Fortune Teller: Freepik (attribution to come)
+[Fortune Teller by Storyset on Freepik](https://www.freepik.com/free-vector/fortune-teller-concept-illustration_69243555.htm#fromView=author&page=1&position=15&uuid=2285f5b2-3dab-4c5c-89a4-8f8ceb41fcb1)
 
-Quiz Background: Freepik (attribution to come)
+[Main Tarot Card image by Freepik](https://www.freepik.com/free-vector/hand-drawn-tarot-cards-illustration_39555275.htm#fromView=search&page=2&position=24&uuid=e85cc8e3-0795-4d80-90d6-bc56a9b1ca1e)
 
-Tarot Card: https://www.freepik.com/free-vector/hand-drawn-tarot-cards-illustration_39555275.htm#fromView=search&page=2&position=24&uuid=e85cc8e3-0795-4d80-90d6-bc56a9b1ca1e Image by freepik
+[Tarot Cards Collection 1 by Freepik](https://www.freepik.com/serie/39555281)
+
+[Tarot Cards Collection 2 by Freepik](https://www.freepik.com/serie/39555272)
+
+[Tarot Cards Collection 3 by Freepik](https://www.freepik.com/serie/39110667)
+
+[Tarot Cards Collection 4 by Pikisuperstar on Freepik](https://www.freepik.com/serie/38600027)
+
+[Tarot Eye](https://www.freepik.com/free-vector/hand-drawn-celestial-pattern-design_137950070.htm#position=3&from_element=collections)
+
+[Quiz Background by RawPixel.com on Freepik](https://www.freepik.com/free-vector/celestial-object-sketch-set-beige-background_16446731.htm#position=6&from_element=collections)
+
+[Quiz Results Image by Studiogstock on Freepik](https://www.freepik.com/free-vector/esoteric-hand-mystical-icon_136483400.htm)
 
 ### Sound Credits 
-Wrong answer Sound Effect by <a href="https://pixabay.com/users/eritnhut1992-25656588/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20582">Nhựt Bùi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20582">Pixabay</a>
+[Wrong answer Sound Effect by Nhựt Bùi on Pixabay](https://pixabay.com/sound-effects/buzzer-or-wrong-answer-20582/)
 
-Correct answer: Sound Effect from <a href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6033">Pixabay</a>
+[Correct answer Sound Effect from Pixabay](https://pixabay.com/sound-effects/correct-6033/)
+
+[Shuffle Sound](https://pixabay.com/sound-effects/shuffleandbridge-107641/)
+
+[Draw Card Chime from Pixabay](https://pixabay.com/sound-effects/chime-and-chomp-84419/)
 
 ### Other Resources
 
@@ -702,7 +717,7 @@ Correct answer: Sound Effect from <a href="https://pixabay.com/sound-effects/?ut
 - Our cohort standup leader, Laura Mayock
 
 # Contact
-Thank you for viewing my project. Please feel free to contact me with any questions or comments.
+Thank you for viewing my project. Please feel free to contact me with any questions or comments
   
  - [erin.v.doyle@gmail.com](mailto:erin.v.doyle@gmail.com)
  - [linkedin.com/erinvdoyle](https://linkedin.com/erinvdoyle)
