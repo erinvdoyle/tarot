@@ -153,7 +153,7 @@ Examples of this site's interactive features include:
 ## Starting Area
 
 <p align="center">
-<img src="assets/documentation/rmstartingarea.png" height="350px"/>
+<img src="assets/documentation/rmstartingarea.png" height="450px"/>
 </p>
 
 - The landing page
@@ -186,7 +186,7 @@ Examples of this site's interactive features include:
 ## Tarot Draw Instructions Section
 
 <p align="center">
-<img src="assets/documentation/drawinstructions.png" height="350px"/>
+<img src="assets/documentation/drawinstructions.png" height="450px"/>
 </p>
 
 ### Instructions
@@ -194,7 +194,7 @@ Examples of this site's interactive features include:
 ### h3
 
 <p align="center">
-<img src="assets/documentation/drawinstructionsh3.png" height="200px"/>
+<img src="assets/documentation/drawinstructionsh3.png" width="200px"/>
 </p>
 
 - Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
@@ -218,49 +218,59 @@ Examples of this site's interactive features include:
 ### Navigation button to "Get your Reading!"
 
 <p align="center">
-<img src="assets/documentation/drawinstructionsnav.png" height="200px"/>
+<img src="assets/documentation/drawinstructionsnav.png" width="200px"/>
 </p>
 
 ## Tarot Draw Section
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawsection.png" height="450px"/>
+</p>
 
 ### h3 
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawh3.png" width="200px"/>
+</p>
 
 - This header gives the visitor their first direction to play the game: Tap the deck!
 
 ### Tarot Deck
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawdeck.png" height="300px"/>
+</p>
 
 - The Tarot Deck starting mode is the deck of cards, featuring the back of one of the cards
 
-![alt text](assets/images/screenshots/)
-
 - When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffle sound
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawnav.png" width="200px"/>
+</p>
 
 - There are three navigation buttons: The sound toggle, the "Draw" button" and the "Exit" button
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawbutton.png" height="450px"/>
+</p>
 
 - When the visitor taps "Draw", a magical chime sound plays, and a card is chosen at random and displayed
   - An h3 banner appears below the card, instructing the visitor to tap the card again to read its meaning
 
-  ![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawmeaning.png" height="300px"/>
+</p>
 
 - When the card is tapped, the h3 disappears, and the card meaning or fortune is revealed
-
-![alt text](assets/images/screenshots/)
 
 - From this point, the visitor can choose to "Redraw" another card and repeat the same process for a new fortune, or "Exit" back to the starting area
 
 ### Navigation Buttons
 
-![alt text](assets/images/screenshots/)
+<p align="center">
+<img src="assets/documentation/drawnav.png" width="200px"/>
+</p>
 
 - As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A Redraw button, which allows the visitor to draw a different card; and an Exit button, which clicks back to the starting area
 
