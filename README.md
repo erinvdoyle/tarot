@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="185"/>
+    <img src="assets/documentation/cardscolor.png" height="175"/>
 </p>
 
 **Hex codes:**
@@ -612,27 +612,59 @@ There are no further unsolved bugs, but there are a couple areas on mobile scree
 
 <details>
   <summary>How to Deploy (click)</summary> 
+  This site was deployed through GitHub repository [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
 <p align="center">
-<img src="assets/images/screenshots/">
-</p>
-<br>
+1. Follow the link above and click the Settings tab in the top navigation bar
 
-<p align="center">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
+<img src="assets/documentation/deploy1.png">
+
+2. From there, navigate to the Code and Automation section on the left side of the screen and click the Pages tab
+
+<img src="assets/documentation/deploy2.png">
+
+3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source
+
+<img src="assets/documentation/deploy3.png">
+
+4. Under Branch, select "main" with folder "/root" and click Save
+Congratulations, your site is now deployed
+
+<img src="assets/documentation/deploy4.png">
 </p>
 </details>
 
-This site was deployed through GitHub repository [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
-1. Follow the link above and click the Settings tab in the top navigation bar.
-2. From there, navigate to the Code and Automation section on the left side of the screen and click the pages tab.
-3. Under the "Build and deployment" header, click the drop down menu "Deploy from a branch," located under Source.
-4. Under Branch, select "main" with folder "/root" and click Save.
-Congratulations, your site is now deployed.
+## To Fork The Repository on GitHub
 
-## How to Fork The Repository on GitHub
+<details>
+  <summary>How to fork the Tarot repository (click)</summary>
+  To make a copy of a repository, fork it through Github:
+1. Find the repository either by using the search bar or by navigating to the URL [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
+2. Once on the repository main page, navigate to the "Fork" button in the upper-right corner, between the "Watch"(/"Unwatch") and "Star" buttons
+
+  <img src="assets/documentation/fork.png">
+
+3. Click the "Fork" button to create a copy of the repository that can altered without affecting the source code
+</details>
 
 ## Creating A Local Clone of The Project
+
+<details>
+  <summary>How to create a local clone (click)</summary>
+  To clone the repository of this site:
+
+1. Click the "Code" button in your forked repository
+
+ <img src="assets/documentation/clone1.png">
+
+2. Copy the repository URL (HTTPS, SSH, or GitHub CLI)
+3. Open a terminal (or command prompt) on your computer
+
+ <img src="assets/documentation/clone2">
+
+4. Type the following command: git clone <github.com/erinvdoyle/tarot> to create a local clone
+</details>
+
+
 
 # Credits
 
