@@ -2,7 +2,7 @@
 ## Your destiny awaits...
 
 <p align="center">
-  <img src="assets/documentation/amiresp1.png">
+  <img src="assets/documentation/amiresp.png">
 </p>
 
 [Visit the deployed site](https://erinvdoyle.github.io/tarot)
@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="150"/>
+    <img src="assets/documentation/cardscolor.png" height="250"/>
 </p>
 
 **Hex codes:**
@@ -321,17 +321,26 @@ Examples of this site's interactive features include:
 - [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling
 
 ## Frameworks, Libraries, and Software
-- [Am I Responsive](https://ui.dev/amiresponsive) -
-- [Balsamiq](https://balsamiq.com/wireframes/) -
-- [Coolors](https://coolors.co/) -
-- [Font Awesome:](https://fontawesome.com/) -
-- [Github](https://github.com/) -
-- [Gitpod](https://www.gitpod.io/#get-started) -
-- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) -
-- [Google Fonts](https://fonts.google.com/) -
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - 
-- [Pixabay](https://www.pixabay.com) -
-* [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) -
+- [Am I Responsive](https://ui.dev/amiresponsive) - to check site responsiveness
+- [Balsamiq](https://balsamiq.com/wireframes/) - to create first draft wireframes for the site
+- [ChatGPT](https://openai.com/chatgpt/) - for initial quiz and tarot copy inspiration which was tweaked for style and tone
+- [Code Beautify](https://codebeautify.org) - for final formatting checks
+- [Coolors](https://coolors.co/) - to provide the README color palette
+- [Font Awesome:](https://fontawesome.com/) - for sound toggle icon
+- [Freepik](https://www.freepik.com) - for all of the images
+- [Github](https://github.com/) - to host the site
+- [Gitpod](https://www.gitpod.io/#get-started) - to create, edit, and deploy the site
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - to test the website 
+- [Google Fonts](https://fonts.google.com/) - for the use of "Uncial Antiqua" and "Libre Baskerville"
+- [Icons8](https://icons8.com/) - for playing cards favicon
+- [Image Color Picker](https://www.imagecolorpicker.com) - to extract color palette from illustrations
+- [JSHint](https://jshint.com/) - for JavaScript validation
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - to review site performance and accessibility
+- [Pixabay](https://www.pixabay.com) - for all site audio
+- [Shields.io](https://shields.io/badges) - for README color badges
+- [Squoosh](https://squoosh.app/) - for image compression
+- [W3C](https://validator.w3.org/) - to validate HTML and CSS
+- [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) - to test site accessibility
 
 # Testing
 
