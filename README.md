@@ -43,7 +43,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
 
 ## User Stories
    <details>
-   <summary>User Stories for Tarot Card of The Day</summary>
+   <summary>User Stories for Tarot Card of The Day (click)</summary>
  
  - **As a new visitor**, I want:
     - A cleanly designed and intuitive layout so I can easily navigate the site
@@ -69,7 +69,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
 
 ## Wireframes
 <details>
-  <summary>This project was planned and assembled in Balsamiq Wireframes</summary>
+  <summary>This project was planned and assembled in Balsamiq Wireframes (click)</summary>
    <p>Mobile</p>
    <img src="assets/documentation/tarotmobilewf.png">
    <p>Tablet</p>
@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="175"/>
+    <img src="assets/documentation/cardscolor.png" height="200"/>
 </p>
 
 **Hex codes:**
@@ -347,7 +347,7 @@ Examples of this site's interactive features include:
 ## Feature Testing 
 
 <details>
-  <summary>Testing the Main Navigation Buttons (Pictured)</summary> 
+  <summary>Testing the Main Navigation Buttons (click)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/">
 <img src="assets/images/screenshots/">
@@ -359,7 +359,7 @@ Examples of this site's interactive features include:
 - The "Test Your Knowledge" Button clicks to the Tarot Quiz Instructions Page
 
 <details>
-  <summary>Testing Tarot Reading Instructions Navigation Button (Pictured)</summary> 
+  <summary>Testing Tarot Reading Instructions Navigation Button (click)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/">
 </p>
@@ -368,7 +368,7 @@ Examples of this site's interactive features include:
 - The "Get Your Reading Button" clicks through to the Tarot Draw Section
 
 <details>
-  <summary>Testing the Tarot Draw Section (Pictured)</summary> 
+  <summary>Testing the Tarot Draw Section (click)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/">
 <img src="assets/images/screenshots/">
@@ -390,7 +390,7 @@ Examples of this site's interactive features include:
 - The Exit button returns the visitor to the main starting area
 
 <details>
-  <summary>Testing the Tarot Quiz Instructions Navigation Button (Pictured)</summary> 
+  <summary>Testing the Tarot Quiz Instructions Navigation Button (click)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/">
 </p>
@@ -426,7 +426,7 @@ Examples of this site's interactive features include:
 
 <details>
 
- <summary>A Table of Feature Tests</summary>
+ <summary>A Table of Feature Tests (click)</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
 </details>
@@ -444,7 +444,7 @@ No errors were returned in any of the three code validators
 ### HTML Validation
 - [W3C HTML Validator](https://validator.w3.org/) -
 <details>
-    <summary>HTML Validation Screenshot</summary>
+    <summary>HTML Validation Screenshot (click)</summary>
      <img src="assets/documentation/htmlvalidation.png">
      <p>No errors were returned</p>
   </details>
@@ -452,7 +452,7 @@ No errors were returned in any of the three code validators
 ### CSS Validation
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) -
 <details>
-    <summary>CSS Validation Screenshot</summary>
+    <summary>CSS Validation Screenshot (click)</summary>
      <img src="assets/documentation/cssvalidation.png">
      <p>No errors returned</p>
   </details>
@@ -460,7 +460,7 @@ No errors were returned in any of the three code validators
 ### JavaScript Validation
 - [JSHint JavaScript Validator](https://) -
 <details>
-    <summary>JavaScript Validation Screenshot</summary>
+    <summary>JavaScript Validation Screenshot (click)</summary>
      <img src="assets/documentation/jsvalidation1.png">
      <img src="assets/documentation/jsvalidation2.png">
      <p>No errors returned. Three unused variables were noted, but each of these is a function used in the quiz game</p>
@@ -478,32 +478,32 @@ No errors were returned in any of the three code validators
 ### Screenshots of each section of the site as tested in Chrome DevTools
 
 <details>
-  <summary>Screenshots of the Starting Area</summary>
+  <summary>Screenshots of the Starting Area (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz Instructions</summary>
+  <summary>Screenshots of the Tarot Quiz Instructions (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz</summary>
+  <summary>Screenshots of the Tarot Quiz (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz Results</summary>
+  <summary>Screenshots of the Tarot Quiz Results (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Draw Instructions</summary>
+  <summary>Screenshots of the Tarot Draw Instructions (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Draw</summary>
+  <summary>Screenshots of the Tarot Draw (click)</summary>
 <img src="assets/images/screenshots/">
 </details>
 
@@ -521,19 +521,19 @@ No errors were returned in any of the three code validators
 ### Lighthouse
 
 <details>
-  <summary>Lighthouse Test Results (Pictured)</summary> 
+  <summary>Lighthouse Test Results (click)</summary> 
 <img src="assets/documentation/lighthousemobile.png">
 </details>
 
 <details>
-  <summary>Lighthouse Test Results (Pictured)</summary> 
+  <summary>Lighthouse Test Results (click)</summary> 
 <img src="assets/documentation/lighthousedesktop.png">
 </details>
 
 ### WAVE Testing
 
 <details>
-  <summary>WAVE Web Accessibility Evaluation Tool (Pictured)</summary> 
+  <summary>WAVE Web Accessibility Evaluation Tool (click)</summary> 
 <img src="assets/documentation/wave.png">
 <p>After changing the header and navigation buttons to darker colors for better contrast, the site passed the WAVE evaluation with zero contrast errors. One error and two alerts were highlighted:
 
@@ -556,14 +556,14 @@ This website was developed with special consideration for accessibility through 
 - Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
 
 <details>
-  <summary>Screenshots of each section of the site as tested on Am I Responsive?</summary>
+  <summary>Screenshots of each section of the site as tested on Am I Responsive? (click)</summary>
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
 </details>
 <details>
-  <summary>Screenshots of each page of the site as tested on my own device, iPhone 13Pro</summary>
+  <summary>Screenshots of each page of the site as tested on my own device, iPhone 13Pro (click)</summary>
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
@@ -574,19 +574,19 @@ This website was developed with special consideration for accessibility through 
 
 ## Solved Bugs
 <details>
-  <summary>Misplaced Event Listeners</summary>
+  <summary>Misplaced Event Listeners (click)</summary>
 <img src="assets/documentation/bug1.png">
 <p>These errors occurred while writing showMeaning(). This function utilizes CSS flipcards to show the meaning of the displayed card when the deck is tapped. Due to the several sides of card and the overall complexity of the drawCard function, I misplaced the needed event listener and also struggled with selecting the proper element. I worked through these errors through trial and error, using gitpod's port to preview the implementation of the functions</p>
 </details>
 
 <details>
-  <summary>A missing stylesheet semicolon that affected the layout </summary>
+  <summary>A missing stylesheet semicolon that affected the layout (click)</summary>
 <img src="assets/documentation/bug3.png">
 <p>Several hours were spent trying to debug my JavaScript as I failed to recognize an obvious syntactical error in my CSS. I learned the importance of my working tree as I retraced each change between commits until I found the culprit: A missed semicolon</p>
 </details>
 
 <details>
-  <summary>A missing comma in script.js that broke the entire site!</summary>
+  <summary>A missing comma in script.js that broke the entire site! (click)</summary>
 <p>No image for this one as there was no visible error; the main navigation buttons simply stopped working and neither of the gameplay areas were accessible. I consulted the differences in code between my recent commit and the one before it and realized my mistake. After updating my tarotDeck array in JavaScript, I neglected to place a comma after one of the array items</p>
 </details>
 
@@ -595,7 +595,7 @@ This website was developed with special consideration for accessibility through 
 After implementing the above solutions and running all code through the necessary validators, one console error remains when I view the site through Microsoft Edge 
 
 <details>
-  <summary>Uncaught (in promise) Error</summary>
+  <summary>Uncaught (in promise) Error (click)</summary>
 <img src="assets/documentation/bug2.png">
 <p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my latop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
 </details>
@@ -611,7 +611,7 @@ There are no further unsolved bugs, but there are a couple areas on mobile scree
 ## To Deploy The Project
 
 <details>
-  <summary>How to Deploy (pictured)</summary> 
+  <summary>How to Deploy (click)</summary> 
 <p align="center">
 <img src="assets/images/screenshots/">
 </p>
@@ -639,14 +639,45 @@ Congratulations, your site is now deployed.
 ## Content
 
 ## Technical Content
-Glowing Text Tutorial from w3 Schools, "How to Create A Glowing Text": https://www.w3schools.com/howto/howto_css_glowing_text.asp
 
-JavaScript Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show"
-https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+All tutorials used have been credited throughout the code. Tutorials were used as a jumping off point and code was manipulated to perform per my own design and specification
 
-JS for Quiz guided by tutorial from Code with Farraz: "Build a Quiz Application with HTML, CSS, and JavaScript" https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+### CSS Tutorials
+Glowing text tutorial from w3 Schools, "How to Create A Glowing Text": https://www.w3schools.com/howto/howto_css_glowing_text.asp
 
-Tutorial Credit: Stack Overflow: "Can I set an opacity only to the background image of a div?" https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+Background image opacity tutorial from Stack Overflow: "Can I set an opacity only to the background image of a div?": https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+
+Custom scroll bar tutorial from W3 Schools, "How to Create a Custom Scroll Bar": https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+
+Shaking an image tutorial from W3 Schools, "How to Shake an Image with CSS": https://www.w3schools.com/howto/howto_css_shake_image.asp 
+
+Flip Card tutorial from W3 Schools, "How to Create CSS Flip Cards": https://www.w3schools.com/howto/howto_css_flip_card.asp 
+
+CSS 2d Transforms tutorial from W3 Schools: https://www.w3schools.com/Css/css3_2dtransforms.asp 
+
+### JavaScript Tutorials
+
+Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show": https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp
+
+Building a Quiz Application from Code with Farraz, "Build a Quiz Application with HTML, CSS, and JavaScript": https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
+
+Build a Quiz App with JavaScript from Web Dev Simplified: https://youtu.be/riDzcEQbX6k 
+
+"How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial" from Brian Design: https://www.youtube.com/watch?v=f4fB9Xg2JEY 
+
+Building an Interactive Quiz tutorial from Codepicker57: https://youtu.be/xZXW5SnCiWI 
+https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript
+
+Tutorial for playing a sound with JavaScript from Sabe.io: https://sabe.io/blog/javascript-play-sound-audio 
+
+Tutorial for how to shuffle an array of items from FreeCodeCamp.org: https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/ 
+
+How to randomly shuffle a JavaScript array, question asked on Stack Overflow: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+
+How to code a card deck in JavaScript: https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript 
+
+How to utilize Child Nodes: https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes
+
 
 ## Media
 ### Image Credits
