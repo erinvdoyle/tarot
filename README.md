@@ -98,7 +98,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
     <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
-    <img src="assets/documentation/cardscolor.png" height="175"/>
+    <img src="assets/documentation/cardscolor1.png" height="150"/>
 </p>
 
 **Hex codes:**
@@ -429,6 +429,29 @@ Examples of this site's interactive features include:
  <summary>A Table of Feature Tests (click)</summary>
 
 | Feature                     | Test Case                 | Outcome                   |
+| Favicon | Load Site | Icon and title appear in tab |
+| Header | Click text | Page refreshes |
+| Header | Scroll (on mobile and devTools small screens) | Header remains fixed |
+| **Starting Area** | | |
+| Hero Image | Load page, scroll small screens | Image loads and remains fixed when smaller screens require scrolling
+| Main Navigation Button #1 | Click "Get Your Reading" button | Tarot Reading Instructions area loads|
+| Main Navigation Button #2 | Click "Take The Quiz" button | Tarot Quiz Instructions area loads |
+| **Tarot Draw Instructions Area** | | |
+| Tarot Draw Instructions Section | Open Instructions area by clicking "Get Your Reading" button |Area loads and fills viewport below header 
+| Tarot Draw Instructions Section | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
+| Tarot Draw Instructions Image | Open Instructions area by clicking "Get Your Reading" button | Image loads properly and is centered on the x-axis |
+| Navigation Button to Tarot Reading Section | Click "Get Your Reading!" | Tarot Draw section replaces Tarot Intructions Section|
+| **Tarot Draw Area** | | |
+| Tarot Deck | Click or Tap Deck | Shuffle sound plays and deck Shakes |
+| "Draw" Button | Click button | Chime sound plays, tarot card is displayed, lower h3 appears |
+| Card Meaning | Tap deck as instructed | Card flips to reveal its meaning |
+| "Redraw" Button | Click button | A new card appears in place of the current one and the card can be tapped for its meaning |
+| Sound Toggle | Click On and Off through all stages of play | Sound turns on and off as intended |
+| "Exit" Button | Click button | Tarot Draw section is replaced by Starting Area |
+
+
+
+
 </details>
 
 ## Code Validation
@@ -748,7 +771,7 @@ All tutorials used have been credited throughout the code. Tutorials were used a
 
 [Correct answer Sound Effect from Pixabay](https://pixabay.com/sound-effects/correct-6033/)
 
-[Shuffle Sound](https://pixabay.com/sound-effects/shuffleandbridge-107641/)
+[Shuffle Sound Effect from Pixabay](https://pixabay.com/sound-effects/shuffleandbridge-107641/)
 
 [Draw Card Chime from Pixabay](https://pixabay.com/sound-effects/chime-and-chomp-84419/)
 
