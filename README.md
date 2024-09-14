@@ -69,7 +69,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
 
 ## Wireframes
 <details>
-  <summary>This project was planned and assembled in Balsamiq Wireframes (click)</summary>
+  <summary>This project was planned with Balsamiq Wireframes (click)</summary>
    <p>Mobile</p>
    <img src="assets/documentation/tarotmobilewf.png">
    <p>Tablet</p>
@@ -148,22 +148,28 @@ Examples of this site's interactive features include:
 
 - The favicon features a pair of ace cards to indicate the content matter
 
+## Starting Area
+
+![alt text](assets/documentation/rmstartingarea.png)
+
+- The landing page
+
 ## Header
 
-![alt text](assets/images/screenshots/)
+![alt text](assets/documentation/rmheading.png)
 
   - The header is in a fixed position and remains static at the top of the page
   - It can be clicked at any point to return the visitor back to the main starting area
 
 ## Hero Image
 
-![alt text](assets/images/screenshots/)
+![alt text](assets/documentation/rmhero.png)
 
 - This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main game sections
 
 ## Main Navigation Buttons
 
-![alt text](assets/images/screenshots/)
+![alt text](assets/documentation/rmmainnav.png)
 
 - Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen
 
