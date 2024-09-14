@@ -434,7 +434,7 @@ Examples of this site's interactive features include:
 | Header | Click text | Page refreshes |
 | Header | Scroll (on mobile and DevTools small screens) | Header remains fixed |
 | **Starting Area**  |
-| Hero Image | Load page, scroll small screens | Image loads and remains fixed when smaller screens require scrolling
+| Hero Image | Load page | Image loads quickly |
 | Main Navigation Button #1 | Click "Get Your Reading" button | Tarot Reading Instructions section loads|
 | Main Navigation Button #2 | Click "Take The Quiz" button | Tarot Quiz Instructions section loads |
 | **Tarot Draw Instructions Section**  |
@@ -443,10 +443,14 @@ Examples of this site's interactive features include:
 | Tarot Draw Instructions Image | Open Instructions section by clicking "Get Your Reading" button | Image loads properly and is centered on the x-axis |
 | Navigation Button to Tarot Reading Section | Click "Get Your Reading!" | Tarot Draw Section replaces Tarot Draw Intructions Section|
 | **Tarot Draw Section**  |
-| Tarot Deck | Click or Tap Deck | Shuffle sound plays and deck Shakes |
-| "Draw" Button | Click button | Chime sound plays, tarot card is displayed, lower h3 appears |
-| Card Meaning | Tap deck as instructed | Card flips to reveal its meaning and lower h3 disappears |
-| "Redraw" Button | Click button | A new card appears in place of the current card and it can now be tapped for its meaning |
+| Tarot Deck | Click or Tap Deck | Shuffle sound plays|
+| Tarot Deck | Click or Tap Deck | Deck Shakes |
+| "Draw" Button | Click button | Chime sound |
+| "Draw" Button | Click button | Tarot card is displayed |
+| "Draw" Button | Click button | Lower h3 appears |
+| Card Meaning | Tap deck as instructed | Card flips to reveal meaning |
+| Card Meaning | Tap deck as instructed | Lower h3 disappears |
+| "Redraw" Button | Click button | A new card appears in place of the current card and can now be tapped for its own meaning |
 | Sound Toggle | Click On and Off through all stages of play | Sound turns on and off as intended |
 | "Exit" Button | Click button | Page refreshes and Tarot Draw section is replaced by Starting Area |
 | **Tarot Quiz Instructions Section** |
@@ -455,16 +459,22 @@ Examples of this site's interactive features include:
 | Navigation Button to Tarot Quiz Section | Click "Take the quiz!" | Tarot Quiz Section replaces Tarot Quiz Intructions Section|
 | **Tarot Quiz Section**|
 |Tarot Quiz Section | Navigate into Tarot Quiz Section | Quiz with question, answers, and navigation buttons loads |
-| Answer option buttons | Click button to select answer - incorrect | - Incorrect answers turn red while correct turns green
- - Answer buttons vibrate 
- - incorrect text is struck through
- - wrong answer buzzer sounds |
-| Answer option buttons | Click button to select answer - correct | Correct answer turns green while others turn red, answer buttons vibrate, correct answer briefly expands, correct answer buzzer sounds |
-| Lower h3 Points Tally | Play quiz | Background color changes to green or red based on correct or incorrect answer. Score tally updates with each answer |
-| "Next" button | Click button to advance to next question | Button appears once question has been answered and advances quiz on click to the next question. Button disappears until the current question is answered so that all ten questions must be answered |
+| Answer option buttons | Click button to select answer - **incorrect** | Incorrect answers turn red while correct turns green |
+| Answer option buttons | Click button to select answer - incorrect | Answer buttons vibrate |
+| Answer option buttons | Click button to select answer - incorrect | Incorrect text is struck through |
+| Answer option buttons | Click button to select answer - incorrect | Wrong answer buzzer sounds |
+| Answer option buttons | Click button to select answer - **correct** | Correct answer turns green while others turn red |
+| Answer option buttons | Click button to select answer - correct | Answer buttons vibrate |
+| Answer option buttons | Click button to select answer - correct | Correct answer briefly expands |
+| Answer option buttons | Click button to select answer - correct | Correct answer buzzer sounds |
+| Lower h3 Points Tally | Play quiz | Background color changes to green or red based on correct or incorrect answer |
+| Lower h3 Points Tally | Play quiz | Score tally updates with each answer |
+| "Next" button | Click button to advance to next question | Button appears once question has been answered |
+| "Next" button | Click button to advance to next question | Button advances quiz "onclick" to next question | 
+| "Next" button | Click button to advance to next question | Button disappears until current question is answered so that all ten questions must be answered |
 | Sound Toggle | Click speaker icon throughout different questions of the quiz | Sound toggles on and off as instructed |
 | "Get Results" button | Answer all ten questions and click button |Button appears after tenth question has been answered and brings visitor to the results area |
-| Results area | Click "Get Results" button | Visitor is brought to results section and to the intended blurb determined by their points tally |
+| Results area | Click "Get Results" button | Visitor is brought to intended results blurb as determined by points tally |
 | "Exit" button | Click button at different stages of play | Button returns visitor to starting area |
 
 
@@ -662,7 +672,7 @@ This site was deployed through GitHub repository [/erinvdoyle/tarot](https://git
 
 ![Github Deploy Page 1](assets/documentation/deploy1.png)
 
-2. From there, navigate to the Code and Automation section on the left side of the screen and click the Pages tab
+2. From there, navigate to the Code and Automation section on the left side of the screen. Click the Pages tab
 
 ![Github Deploy Page 2](assets/documentation/deploy2.png)
 
@@ -670,8 +680,7 @@ This site was deployed through GitHub repository [/erinvdoyle/tarot](https://git
 
 ![Github Deploy Page 3](assets/documentation/deploy3.png)
 
-4. Under Branch, select "main" with folder "/root" and click Save
-Congratulations, your site is now deployed
+4. Under Branch, select "main" with folder "/root". Click Save. Congratulations, your site is now deployed
 
 ![Github Deploy Page 4](assets/documentation/deploy4.png)
 </p>
@@ -690,7 +699,7 @@ To make a copy of a repository, fork it through Github:
 
 ![Github Fork](assets/documentation/fork.png)
 
-3. Click the "Fork" button to create a copy of the repository that can altered without affecting the source code
+3. Click the "Fork" button to create a copy of the repository. This can now be altered without affecting the source code
 </p>
 </details>
 
@@ -711,7 +720,7 @@ To clone the repository of this site:
 
  ![Github Clone Page 2](assets/documentation/clone2.png)
 
-4. Type the following command: git clone <github.com/erinvdoyle/tarot> to create a local clone
+4. Type the following command: git clone https://github.com/erinvdoyle/tarot.git to create a local clone
 
 ![Github Clone Page 2](assets/documentation/clone3.png)
 </p>
