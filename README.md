@@ -10,7 +10,7 @@
 
 # Introduction
 
-Welcome to Tarot Card of the Day, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The Quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # Table of Contents
 - [Project](#project)
@@ -45,7 +45,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
    <details>
    <summary>User Stories for Tarot Card of The Day</summary>
  
- - As a new visitor, I want:
+ - **As a new visitor**, I want:
     - A cleanly designed and intuitive layout so I can easily navigate the site
     - An engaging experience with bright colors and sounds
     - A simple tarot draw that allows me to pick one card to guide my day, week, or specific question
@@ -56,11 +56,11 @@ It is intended for users of all age, race, and gender, from all walks of life. T
     - A button that allows me to exit the quiz or tarot draw when I wish
     - A fully responsive experience so that I can use any of my screens  
    
- - As a returning visitor, I want:
+ - **As a returning visitor**, I want:
     - A random selection of quiz questions so that I can test myself with fresh content
     - A random tarot draw so that I can get a new reading every time I visit
 
-  - As the owner of the site, I want:
+  - **As the owner of the site**, I want:
     - More than one interest point for the visitor: The choice between a tarot reading or a quiz
     - A site that is easily maintained yet continues to offer engagement for new and repeat visitors
     </details>
@@ -82,7 +82,7 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 ## Site Structure
 
-Tarot Card of the Day has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
+**Tarot Card of the Day** has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
 Each button clicks to its own game area instructions section, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
@@ -93,20 +93,23 @@ More about each section and all of the features can be found in the [Features](<
 
 ### Color Scheme
 
-The color scheme for Tarot Card of the Day was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the creamy yellow background provides contrast and readability.
+The color scheme for **Tarot Card of the Day** was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the creamy yellow background provides contrast and readability.
 
 <p align="center">
-    <img src="assets/images/screenshots/" alt="" height="150"/>
-    </p>
+    <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
+    <img src="assets/images/tarotbg.webp" height="150" style="margin-right: 20px;"/>
+    <img src="assets/documentation/cardscolor.png" height="150"/>
+</p>
 
--  Hex codes:
-  - #fdf4ce, ![Static Badge](https://img.shields.io/badge/BarleyWhite-fdf4ce)
-  - #2b464f, ![Static Badge](https://img.shields.io/badge/BlueDianne-2b464f)
-  - #A97E10, ![Static Badge](https://img.shields.io/badge/ButteredRum-A97E10)
-  - #fdeca6, ![Static Badge](https://img.shields.io/badge/SandWisp-fdeca6)
-  - #d96b62, ![Static Badge](https://img.shields.io/badge/SunGlo-d96b62)
-  - #7f75b2, ![Static Badge](https://img.shields.io/badge/Kimberly-7f75b2)
-  - #385d65, ![Static Badge](https://img.shields.io/badge/Casal-385d65)
+**Hex codes:**
+- #fdf4ce, ![Static Badge](https://img.shields.io/badge/LemonChiffon-fdf4ce)
+- #fdeca6, ![Static Badge](https://img.shields.io/badge/Vanilla-fdeca6)
+- #A97E10, ![Static Badge](https://img.shields.io/badge/DarkGoldenrod-A97E10)
+- #d96b62, ![Static Badge](https://img.shields.io/badge/IndianRed-d96b62)
+- #FF9EA9, ![Static Badge](https://img.shields.io/badge/SalmonPink-FF9EA9)
+- #7f75b2, ![Static Badge](https://img.shields.io/badge/Amethyst-7f75b2)
+- #385d65, ![Static Badge](https://img.shields.io/badge/DarkSlateGray-385d65)
+- #2b464f, ![Static Badge](https://img.shields.io/badge/Charcoal-2b464f)
 
 
 ### Typography
