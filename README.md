@@ -82,18 +82,24 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 ## Site Structure
 
-**Tarot Card of the Day** has two main game sections, as indicated by the bright red "Get Your Reading" and "Take the Quiz" navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
+**Tarot Card of the Day** has two main game areas, as indicated by the bright red *Get Your Reading* and *Take the Quiz* navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
-Each button clicks to its own game area instructions section, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions for how to play, the game described is accessed through another button click, and the game section replaces the instructions. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own game instructions area, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions for how to play, the game described is accessed through another button click, and the game area replaces the instructions area. The visitor is offered the chance to exit and return to the starting area throughout each game.
 
-More about each section and all of the features can be found in the [Features](<#features>) section.
+More about each area and all of the features can be found in the [Features](<#features>) section.
+
+[Starting Area](#<starting-area>)
+[Tarot Draw Instructions Area](#<tarot-draw-instructions-area>)
+[Tarot Draw Area](#<tarot-draw-area>)
+[Tarot Quiz Instructions Area](#<tarot-quiz-instructions-area>)
+[Tarot Quiz Area](#<tarot-quiz-area>)
 
 
 ## Design Choices
 
 ### Color Scheme
 
-The color scheme for **Tarot Card of the Day** was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While the tones are fairly dark, the creamy yellow background provides contrast and readability.
+The color scheme for **Tarot Card of the Day** was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While some of the tones are fairly dark, the creamy yellow background provides contrast and readability.
 
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
@@ -114,7 +120,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 
 ### Typography
 
-- Fonts are provided by Google Fonts. "Uncial Antiqua": Headers and accent text. "Libre Baskerville": All other copy.
+- Fonts are provided by Google Fonts. "Uncial Antiqua" has been used for headers and accent text. "Libre Baskerville": All other copy.
     
   <p align="center">
   <img src="assets/documentation/font1.png" height="50px"/>
@@ -139,7 +145,9 @@ Examples of this site's interactive features include:
 - Sound toggle buttons
 - Sound effects and animations for correct and incorrect answers
 - Sound effects and animations througout the tarot draw 
+- The option to draw and redraw different tarot cards selected at random
 - The option to exit out of whichever game is being played
+- A quiz score tally that updates with each answer
 - A quiz results blurb determined by the number of points scored
 
 ## Favicon
@@ -148,7 +156,7 @@ Examples of this site's interactive features include:
   <img src="assets/documentation/favicon.png">
 </p>
 
-- The favicon features a pair of ace cards to indicate the content matter
+- The favicon features a pair of cards to evoke the subject matter
 
 ## Starting Area
 
@@ -156,7 +164,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmstartingarea.png" height="450px"/>
 </p>
 
-- The landing page
+- The *Starting Area* of the site
 
 ### Header
 
@@ -165,7 +173,7 @@ Examples of this site's interactive features include:
 </p>
 
 - The header is in a fixed position and remains static at the top of the page
-- It can be clicked at any point to return the visitor back to the main starting area
+- It can be clicked at any point to return the visitor back to the starting area
 
 ### Hero Image
 
@@ -173,7 +181,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmhero.png" height="200px"/>
 </p>
 
-- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is fixed to the bottom of the starting area and is covered when the user navigates into either of the main game sections
+- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is positioned at the bottom of the starting area and is covered when the user navigates into either of the main game areas
 
 ### Main Navigation Buttons
 
@@ -181,9 +189,9 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmmainnav.png" height="200px"/>
 </p>
 
-- Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen
+- Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen. These buttons click to the instructions area for each game
 
-## Tarot Draw Instructions Section
+## Tarot Draw Instructions Area
 
 <p align="center">
 <img src="assets/documentation/drawinstructions.png" height="450px"/>
@@ -197,7 +205,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawinstructionsh3.png" width="250px"/>
 </p>
 
-- Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the fortune teller theme
+- Each section features an h3 element to introduce the content below. This one has a gold gradient background as I felt the metallic appearance was reminiscent of gold coins and kept with the feel of tarot
 
 ### Instructions content
 
@@ -221,11 +229,15 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawinstructionsnav.png" width="250px"/>
 </p>
 
-## Tarot Draw Section
+- Clicking this button leads to the *Tarot Draw Area*
+
+## Tarot Draw Area
 
 <p align="center">
 <img src="assets/documentation/drawsection.png" height="450px"/>
 </p>
+
+- The *Tarot Draw Area* of the site
 
 ### h3 
 
@@ -233,7 +245,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawh3.png" width="250px"/>
 </p>
 
-- This header gives the visitor their first direction to play the game: Tap the deck!
+- This header gives the visitor their first direction to play the game: *Tap deck to shuffle!*
 
 ### Tarot Deck
 
@@ -241,30 +253,30 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawdeck.png" height="300px"/>
 </p>
 
-- The Tarot Deck starting mode is the deck of cards, featuring the back of one of the cards
+- The Tarot Deck starting mode features the back of the deck of cards
 
-- When the visitor clicks on the deck, as instructed in the h3 above it, the deck shakes and plays a shuffle sound
+- When the visitor clicks on the deck, as instructed by the h3 above it, the deck shakes and plays a shuffle sound
 
 <p align="center">
 <img src="assets/documentation/drawnav.png" width="250px"/>
 </p>
 
-- There are three navigation buttons: The sound toggle, the "Draw" button" and the "Exit" button
+- There are three navigation buttons: The sound toggle, the *Draw* button and the *Exit* button
 
 <p align="center">
 <img src="assets/documentation/drawbutton.png" height="450px"/>
 </p>
 
-- When the visitor taps "Draw", a magical chime sound plays, and a card is chosen at random and displayed
-  - An h3 banner appears below the card, instructing the visitor to tap the card again to read its meaning
+- When the visitor clicks "Draw", a magical chime sound plays, and a card is chosen at random and displayed face up
+- An h3 banner appears below the card, instructing the visitor to tap the card to read its meaning
 
 <p align="center">
 <img src="assets/documentation/drawmeaning.png" height="400px"/>
 </p>
 
-- When the card is tapped, the h3 disappears, and the card meaning or fortune is revealed
+- When the card is tapped, the h3 disappears, and the card meaning is revealed
 
-- From this point, the visitor can choose to "Redraw" another card and repeat the same process for a new fortune, or "Exit" back to the starting area
+- From this point, the visitor can choose to *Redraw* another card and repeat the same process for a new fortune, or *Exit* back to the starting area
 
 ### Navigation Buttons
 
@@ -272,9 +284,9 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawnav.png" width="250px"/>
 </p>
 
-- As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A Redraw button, which allows the visitor to draw a different card; and an Exit button, which clicks back to the starting area
+- As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A *Redraw* button, which allows the visitor to draw a different card; and an *Exit* button, which clicks back to the starting area
 
-## Tarot Quiz Section
+## Tarot Quiz Instructions Area
 
 ### Instructions 
 
@@ -294,13 +306,17 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizinstructionscontent.png" height="300px"/>
 </p>
 
+- Simple, straightforward rules to the game and its navigation
+
 ### Navigation Button
 
 <p align="center">
 <img src="assets/documentation/quizinstructionsnav.png" width="250px"/>
 </p>
 
-## Tarot Quiz Section
+- This button clicks into the *Quiz Area*
+
+## Tarot Quiz Area
 
 <p align="center">
 <img src="assets/documentation/quizsection.png" height="450px"/>
@@ -318,7 +334,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizcontent.png" height="350px"/>
 </p>
 
-- The quiz is laid out with question, answer options, and internal navigation buttons in the same container
+- The quiz is laid out with question, answer options, and internal navigation buttons in the same container. Purple was chosen for the answer option background color with a pink hover for cohesion with the *Tarot Draw Area*
 
 - Once the visitor has read the question, they can click on their answer choice
 
@@ -332,15 +348,15 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quiznext.png" width="250px"/>
 </p>
 
-- A "Next" button appears when the answers are revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
+- A *Next* button appears when the answer is revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
 
 <p align="center">
 <img src="assets/documentation/quizh3score.png" width="250px"/>
 </p>
 
-- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect. This banner resets to its standard background color when the "next" button is clicked and the visitor advances to the next question
+- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect as it updates the score tally. It resets to its standard background color when the *Next* button is clicked and the visitor advances to the next question
 
-- Once all ten questions have been answered, the final score is displayed and the Next button is replaced with a Results button
+- Once all ten questions have been answered, the final score is displayed and the *Next* button is replaced with the *Results* button (pictured below)
 
 ### Navigation Buttons
 
@@ -349,7 +365,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizresultsbutton.png" width="250px"/>
 </p>
 
-- There are four navigation buttons: A Next button, which is hidden or displayed based on whether the visitor has answered the question; an Exit button, which exits to the main area at any time; a Sound Toggle; and a Results button, which replaces Next after all the questions have been answered  
+- There are four navigation buttons: A *Next* button, which is hidden or displayed based on whether the visitor has answered the question; an *Exit* button, which exits to the main area at any time; a *Sound Toggle*; and a *Results* button, which replaces *Next* after all the questions have been answered  
 
 ### Results Section
 
@@ -359,7 +375,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizresults3.png" height="300px"/>
 </p>
 
-- The results section features a cheeky blurb based on the success (or lack thereof) of the visitor's quiz results. There are three grades based on points total, from 0-3, 4-6, and 7-10
+- The results section features a cheeky blurb based on the success (or lack thereof!) of the visitor's quiz results. There are three grades based on points total: 0-3, 4-6, and 7-10
 
 
 # Future Features
