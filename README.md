@@ -586,7 +586,7 @@ No errors were returned in any of the three code validators
      <p>No errors returned. Three unused variables were noted, but each of these is a function used in the quiz game</p>
   </details>
 
-## Responsiveness Test
+## Responsiveness
 - All pages have been tested for responsiveness through both Chrome and Edge DevTools at the following CSS breakpoints:
     - Mobile S (320px)
     - Mobile M (375px)
