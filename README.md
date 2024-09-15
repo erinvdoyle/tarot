@@ -361,7 +361,7 @@ Examples of this site's interactive features include:
 ### Results Section
 
 <p align="center">
-<img src="assets/documentation/quizresults1.png" height="300px"/>
+<img src="assets/documentation/testquiz8.png" height="300px"/>
 <img src="assets/documentation/quizresults1.png" height="300px"/>
 <img src="assets/documentation/quizresults3.png" height="300px"/>
 </p>
@@ -408,61 +408,6 @@ Examples of this site's interactive features include:
 # Testing
 
 ## Feature Testing 
-
-<details>
-  <summary>Testing the Tarot Draw Area (click)</summary> 
-<p align="center">
-<img src="assets/documentation/testdraw1.png" height="450px">
-
-- The *Draw* button plays a chime sound when clipped and the top card of the deck changes to the drawn card
-- An h3 banner appears below the deck instructing the visitor to tap the card for meaning. It disappears when the deck is tapped
-
-<img src="assets/documentation/testdraw2.png" height="450px">
-
-- The card flips to its card meaning when the deck is tapped
-
-<img src="assets/documentation/testdraw3.png" height="450px">
-
-- The *Redraw* button correctly plays the chime sound and restarts the draw process by selecting a new card
-
-<img src="assets/documentation/testdraw4.png" width="250px">
-
-- The *Sound Toggle* turns sound off and on and the icon changes to reflect its status
-</p>
-</details>
-
-<details>
-  <summary>Testing the Tarot Quiz Instructions Navigation Button (click)</summary> 
-<p align="center">
-<img src="assets/images/screenshots/">
-</p>
-</details>
-
-- The "Take the quiz" button naviagtes to the Tarot Quiz Section
-
-<details>
-  <summary>Testing the Tarot Quiz Section (Pictured)</summary> 
-<p align="center">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-
-- The question appears with four clickable answers beneath it
-- The buttons change color when hovered over
-- The answers vibrate when a selection is made. The correct answer changes background color to green and momentarily enlarges. The incorrect answers change background color to red and the text is struck through. The Next button appears to allow advancement to the next question
-- The next button disappears until the next question is answered
-- The h3 banner beneath the quiz container changes color to red or green based on whether the answer is correct and the points tally is updated. The banner returns to its base background color once the quiz is advanced and until the next question is answered
-- The Sound Toggle works to allow the visitor to turn the sound on or off
-- The exit button return to use to the starting area
-- The Results button appears after the tenth question is answered
-- The results blurb corresponds to the number of correct answers as designed
-
-</p>
-</details>
 
 ### Feature Testing Table
 
@@ -518,6 +463,92 @@ Examples of this site's interactive features include:
 | *Results* button | Answer all ten questions and click button |Button appears after tenth question has been answered and brings visitor to the results area |
 | Results | Click *Results* button | Visitor is brought to intended results blurb as determined by points tally |
 | *Exit* button | Click button at different stages of play | Button returns visitor to starting area |
+</details>
+
+### Feature Testing Images
+
+<details>
+  <summary>Testing the Tarot Draw Area (click)</summary> 
+<p align="center">
+<img src="assets/documentation/testdraw1.png" height="450px">
+</p>
+
+- The *Draw* button plays a chime sound when clicked and the top card of the deck changes to the drawn card
+- The *Redraw* button replaces the *Draw* button
+- An h3 banner appears below the deck instructing the visitor to tap the card for meaning. It disappears when the deck is tapped
+
+<p align="center">
+<img src="assets/documentation/testdraw2.png" height="450px">
+</p>
+
+- The card flips to its card meaning when the deck is tapped
+- The h3 banner disappears
+
+<p align="center">
+<img src="assets/documentation/testdraw3.png" height="450px">
+</p>
+
+- The *Redraw* button correctly plays the chime sound and restarts the draw process by selecting a new card
+
+<p align="center">
+<img src="assets/documentation/testdraw4.png" width="250px">
+</p>
+
+- The *Sound Toggle* turns sound off and on and the icon changes to reflect its status
+</details>
+
+
+<details>
+  <summary>Testing the Tarot Quiz Area (Pictured)</summary> 
+
+<p align="center">
+<img src="assets/documentation/testquiz1.png" height="350px">
+</p>
+
+- The question appears with four clickable answers beneath it
+
+<p align="center">
+<img src="assets/documentation/testquiz2.png" height="350px">
+</p>
+
+- The buttons change color when hovered over
+
+<p align="center">
+<img src="assets/documentation/testquiz3.png" height="350px">
+</p>
+
+- The answers vibrate when a selection is made. The correct answer changes background color to green and momentarily enlarges. The incorrect answers change background color to red and the text is struck through. The *Next* button appears to allow advancement to the next question
+
+<p align="center">
+<img src="assets/documentation/testquiz4.png" height="350px">
+</p>
+
+- The *next* button disappears until the next question is answered
+
+<p align="center">
+<img src="assets/documentation/testquiz5.png" width="250px">
+</p>
+
+- The h3 banner beneath the quiz container changes color to red or green based on whether the answer is correct and the points tally is updated. The banner returns to its base background color once the quiz is advanced and until the next question is answered
+
+<p align="center">
+<img src="assets/documentation/testquiz6.png" width="250px">
+</p>
+
+- The Sound Toggle works to allow the visitor to turn the sound on or off and the icon changes to reflect its status
+
+<p align="center">
+<img src="assets/documentation/testquiz7.png" width="250px">
+</p>
+
+- The Results button appears after the tenth question is answered
+
+<p align="center">
+<img src="assets/documentation/testquiz8.png" height="350px">
+</p>
+
+- The results blurb corresponds to the number of correct answers as designed
+
 </details>
 
 ## Code Validation
