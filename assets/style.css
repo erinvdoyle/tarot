@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-/* Main Style */ 
+/* Main Style */
 
 body {
   margin: 0;
@@ -36,16 +36,16 @@ header {
 /* Hero/ Background Image */
 
 #background-image {
-position: fixed;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 50%;
-background-image: url('../assets/images/transparentbg.webp'); 
-background-size: contain; 
-background-repeat: no-repeat;
-background-position: center bottom;
-z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: url("../assets/images/transparentbg.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  z-index: -1;
 }
 
 /* Headings */
@@ -53,16 +53,15 @@ z-index: -1;
 h1 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 5rem;
-  color: #A97E10;
+  color: #a97e10;
   text-shadow: 1px 4px #fdeca6;
-  margin: -1.8rem 0 -.95rem 0;
+  margin: -1.8rem 0 -0.95rem 0;
 }
 
 h2 {
   font-family: "Uncial Antiqua", system-ui;
   font-size: 1.8rem;
-  color: #A97E10; 
-  /*text-shadow: 1px 1px #ead46c;*/
+  color: #a97e10;
   margin: -0.75rem 0 2.2rem;
 }
 
@@ -78,11 +77,11 @@ h3 {
   padding: 8px 6px;
   max-width: 625px;
   margin-top: -10px;
-  background-image: linear-gradient(to right, goldenrod, #A97E10);
+  background-image: linear-gradient(to right, goldenrod, #a97e10);
 }
 
 /* Custom Scroll Bar */
-/* Tutorial Credit: W3 Schools - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+/* Tutorial Credit: W3 Schools - https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
 
 /* width */
 
@@ -115,7 +114,7 @@ h3 {
 
 #quiz-button {
   background-color: goldenrod;
-  background-image: linear-gradient(to right, goldenrod, #A97E10);
+  background-image: linear-gradient(to right, goldenrod, #a97e10);
   color: #fff;
   font-family: "Libre Baskerville", serif;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
@@ -197,7 +196,7 @@ h3 {
   border: 0px;
   height: 40px;
   width: 76px;
-  margin-right: .5px;
+  margin-right: 0.5px;
 }
 
 #next-question-button {
@@ -214,7 +213,7 @@ h3 {
 }
 
 #next-question-button:hover {
-  background-color: #A97E10;
+  background-color: #a97e10;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
 }
@@ -277,8 +276,8 @@ button:hover {
   top: 148px;
   left: 0;
   right: 0;
-  bottom: 0; 
-  background-color:#fdf4ce;
+  bottom: 0;
+  background-color: #fdf4ce;
   z-index: 90;
   display: flex;
   flex-direction: column;
@@ -288,10 +287,10 @@ button:hover {
 
 #reading-instructions-container {
   position: fixed;
-  top: 136px; 
+  top: 136px;
   left: 0;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   background-color: #fdf4ce;
   z-index: 90;
   display: flex;
@@ -312,7 +311,6 @@ button:hover {
   background-color: rgb(246, 244, 244);
   border-radius: 5px;
   box-shadow: 0 0 0 2px goldenrod, 8px 8px 0 0 goldenrod;
-  /*overflow: auto;*/
   margin-top: -5px;
 }
 
@@ -338,7 +336,7 @@ button:hover {
   width: auto;
 }
 
-#draw-span, 
+#draw-span,
 #redraw-span,
 #exit-span {
   background-color: #7f75b2;
@@ -356,8 +354,8 @@ button:hover {
   top: 148px;
   left: 0;
   right: 0;
-  bottom: 0; 
-  background-color:#fdf4ce;
+  bottom: 0;
+  background-color: #fdf4ce;
   z-index: 90;
   flex-direction: column;
   justify-content: flex-start;
@@ -370,8 +368,8 @@ button:hover {
   top: 136px;
   left: 0;
   right: 0;
-  bottom: 0; 
-  background-color:#fdf4ce;
+  bottom: 0;
+  background-color: #fdf4ce;
   z-index: 90;
   display: flex;
   flex-direction: column;
@@ -387,7 +385,7 @@ button:hover {
 }
 
 #tarot-deck {
-  position: relative; 
+  position: relative;
   text-align: center;
   margin: -2px 10px 15px 10px;
   height: 350px;
@@ -398,7 +396,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
 
 #tarot-deck img {
@@ -414,17 +412,39 @@ button:hover {
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 #tap-meaning {
@@ -432,7 +452,7 @@ button:hover {
   font-family: "Uncial Antiqua", system-ui;
   color: #fff;
   background-color: goldenrod !important;
-  background-image: linear-gradient(to right, goldenrod, #A97E10) !important;
+  background-image: linear-gradient(to right, goldenrod, #a97e10) !important;
   border-radius: 45px;
   box-shadow: 0 0 0 1px #fff, 4px 4px 0 0 goldenrod;
   text-shadow: 1px 1px black;
@@ -442,13 +462,11 @@ button:hover {
   margin: -1px 0 2px 0;
 }
 
-
-
 /* Tarot Reading Flip Cards */
 /* Tutorial credit: https://www.w3schools.com/howto/howto_css_flip_card.asp */
 
 .card-container {
-  perspective: 1000px; 
+  perspective: 1000px;
 }
 
 .card {
@@ -459,7 +477,8 @@ button:hover {
   transform-style: preserve-3d;
 }
 
-.cardFront, .cardBack {
+.cardFront,
+.cardBack {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -468,8 +487,8 @@ button:hover {
 }
 
 .cardFront {
-  z-index: 2; 
-  background-color: transparent; 
+  z-index: 2;
+  background-color: transparent;
 }
 
 .cardFront img {
@@ -480,11 +499,11 @@ button:hover {
 }
 
 .cardBack {
-  background-color:  rgb(246, 244, 244);
-  transform: rotateY(180deg); 
+  background-color: rgb(246, 244, 244);
+  transform: rotateY(180deg);
   box-shadow: 0 0 0 1px #7f75b2, 6px 6px 0 0 #ff9ea9;
   border-radius: 15px;
-  border: .5px solid #8281fd;
+  border: 0.5px solid #8281fd;
 }
 
 .card.flipped {
@@ -492,7 +511,7 @@ button:hover {
 }
 
 .meaning-container {
-  display: none; 
+  display: none;
   margin: 0 10px;
   font-weight: bold;
   padding-top: 15px;
@@ -524,7 +543,7 @@ button:hover {
   top: 148px;
   left: 0;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   padding-top: 18px;
   margin-top: -10px;
   background-color: #fdf4ce;
@@ -539,7 +558,7 @@ button:hover {
 /* Box shadow code: https://htmlcssfreebies.com/css-box-shadow-examples/ */
 
 #quiz-container {
-  position: relative; 
+  position: relative;
   text-align: center;
   padding: 10px;
   margin: 0 10px 22px 10px;
@@ -551,16 +570,16 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
 }
 
 /* Quiz Instructions */
 #quiz-instructions {
   position: fixed;
-  top: 148px; 
+  top: 148px;
   left: 0;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   background-color: #fdf4ce;
   z-index: 90;
   display: flex;
@@ -574,7 +593,7 @@ button:hover {
   top: 136px;
   left: 0;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
   background-color: #fdf4ce;
   z-index: 90;
   display: flex;
@@ -582,7 +601,7 @@ button:hover {
   justify-content: flex-start;
   align-items: center;
   overflow: auto;
-  }
+}
 
 #instructions-container > h3 {
   margin-top: 0;
@@ -614,7 +633,6 @@ li {
   padding-right: 2px;
 }
 
-
 .instructions-span {
   background-color: #7f75b2;
   color: white;
@@ -627,22 +645,22 @@ li {
 
 #quiz-container::before {
   content: "";
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../assets/images/quizbg.webp'); 
+  background-image: url("../assets/images/quizbg.webp");
   background-color: #fff;
   background-size: contain;
-  opacity: 0.2; 
-  z-index: 0; 
+  opacity: 0.2;
+  z-index: 0;
 }
 
 #quiz-container div,
 #quiz-container button {
-  position: relative; 
-  z-index: 1; 
+  position: relative;
+  z-index: 1;
 }
 
 .hidden {
@@ -672,7 +690,7 @@ li {
   margin: 5px 0;
   min-height: 260px;
   max-width: 290px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 /* Tutorial: https://www.w3schools.com/Css/css3_2dtransforms.asp */
@@ -695,8 +713,8 @@ li {
 }
 
 .correct {
- font-weight: bold;
- animation: pulse 0.9s ease;
+  font-weight: bold;
+  animation: pulse 0.9s ease;
 }
 
 /* Pulse effect for incorrect answers */
@@ -718,22 +736,24 @@ li {
   animation: pulse 0.2s ease;
 }
 
-/* Misc. Text Effects */  
+/* Misc. Text Effects */
 
 /* Glow Effect for header */
 @-webkit-keyframes glow {
-from {
-  text-shadow: 0 0 5px #fdf4ce, 0 0 10px #fdf4ce, 0 0 15px #fde48096 , 0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
-}
-to {
-  text-shadow: 0 0 10px #fdf4ce, 0 0 15px #fdf4ce, 0 0 20px #fde48089, 0 0 25px #fde380, 0 0 30px #fff , 0 0 35px #fff, 0 0 40px #fde380;
-}
+  from {
+    text-shadow: 0 0 5px #fdf4ce, 0 0 10px #fdf4ce, 0 0 15px #fde48096,
+      0 0 20px #fff, 0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff;
+  }
+  to {
+    text-shadow: 0 0 10px #fdf4ce, 0 0 15px #fdf4ce, 0 0 20px #fde48089,
+      0 0 25px #fde380, 0 0 30px #fff, 0 0 35px #fff, 0 0 40px #fde380;
+  }
 }
 
 .h2glow {
--webkit-animation: glow 2s ease-in-out infinite alternate;
--moz-animation: glow 2s ease-in-out infinite alternate;
-animation: glow 2s ease-in-out infinite alternate;  
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 
 /* Media Queries */
@@ -748,7 +768,7 @@ animation: glow 2s ease-in-out infinite alternate;
     margin-top: 0px;
     padding-top: 10px;
   }
-}   
+}
 
 /* Media query: Mobile devices 424px and wider */
 @media (min-width: 424px) {
@@ -757,14 +777,12 @@ animation: glow 2s ease-in-out infinite alternate;
   }
 }
 
-
 @media (min-width: 700px) {
   .meaning-container {
-      display: block;
-      margin-top: 10px;
+    display: block;
+    margin-top: 10px;
   }
 }
-
 
 /* Media query: Tablets and larger (768px and above) */
 @media (min-width: 767px) {
@@ -805,22 +823,22 @@ animation: glow 2s ease-in-out infinite alternate;
 /* Media Query: Screens heights less than 580px */
 
 @media (max-height: 580px) {
-#reading-button {
-  margin-top: -15px;
-}
+  #reading-button {
+    margin-top: -15px;
+  }
 }
 
 /* Media Query: Screens taller than 750px */
 
 @media (min-height: 750px) {
-h1 {
-  margin-top: -20px;
-}
+  h1 {
+    margin-top: -20px;
+  }
 
-#reading-instructions-container > h3,
-#draw-container > h3 {
-  margin-top: 20px;
-}
+  #reading-instructions-container > h3,
+  #draw-container > h3 {
+    margin-top: 20px;
+  }
 }
 
 /* Media Query: Small laptops */
@@ -855,7 +873,7 @@ h1 {
   #reading-instructions-container,
   #tarot-reading,
   #tarot-draw,
-  #draw-container                                                                                                                                                                                                                     {
+  #draw-container {
     top: 170px;
   }
 
@@ -883,7 +901,7 @@ h1 {
     font-size: 7rem;
     margin-top: 50px;
   }
- 
+
   h2 {
     font-size: 2.75rem;
   }
@@ -908,10 +926,10 @@ h1 {
   #reading-instructions-container,
   #tarot-reading,
   #tarot-draw,
-  #draw-container                                                                                                                                                                                                                     {
+  #draw-container {
     top: 275px;
   }
-  
+
   #instructions-container {
     top: 290px;
   }
@@ -919,7 +937,7 @@ h1 {
   #tarot-quiz {
     top: 295px;
     margin-top: 40px;
-    transform: scale(120%);
+    transform: scale(1.2);
   }
 
   #quiz-container {
@@ -928,13 +946,13 @@ h1 {
 
   #points {
     margin-top: 10px;
-  }    
+  }
 }
 
-
 /* Media Queries: Landscape mode */
-@media (max-width: 767px) and (orientation: landscape) {
-  html, body {
+@media screen and (orientation: landscape) {
+  html,
+  body {
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -947,43 +965,43 @@ h1 {
     margin-top: -40px;
   }
 
-h1,
-h2 {
-  position: fixed;
-}
+  h1,
+  h2 {
+    position: fixed;
+  }
 
-h1 {
-  top: 8px;
-}
+  h1 {
+    top: 8px;
+  }
 
-h2 {
-  top: 70px;
-}
+  h2 {
+    top: 70px;
+  }
 
-#buttons {
-  position: fixed;
-  top: 110px;
-  left: 38%;
-}
+  #buttons {
+    position: fixed;
+    top: 110px;
+    left: 38%;
+  }
 
-#reading-instructions-container,
-#draw-container,
-#instructions-container {
-  top: 92px;
-}
+  #reading-instructions-container,
+  #draw-container,
+  #instructions-container {
+    top: 92px;
+  }
 
-#tarot-quiz {
-  top: 103px;
-}
+  #tarot-quiz {
+    top: 103px;
+  }
 
-#reading-instructions-container > h3,
-#draw-container > h3,
-#instructions-container > h3 {
-  margin-top: 10px;
-}
+  #reading-instructions-container > h3,
+  #draw-container > h3,
+  #instructions-container > h3 {
+    margin-top: 10px;
+  }
 
-#tarot-deck {
-  margin-top: -1px;
-  margin-bottom: 4px;
-}
+  #tarot-deck {
+    margin-top: -1px;
+    margin-bottom: 4px;
+  }
 }

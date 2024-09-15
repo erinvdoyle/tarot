@@ -282,7 +282,7 @@ Examples of this site's interactive features include:
 ## Tarot Quiz Instructions Area
 
 <p align="center">
-<img src="assets/documentation/quizinstructions.png" height="450px"/>
+<img src="assets/documentation/quizinstructions.png" height="350px"/>
 </p>
 
 ### h3
