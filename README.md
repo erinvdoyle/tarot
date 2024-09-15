@@ -145,7 +145,7 @@ Examples of this site's interactive features include:
 - Sound toggle buttons
 - Sound effects and animations for correct and incorrect answers
 - Sound effects and animations througout the tarot draw  to simulate shuffling and drawing cards 
-- The option to draw and redraw randomly selected tarot cards 
+- The ability to draw and redraw randomly selected tarot cards 
 - A quiz score tally that updates with each answer
 - A quiz results blurb determined by the number of points scored
 - The option to exit out of whichever game is being played
@@ -499,7 +499,7 @@ Examples of this site's interactive features include:
 
 
 <details>
-  <summary>Testing the Tarot Quiz Area (Pictured)</summary> 
+  <summary>Testing the Tarot Quiz Area (click)</summary> 
 
 <p align="center">
 <img src="assets/documentation/testquiz1.png" height="350px">
@@ -641,12 +641,12 @@ No errors were returned in any of the three code validators
 ### Lighthouse
 
 <details>
-  <summary>Lighthouse Test Results (click)</summary> 
+  <summary>Lighthouse Test Results: Mobile (click)</summary> 
 <img src="assets/documentation/lighthousemobile.png">
 </details>
 
 <details>
-  <summary>Lighthouse Test Results (click)</summary> 
+  <summary>Lighthouse Test Results: Desktop (click)</summary> 
 <img src="assets/documentation/lighthousedesktop.png">
 </details>
 
