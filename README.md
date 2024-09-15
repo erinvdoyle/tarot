@@ -10,7 +10,7 @@
 
 # **Introduction**
 
-Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel lighthearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # **Table of Contents**
 - [Project](#project)
@@ -84,15 +84,15 @@ The wireframes were created for mobile, tablet, and desktop with a particular fo
 
 **Tarot Card of the Day** has two main game areas, as indicated by the bright red *Get Your Reading* and *Take the Quiz* navigation buttons at center screen. A fixed header displays the site logo, and a hero illustration of a Tarot draw takes the bottom screen of the starting area. This image is covered when either of the buttons are clicked. 
 
-Each button clicks to its own game instructions area, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions for how to play, the game described is accessed through another button click, and the game area replaces the instructions area. The visitor is offered the chance to exit and return to the starting area throughout each game.
+Each button clicks to its own game instructions area, which occupies almost the entire viewport on click, starting below the header. Once the visitor has read the instructions for how to play, the game described is accessed through another button click, and the game area replaces the instructions area. The visitor is offered the chance to exit and return to the *Starting Area* throughout each game.
 
 More about each area and all of the features can be found in the [Features](<#features>) section.
 
-[Starting Area](#<starting-area>)
-[Tarot Draw Instructions Area](#<tarot-draw-instructions-area>)
-[Tarot Draw Area](#<tarot-draw-area>)
-[Tarot Quiz Instructions Area](#<tarot-quiz-instructions-area>)
-[Tarot Quiz Area](#<tarot-quiz-area>)
+- [Starting Area](#<starting-area>)
+- [Tarot Draw Instructions Area](#<tarot-draw-instructions-area>)
+- [Tarot Draw Area](#<tarot-draw-area>)
+- [Tarot Quiz Instructions Area](#<tarot-quiz-instructions-area>)
+- [Tarot Quiz Area](#<tarot-quiz-area>)
 
 
 ## Design Choices
@@ -108,14 +108,14 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 </p>
 
 **Hex codes:**
-- #fdf4ce, ![Static Badge](https://img.shields.io/badge/LemonChiffon-fdf4ce)
-- #fdeca6, ![Static Badge](https://img.shields.io/badge/Vanilla-fdeca6)
-- #A97E10, ![Static Badge](https://img.shields.io/badge/DarkGoldenrod-A97E10)
-- #d96b62, ![Static Badge](https://img.shields.io/badge/IndianRed-d96b62)
-- #FF9EA9, ![Static Badge](https://img.shields.io/badge/SalmonPink-FF9EA9)
-- #7f75b2, ![Static Badge](https://img.shields.io/badge/Amethyst-7f75b2)
-- #385d65, ![Static Badge](https://img.shields.io/badge/DarkSlateGray-385d65)
-- #2b464f, ![Static Badge](https://img.shields.io/badge/Charcoal-2b464f)
+- #fdf4ce ![Static Badge](https://img.shields.io/badge/LemonChiffon-fdf4ce)
+- #fdeca6 ![Static Badge](https://img.shields.io/badge/Vanilla-fdeca6)
+- #A97E10 ![Static Badge](https://img.shields.io/badge/DarkGoldenrod-A97E10)
+- #d96b62 ![Static Badge](https://img.shields.io/badge/IndianRed-d96b62)
+- #FF9EA9 ![Static Badge](https://img.shields.io/badge/SalmonPink-FF9EA9)
+- #7f75b2 ![Static Badge](https://img.shields.io/badge/Amethyst-7f75b2)
+- #385d65 ![Static Badge](https://img.shields.io/badge/DarkSlateGray-385d65)
+- #2b464f ![Static Badge](https://img.shields.io/badge/Charcoal-2b464f)
 
 
 ### Typography
@@ -144,11 +144,11 @@ Examples of this site's interactive features include:
  
 - Sound toggle buttons
 - Sound effects and animations for correct and incorrect answers
-- Sound effects and animations througout the tarot draw 
-- The option to draw and redraw different tarot cards selected at random
-- The option to exit out of whichever game is being played
+- Sound effects and animations througout the tarot draw  to simulate shuffling and drawing cards 
+- The option to draw and redraw randomly selected tarot cards 
 - A quiz score tally that updates with each answer
 - A quiz results blurb determined by the number of points scored
+- The option to exit out of whichever game is being played
 
 ## Favicon
 
@@ -156,7 +156,7 @@ Examples of this site's interactive features include:
   <img src="assets/documentation/favicon.png">
 </p>
 
-- The favicon features a pair of cards to evoke the subject matter
+- The favicon features a pair of cards to indicate the subject matter
 
 ## Starting Area
 
@@ -181,7 +181,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmhero.png" height="200px"/>
 </p>
 
-- This vector illustration provides the visitor's first impression of Tarot Card of the Day and sets the tone and color scheme. It is positioned at the bottom of the starting area and is covered when the user navigates into either of the main game areas
+- This vector illustration provides the visitor's first impression of **Tarot Card of the Day** and sets the tone and color scheme. It is positioned at the bottom of the starting area and is covered when the user navigates into either of the main game areas
 
 ### Main Navigation Buttons
 
@@ -223,7 +223,7 @@ Examples of this site's interactive features include:
 
 - An image of a tarot mystic keeps the instructions section fun and true to tone. Border radius on the top corners lends visual interest and compliments the hand-drawn style of illustation 
 
-### Navigation button to "Get your Reading!"
+### Navigation button to *Get your Reading!*
 
 <p align="center">
 <img src="assets/documentation/drawinstructionsnav.png" width="250px"/>
@@ -261,13 +261,14 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawnav.png" width="250px"/>
 </p>
 
-- There are three navigation buttons: The sound toggle, the *Draw* button and the *Exit* button
+- There are three navigation buttons: The *Sound Toggle*, which can be used at any time, the *Draw* button, which allows the visitor to draw a card, and the *Exit* button, which exits the game and clicks back to the *Starting Area*
 
 <p align="center">
 <img src="assets/documentation/drawbutton.png" height="450px"/>
 </p>
 
-- When the visitor clicks "Draw", a magical chime sound plays, and a card is chosen at random and displayed face up
+- When the visitor clicks *Draw*, a magical chime sound plays, and a card is chosen at random and displayed face up
+- The *Draw* button is replaced by the *Redraw* button, which allows the visitor to draw a new card if desired
 - An h3 banner appears below the card, instructing the visitor to tap the card to read its meaning
 
 <p align="center">
@@ -278,17 +279,7 @@ Examples of this site's interactive features include:
 
 - From this point, the visitor can choose to *Redraw* another card and repeat the same process for a new fortune, or *Exit* back to the starting area
 
-### Navigation Buttons
-
-<p align="center">
-<img src="assets/documentation/drawnav.png" width="250px"/>
-</p>
-
-- As described above in the Tarot Deck section, there are three buttons: A sound toggle, which can be activated at any time; A *Redraw* button, which allows the visitor to draw a different card; and an *Exit* button, which clicks back to the starting area
-
 ## Tarot Quiz Instructions Area
-
-### Instructions 
 
 <p align="center">
 <img src="assets/documentation/quizinstructions.png" height="450px"/>
@@ -314,7 +305,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizinstructionsnav.png" width="250px"/>
 </p>
 
-- This button clicks into the *Quiz Area*
+- The *Take the quiz!* button clicks into the *Quiz Area*
 
 ## Tarot Quiz Area
 
@@ -334,7 +325,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizcontent.png" height="350px"/>
 </p>
 
-- The quiz is laid out with question, answer options, and internal navigation buttons in the same container. Purple was chosen for the answer option background color with a pink hover for cohesion with the *Tarot Draw Area*
+- The quiz is laid out with question, answer options, and internal navigation buttons in the same container. Purple with a pink hover was chosen for the answer option background color for cohesion with the *Tarot Draw Area*
 
 - Once the visitor has read the question, they can click on their answer choice
 
@@ -342,19 +333,19 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizanswers.png" height="350px"/>
 </p>
 
-- Each answer vibrates when a choice is made, with the correct answer momentarily enlarging and changing to a green background color, while the incorrect answers change to a red background with text struck through
+- Each answer vibrates when a choice is made, with the correct answer momentarily enlarging and changing to a green background color. The incorrect answers change to a red background with text struck through
 
 <p align="center">
 <img src="assets/documentation/quiznext.png" width="250px"/>
 </p>
 
-- A *Next* button appears when the answer is revealed so that the visitor may advance to the next question. This button disappears once clicked until the next question is answered so that no questions may be skipped
+- A *Next* button appears when the answer is revealed so that the visitor may advance to the next question. This button disappears once clicked until the following question is answered so that no questions may be skipped
 
 <p align="center">
 <img src="assets/documentation/quizh3score.png" width="250px"/>
 </p>
 
-- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color either to green for correct or red for incorrect as it updates the score tally. It resets to its standard background color when the *Next* button is clicked and the visitor advances to the next question
+- An h3 banner appears below the quiz container when the visitor chooses their answer to the first question. This banner displays the score and changes background color to green for correct or red for incorrect as it updates the score tally. It resets to its standard background color when the *Next* button is clicked and the visitor advances to the next question
 
 - Once all ten questions have been answered, the final score is displayed and the *Next* button is replaced with the *Results* button (pictured below)
 
@@ -365,7 +356,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizresultsbutton.png" width="250px"/>
 </p>
 
-- There are four navigation buttons: A *Next* button, which is hidden or displayed based on whether the visitor has answered the question; an *Exit* button, which exits to the main area at any time; a *Sound Toggle*; and a *Results* button, which replaces *Next* after all the questions have been answered  
+- There are four navigation buttons: A *Next* button, which is hidden or displayed based on whether the visitor has answered the question; an *Exit* button, which exits to the *Starting Area* at any time; a *Sound Toggle*; and a *Results* button, which replaces *Next* after all of the questions have been answered  
 
 ### Results Section
 
@@ -375,7 +366,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/quizresults3.png" height="300px"/>
 </p>
 
-- The results section features a cheeky blurb based on the success (or lack thereof!) of the visitor's quiz results. There are three grades based on points total: 0-3, 4-6, and 7-10
+- The results section features a cheeky blurb based on the success (or lack thereof!) of the visitor's quiz results. There are three results options based on points total: 0-3, 4-6, and 7-10
 
 
 # Future Features
@@ -419,47 +410,26 @@ Examples of this site's interactive features include:
 ## Feature Testing 
 
 <details>
-  <summary>Testing the Main Navigation Buttons (click)</summary> 
+  <summary>Testing the Tarot Draw Area (click)</summary> 
 <p align="center">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-</p>
-</details>
+<img src="assets/documentation/testdraw1.png" height="450px">
 
-- The "Get Your Reading" button clicks to the Tarot Draw Instructions Page
-- The "Test Your Knowledge" Button clicks to the Tarot Quiz Instructions Page
-
-<details>
-  <summary>Testing Tarot Reading Instructions Navigation Button (click)</summary> 
-<p align="center">
-<img src="assets/images/screenshots/">
-</p>
-</details>
-
-- The "Get Your Reading Button" clicks through to the Tarot Draw Section
-
-<details>
-  <summary>Testing the Tarot Draw Section (click)</summary> 
-<p align="center">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-<img src="assets/images/screenshots/">
-</p>
-</details>
-
-- The h3 banner above the Tarot Deck instructs the user to Tap the Deck to shuffle
-- The Deck plays a shuffle sound and shakes onclick
-- The Sound Toggle turns sound off and on and the icon changes to reflect the status
-- The Draw button plays a chime sound and the top card of the deck changes to the drawn card
+- The *Draw* button plays a chime sound when clipped and the top card of the deck changes to the drawn card
 - An h3 banner appears below the deck instructing the visitor to tap the card for meaning. It disappears when the deck is tapped
-- The card flips to its meaning when the deck is tapped
-- The Redraw button correctly plays the chime sound and restarts the draw process
-- The Exit button returns the visitor to the main starting area
+
+<img src="assets/documentation/testdraw2.png" height="450px">
+
+- The card flips to its card meaning when the deck is tapped
+
+<img src="assets/documentation/testdraw3.png" height="450px">
+
+- The *Redraw* button correctly plays the chime sound and restarts the draw process by selecting a new card
+
+<img src="assets/documentation/testdraw4.png" width="250px">
+
+- The *Sound Toggle* turns sound off and on and the icon changes to reflect its status
+</p>
+</details>
 
 <details>
   <summary>Testing the Tarot Quiz Instructions Navigation Button (click)</summary> 
@@ -507,30 +477,30 @@ Examples of this site's interactive features include:
 | Header | Scroll (on mobile and DevTools small screens) | Header remains fixed |
 | **Starting Area**  |
 | Hero Image | Load page | Image loads quickly |
-| Main Navigation Button #1 | Click "Get Your Reading" button | Tarot Reading Instructions section loads|
-| Main Navigation Button #2 | Click "Take The Quiz" button | Tarot Quiz Instructions section loads |
-| **Tarot Draw Instructions Section**  |
-| Tarot Draw Instructions Section | Open Instructions section by clicking "Get Your Reading" button |Section loads and fills viewport below header 
-| Tarot Draw Instructions Section | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
-| Tarot Draw Instructions Image | Open Instructions section by clicking "Get Your Reading" button | Image loads properly and is centered on the x-axis |
-| Navigation Button to Tarot Reading Section | Click "Get Your Reading!" | Tarot Draw Section replaces Tarot Draw Intructions Section|
-| **Tarot Draw Section**  |
+| Main Navigation Button #1 | Click *Get Your Reading* button | *Tarot Draw Instructions Area* loads|
+| Main Navigation Button #2 | Click *Take The Quiz* button | *Tarot Quiz Instructions Area* loads |
+| **Tarot Draw Instructions Area**  |
+| Tarot Draw Instructions Area | Open Instructions section by clicking *Get Your Reading* button |Section loads and fills viewport below header 
+| Tarot Draw Instructions Area | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
+| Tarot Draw Instructions Area | Open Instructions section by clicking *Get Your Reading* button | Image loads properly and is centered on the x-axis |
+| Navigation Button to Tarot Draw Area | Click "Get Your Reading!" | *Tarot Draw Area* replaces *Tarot Draw Intructions Area*|
+| **Tarot Draw Area**  |
 | Tarot Deck | Click or Tap Deck | Shuffle sound plays|
 | Tarot Deck | Click or Tap Deck | Deck Shakes |
-| "Draw" Button | Click button | Chime sound |
-| "Draw" Button | Click button | Tarot card is displayed |
-| "Draw" Button | Click button | Lower h3 appears |
+| *Draw* Button | Click button | Chime sound |
+| *Draw* Button | Click button | Tarot card is displayed |
+| *Draw* Button | Click button | Lower h3 appears |
 | Card Meaning | Tap deck as instructed | Card flips to reveal meaning |
 | Card Meaning | Tap deck as instructed | Lower h3 disappears |
-| "Redraw" Button | Click button | A new card appears in place of the current card and can now be tapped for its own meaning |
-| Sound Toggle | Click On and Off through all stages of play | Sound turns on and off as intended |
-| "Exit" Button | Click button | Page refreshes and Tarot Draw section is replaced by Starting Area |
-| **Tarot Quiz Instructions Section** |
-| Tarot Quiz Instructions Section | Open Instructions section by clicking "Take the Quiz" button |Section loads and fills viewport below header |
-| Tarot Quiz Instructions Section | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
-| Navigation Button to Tarot Quiz Section | Click "Take the quiz!" | Tarot Quiz Section replaces Tarot Quiz Intructions Section|
-| **Tarot Quiz Section**|
-|Tarot Quiz Section | Navigate into Tarot Quiz Section | Quiz with question, answers, and navigation buttons loads |
+| *Redraw* Button | Click button | A new card appears in place of the current card and can now be tapped for its own meaning |
+| *Sound Toggle* | Click On and Off through all stages of play | Sound turns on and off as intended |
+| *Exit* Button | Click button | Page refreshes and *Tarot Draw Area* is replaced by *Starting Area* |
+| **Tarot Quiz Instructions Area** |
+| Tarot Quiz Instructions Area | Open Instructions section by clicking *Take the Quiz* button |Area loads and fills viewport below header |
+| Tarot Quiz Instructions Area | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
+| Navigation Button to Tarot Quiz Area | Click *Take the quiz!* | *Tarot Quiz Area* replaces *Tarot Quiz Intructions Area*|
+| **Tarot Quiz Area**|
+|Tarot Quiz Area | Navigate into *Tarot Quiz Area* | Quiz with question, answers, and navigation buttons loads |
 | Answer option buttons | Click button to select answer - **incorrect** | Incorrect answers turn red while correct turns green |
 | Answer option buttons | Click button to select answer - incorrect | Answer buttons vibrate |
 | Answer option buttons | Click button to select answer - incorrect | Incorrect text is struck through |
@@ -541,18 +511,13 @@ Examples of this site's interactive features include:
 | Answer option buttons | Click button to select answer - correct | Correct answer buzzer sounds |
 | Lower h3 Points Tally | Play quiz | Background color changes to green or red based on correct or incorrect answer |
 | Lower h3 Points Tally | Play quiz | Score tally updates with each answer |
-| "Next" button | Click button to advance to next question | Button appears once question has been answered |
-| "Next" button | Click button to advance to next question | Button advances quiz "onclick" to next question | 
-| "Next" button | Click button to advance to next question | Button disappears until current question is answered so that all ten questions must be answered |
+| *Next* button | Click button to advance to next question | Button appears once question has been answered |
+| *Next* button | Click button to advance to next question | Button advances quiz "onclick" to next question | 
+| *Next* button | Click button to advance to next question | Button disappears until current question is answered so that all ten questions must be answered |
 | Sound Toggle | Click speaker icon throughout different questions of the quiz | Sound toggles on and off as instructed |
-| "Get Results" button | Answer all ten questions and click button |Button appears after tenth question has been answered and brings visitor to the results area |
-| Results area | Click "Get Results" button | Visitor is brought to intended results blurb as determined by points tally |
-| "Exit" button | Click button at different stages of play | Button returns visitor to starting area |
-
-
-
-
-
+| *Results* button | Answer all ten questions and click button |Button appears after tenth question has been answered and brings visitor to the results area |
+| Results | Click *Results* button | Visitor is brought to intended results blurb as determined by points tally |
+| *Exit* button | Click button at different stages of play | Button returns visitor to starting area |
 </details>
 
 ## Code Validation
@@ -677,17 +642,48 @@ This website was developed with special consideration for accessibility through 
 
 ### Manual Testing
 
-- Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on three Windows laptops of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness. 
+Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari and Chrome, as well as on two Windows laptops and a monitor of differing screen sizes. [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) provided the screenshot for the top of this README and allowed further testing of site responsiveness
 
 <details>
-  <summary>Screenshots of each section of the site as tested on Am I Responsive? (click)</summary>
+  <summary>Screenshots of each area of the site as tested on Am I Responsive? (click)</summary>
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
 </details>
 <details>
-  <summary>Screenshots of each page of the site as tested on my own device, iPhone 13Pro (click)</summary>
+  <summary>Screenshots of each area of the site as tested on my own device, iPhone 13Pro (click)</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   
+</details>
+<details>
+  <summary>Screenshots of each area of the site as tested on iPhone 11 (click)</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   
+</details>
+
+<details>
+  <summary>Screenshots of each area of the site as tested on *computer* (click)</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   
+</details>
+
+<details>
+  <summary>Screenshots of each area of the site as tested on *computer* (click)</summary>
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   <img src="assets/images/screenshots/">
+   
+</details>
+
+<details>
+  <summary>Screenshots of each area of the site as tested on *computer monitor* (click)</summary>
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
    <img src="assets/images/screenshots/">
@@ -706,12 +702,12 @@ This website was developed with special consideration for accessibility through 
 <details>
   <summary>A missing stylesheet semicolon that affected the layout (click)</summary>
 <img src="assets/documentation/bug3.png">
-<p>Several hours were spent trying to debug my JavaScript as I failed to recognize an obvious syntactical error in my CSS. I learned the importance of my working tree as I retraced each change between commits until I found the culprit: A missed semicolon</p>
+<p>Several hours were spent trying to debug my JavaScript as I failed to recognize an obvious syntactical error in my CSS. I learned the importance of my working tree as I finally retraced each change between commits until I found the culprit: A missed semicolon in the css for the *Tarot Quiz Insructions Area*</p>
 </details>
 
 <details>
   <summary>A missing comma in script.js that broke the entire site! (click)</summary>
-<p>No image for this one as there was no visible error; the main navigation buttons simply stopped working and neither of the gameplay areas were accessible. I consulted the differences in code between my recent commit and the one before it and realized my mistake. After updating my tarotDeck array in JavaScript, I neglected to place a comma after one of the array items</p>
+<p>No image for this one as there was no visible error; the main navigation buttons simply stopped working and neither of the gameplay instructions areas were accessible. I consulted the differences in code between my recent commit and the one before it and realized my mistake. After updating my tarotDeck array in JavaScript, I neglected to place a comma after one of the array items</p>
 </details>
 
 ## Unsolved Bugs
@@ -724,9 +720,9 @@ After implementing the above solutions and running all code through the necessar
 <p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my latop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
 </details>
 
-There are no further unsolved bugs, but there are a couple areas on mobile screens that do not function entirely as designed. Neither of the issues affect the overall performance of the site or impede gameplay:
+There are no further unsolved bugs, but there are a couple elements on mobile screens that do not function entirely as designed. Neither of the issues affect the overall performance of the site or impede gameplay:
 
-- The shake effect when the tarot deck is tapped does not reliably work on Safari or Chrome mobile. A sustained tap usually results in an OS pop up to "Share" or "Save to Photos". Sometimes this can be avoided and the deck shakes properly
+- The shake effect when the tarot deck is tapped does not reliably work on Safari or Chrome mobile. A sustained tap usually results in an OS pop up to "Share" or "Save to Photos". Sometimes this can be avoided and the deck shakes properly. The shuffle audio plays as intended
 
 - The glow on the header h2 appears harsher on mobile devices than desktop, which creates slightly more contrast than intended between the text and the background
 
@@ -767,11 +763,11 @@ This site was deployed through GitHub repository [/erinvdoyle/tarot](https://git
 To make a copy of a repository, fork it through Github:
 
 1. Find the repository either by using the search bar or by navigating to the URL [/erinvdoyle/tarot](https://github.com/erinvdoyle/tarot)
-2. Once on the repository main page, navigate to the "Fork" button in the upper-right corner, between the "Watch"(/"Unwatch") and "Star" buttons
+2. Once on the repository main page, navigate to the "Fork" button in the upper-right corner, between the "Watch"("Unwatch" in the image as I am the repository owner and watcher) and "Star" buttons
 
 ![Github Fork](assets/documentation/fork.png)
 
-3. Click the "Fork" button to create a copy of the repository. This can now be altered without affecting the source code
+3. Click the "Fork" button to create a copy of the repository. This copy be altered without affecting the source code
 </p>
 </details>
 
@@ -806,42 +802,42 @@ To clone the repository of this site:
 
 ## Technical Content
 
-All tutorials used have been credited throughout the code. Tutorials were used as a jumping off point and code was manipulated to perform per my own design and specification
+All tutorials used have been credited throughout the code. Tutorials were consulted as a jumping off point and code was manipulated to perform per my own design and specification
 
 ### CSS Tutorials
-[Glowing text tutorial from w3 Schools, "How to Create A Glowing Text":](https://www.w3schools.com/howto/howto_css_glowing_text.asp)
+[Glowing text tutorial from w3 Schools, "How to Create A Glowing Text"](https://www.w3schools.com/howto/howto_css_glowing_text.asp)
 
-[Background image opacity tutorial from Stack Overflow: "Can I set an opacity only to the background image of a div?":](https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div)
+[Background image opacity tutorial from Stack Overflow: "Can I set an opacity only to the background image of a div?"](https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div)
 
-[Custom scroll bar tutorial from W3 Schools, "How to Create a Custom Scroll Bar":](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
+[Custom scroll bar tutorial from W3 Schools, "How to Create a Custom Scroll Bar"](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)
 
-[Shaking an image tutorial from W3 Schools, "How to Shake an Image with CSS":](https://www.w3schools.com/howto/howto_css_shake_image.asp) 
+[Shaking an image tutorial from W3 Schools, "How to Shake an Image with CSS"](https://www.w3schools.com/howto/howto_css_shake_image.asp) 
 
-[Flip Card tutorial from W3 Schools, "How to Create CSS Flip Cards":](https://www.w3schools.com/howto/howto_css_flip_card.asp )
+[Flip Card tutorial from W3 Schools, "How to Create CSS Flip Cards"](https://www.w3schools.com/howto/howto_css_flip_card.asp )
 
-[CSS 2d Transforms tutorial from W3 Schools:](https://www.w3schools.com/Css/css3_2dtransforms.asp) 
+[CSS 2d Transforms tutorial from W3 Schools](https://www.w3schools.com/Css/css3_2dtransforms.asp) 
 
 ### JavaScript Tutorials
 
-[Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show":](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
+[Toggle Tutorial from W3 Schools, "How TO - Toggle Hide and Show"](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp)
 
 [Building a Quiz Application from Code with Farraz, "Build a Quiz Application with HTML, CSS, and JavaScript"](https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide)
 
-[Build a Quiz App with JavaScript from Web Dev Simplified:](https://youtu.be/riDzcEQbX6k) 
+[Build a Quiz App with JavaScript from Web Dev Simplified](https://youtu.be/riDzcEQbX6k) 
 
-["How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial" from Brian Design:](https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
+["How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial" from Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) 
 
-[Building an Interactive Quiz tutorial from Codepicker57:](https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript)
+[Building an Interactive Quiz tutorial from Codepicker57](https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript)
 
-[Tutorial for playing a sound with JavaScript from Sabe.io:](https://sabe.io/blog/javascript-play-sound-audio)
+[Tutorial for playing a sound with JavaScript from Sabe.io](https://sabe.io/blog/javascript-play-sound-audio)
 
-[Tutorial for how to shuffle an array of items from FreeCodeCamp.org:](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/) 
+[Tutorial for how to shuffle an array of items from FreeCodeCamp.org](https://www.freecodecamp.org/news/how-to-shuffle-an-array-of-items-using-javascript-or-typescript/) 
 
-[How to randomly shuffle a JavaScript array, question asked on Stack Overflow:](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+[How to randomly shuffle a JavaScript array, question asked on Stack Overflow](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-[How to code a card deck in JavaScript:](https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript)
+[How to code a card deck in JavaScript](https://www.thatsoftwaredude.com/content/6196/coding-a-card-deck-in-javascript)
 
-[How to utilize Child Nodes:](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)
+[How to utilize Child Nodes](https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes)
 
 
 ## Media
@@ -881,9 +877,10 @@ All tutorials used have been credited throughout the code. Tutorials were used a
 # Acknowledgements
 - My mentor, Precious Ijege
 - Our cohort standup leader, Laura Mayock
+- My husband, Taylor, for viewing every iteration of every feature with patience and helping to test the final result
 
 # Contact
-Thank you for viewing my project. Please feel free to contact me with any questions or comments
+Thank you for viewing my project. Please feel free to contact me with any questions, comments, or opportunities
   
  - [erin.v.doyle@gmail.com](mailto:erin.v.doyle@gmail.com)
  - [linkedin.com/erinvdoyle](https://linkedin.com/erinvdoyle)
