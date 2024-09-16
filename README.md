@@ -711,15 +711,20 @@ Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari 
 </details>
 
 <details>
-  <summary>Screenshots of each area of the site as tested on *computer* (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
+  <summary>Screenshots of each area of the site as tested on HP Elitebook (click)</summary>
+   <p align="center">
+   <img src="assets/documentation/laptop1a.png" width="500px">
+   <img src="assets/documentation/laptop1b.png" width="500px">
+   <img src="assets/documentation/laptop1c.png" width="500px">
+   <img src="assets/documentation/laptop1d.png" width="500px">
+   <img src="assets/documentation/laptop1e.png" width="500px">
+   <img src="assets/documentation/laptop1f.png" width="500px">
+  </p>
    
 </details>
 
 <details>
-  <summary>Screenshots of each area of the site as tested on *computer* (click)</summary>
+  <summary>Screenshots of each area of the site as tested on Dell Latitude 5430 (1920px x 1080px) (click)</summary>
   <p align="center">
    <img src="assets/documentation/laptop2a.png" width="500px">
    <img src="assets/documentation/laptop2b.png" width="500px">
