@@ -600,37 +600,48 @@ No errors were returned in any of the three code validators
 <details>
   <summary>Screenshots of Mobile S (320px) (click)</summary>
 <p align="center">
-   <img src="assets/documentation/start320.png" height="450px">
-   <img src="assets/documentation/dinstruc320.png" height="450px">
-    <img src="assets/documentation/d320.png" height="450px">
+  <img src="assets/documentation/start320.png" height="450px">
+  <img src="assets/documentation/dinstruc320.png" height="450px">
+  <img src="assets/documentation/d320.png" height="450px">
+  <img src="assets/documentation/qinstruc320.png" height="450px">
+  <img src="assets/documentation/q320.png" height="450px">
+  <img src="assets/documentation/qresults320.png" height="450px">
 </p>
 </details>
 
 <details>
   <summary>Screenshots of Mobile M (375px) (click)</summary>
 <p align="center">
-   <img src="assets/documentation/start375.png" height="450px">
-   <img src="assets/documentation/dinstruc375.png" height="450px">
-    <img src="assets/documentation/d375.png" height="450px">
+  <img src="assets/documentation/start375.png" height="450px">
+  <img src="assets/documentation/dinstruc375.png" height="450px">
+  <img src="assets/documentation/d375.png" height="450px">
+  <img src="assets/documentation/qinstruc375.png" height="450px">
+  <img src="assets/documentation/q375.png" height="450px">
+  <img src="assets/documentation/qresults375.png" height="450px">
 </p>
 </details>
 
 <details>
   <summary>Screenshots of Mobile L (425px)the Tarot Quiz (click)</summary>
 <p align="center">
-   <img src="assets/documentation/start425.png" height="450px">
-   <img src="assets/documentation/dinstruc425.png" height="450px">
-    <img src="assets/documentation/d425.png" height="450px">
+  <img src="assets/documentation/start425.png" height="450px">
+  <img src="assets/documentation/dinstruc425.png" height="450px">
+  <img src="assets/documentation/d425.png" height="450px">
+  <img src="assets/documentation/qinstruc425.png" height="450px">
+  <img src="assets/documentation/q425.png" height="450px">
+  <img src="assets/documentation/qresults425.png" height="450px">
 </p>
 </details>
 
 <details>
   <summary>Screenshots of Tablet (768px) (click)</summary>
 <p align="center">
-   <img src="assets/documentation/start768.png" width="400px">
-   <img src="assets/documentation/dinstruc768.png" width="400px">
-    <img src="assets/documentation/d768.png" width="400px">
-
+  <img src="assets/documentation/start768.png" width="400px">
+  <img src="assets/documentation/dinstruc768.png" width="400px">
+  <img src="assets/documentation/d768.png" width="400px">
+  <img src="assets/documentation/qinstruc768.png" width="400px">
+  <img src="assets/documentation/q768.png" width="400px">
+  <img src="assets/documentation/qresults768.png" width="400px">
 </p>
 </details>
 
@@ -640,6 +651,9 @@ No errors were returned in any of the three code validators
    <img src="assets/documentation/start1024.png" width="500px">
    <img src="assets/documentation/dinstruc1024.png" width="500px">
    <img src="assets/documentation/d1024.png" width="500px">
+   <img src="assets/documentation/qinstruc1024.png" width="500px">
+   <img src="assets/documentation/q1024.png" width="500px">
+   <img src="assets/documentation/qresults1024.png" width="500px">
 </p>
 </details>
 
@@ -649,6 +663,9 @@ No errors were returned in any of the three code validators
    <img src="assets/documentation/start1440.png" width="500px">
    <img src="assets/documentation/dinstruc1440.png" width="500px">
    <img src="assets/documentation/d1440.png" width="500px">
+   <img src="assets/documentation/qinstruc1440.png" width="500px">
+   <img src="assets/documentation/q1440.png" width="500px">
+   <img src="assets/documentation/qresults1440.png" width="500px">
 </p>
 </details>
 
@@ -658,7 +675,12 @@ No errors were returned in any of the three code validators
    <img src="assets/documentation/startlandscape.png" width="500px">
    <img src="assets/documentation/dinstruclandscape.png" width="500px">
    <img src="assets/documentation/dlandscape.png" width="500px">
+   <img src="assets/documentation/qinstruclandscape.png" width="500px">
+   <img src="assets/documentation/qlandscape.png" width="500px">
+   <img src="assets/documentation/qresultslandscape.png" width="500px">
 </p>
+
+Scrolling is required on landscape mode but all features work as designed
 </details>
 
 ## Browser Compatibility
