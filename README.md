@@ -598,33 +598,67 @@ No errors were returned in any of the three code validators
 ### Screenshots of each section of the site as tested in Chrome DevTools
 
 <details>
-  <summary>Screenshots of the Starting Area (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Mobile S (320px) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start320.png" height="450px">
+   <img src="assets/documentation/dinstruc320.png" height="450px">
+    <img src="assets/documentation/d320.png" height="450px">
+</p>
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz Instructions (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Mobile M (375px) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start375.png" height="450px">
+   <img src="assets/documentation/dinstruc375.png" height="450px">
+    <img src="assets/documentation/d375.png" height="450px">
+</p>
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Mobile L (425px)the Tarot Quiz (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start425.png" height="450px">
+   <img src="assets/documentation/dinstruc425.png" height="450px">
+    <img src="assets/documentation/d425.png" height="450px">
+</p>
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Quiz Results (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Tablet (768px) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start768.png" width="400px">
+   <img src="assets/documentation/dinstruc768.png" width="400px">
+    <img src="assets/documentation/d768.png" width="400px">
+
+</p>
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Draw Instructions (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Laptop (1024px) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start1024.png" width="500px">
+   <img src="assets/documentation/dinstruc1024.png" width="500px">
+   <img src="assets/documentation/d1024.png" width="500px">
+</p>
 </details>
 
 <details>
-  <summary>Screenshots of the Tarot Draw (click)</summary>
-<img src="assets/images/screenshots/">
+  <summary>Screenshots of Laptop (1440px) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/start1440.png" width="500px">
+   <img src="assets/documentation/dinstruc1440.png" width="500px">
+   <img src="assets/documentation/d1440.png" width="500px">
+</p>
+</details>
+
+<details>
+  <summary>Screenshots of Landscape Mode (Mobile - M) (click)</summary>
+<p align="center">
+   <img src="assets/documentation/startlandscape.png" width="500px">
+   <img src="assets/documentation/dinstruclandscape.png" width="500px">
+   <img src="assets/documentation/dlandscape.png" width="500px">
+</p>
 </details>
 
 ## Browser Compatibility
