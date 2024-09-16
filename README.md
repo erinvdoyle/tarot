@@ -37,7 +37,7 @@ Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. Th
 
 # Project 
 
-This website was created for Portfolio Project #2 (JavaScript) for The Code Institute Full Stack Software Developer program.
+This website was created for Portfolio Project #2 (JavaScript Essentials) for The Code Institute Full Stack Software Developer program.
 
 It is intended for users of all age, race, and gender, from all walks of life. Tarot Card of the Day is for anyone who would enjoy taking a break from the daily grind to engage with their mystical side. Sense of humor required!
 
