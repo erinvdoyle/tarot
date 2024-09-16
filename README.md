@@ -10,7 +10,7 @@
 
 # **Introduction**
 
-Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel lighthearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
+Welcome to **Tarot Card of the Day**, where the mystical meets the whimsical. This fully responsive, interactive website is designed to enchant its visitors with a daily dose of tarot wisdom. Punchy vector images and a bright color scheme keep the look and feel light-hearted and fun, while the 44 different cards in the Tarot Draw section provide a surprise factor and breadth of content to encourage return visits. The quiz offers an opportunity to test one's knowledge and learn more about the meaning of the cards. This site is designed to give the visitor a welcomed distraction (one could say a cosmic GPS for life's little questions!) from their day, one tarot card at a time.
 
 # **Table of Contents**
 - [Project](#project)
@@ -78,7 +78,7 @@ It is intended for users of all age, race, and gender, from all walks of life. T
    <img src="assets/documentation/tarotlaptopwf.png">
   </details>
 
-The wireframes were created for mobile, tablet, and desktop with a particular focus on mobile-friendly design.  Some changes to text, layout, and color choice have been made as the project evolved due to both accessability and design preference. 
+The wireframes were created for mobile, tablet, and desktop with a particular focus on mobile-friendly design.  Some changes to text, layout, and color choice have been made as the project evolved due to both accessibility and design preference. 
 
 ## Site Structure
 
@@ -88,18 +88,18 @@ Each button clicks to its own game instructions area, which occupies almost the 
 
 More about each area and all of the features can be found in the [Features](<#features>) section.
 
-- [Starting Area](#<starting-area>)
-- [Tarot Draw Instructions Area](#<tarot-draw-instructions-area>)
-- [Tarot Draw Area](#<tarot-draw-area>)
-- [Tarot Quiz Instructions Area](#<tarot-quiz-instructions-area>)
-- [Tarot Quiz Area](#<tarot-quiz-area>)
+- [Starting Area](##<starting-area>)
+- [Tarot Draw Instructions Area](##<tarot-draw-instructions-area>)
+- [Tarot Draw Area](##<tarot-draw-area>)
+- [Tarot Quiz Instructions Area](##<tarot-quiz-instructions-area>)
+- [Tarot Quiz Area](##<tarot-quiz-area>)
 
 
 ## Design Choices
 
 ### Color Scheme
 
-The color scheme for **Tarot Card of the Day** was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamefied tarot draw. While some of the tones are fairly dark, the creamy yellow background provides contrast and readability.
+The color scheme for **Tarot Card of the Day** was inspired by the colors in the hero image. A color picker was used to extract shades of pale yellow, gold, red, teal, and dark blue. Pops of purple and pink accent the color palette and were lifted from the image used for the back of the tarot deck. I chose bold, hand-drawn vector illustrations to lend the site an extra dose of fun and nostalgia suitable for a gamified tarot draw. While some of the tones are fairly dark, the creamy yellow background provides contrast and readability.
 
 <p align="center">
     <img src="assets/documentation/palette.png" height="150" style="margin-right: 20px;"/>
@@ -120,7 +120,7 @@ The color scheme for **Tarot Card of the Day** was inspired by the colors in the
 
 ### Typography
 
-- Fonts are provided by Google Fonts. "Uncial Antiqua" has been used for headers and accent text. "Libre Baskerville": All other copy.
+- Fonts have been provided by Google Fonts. "Uncial Antiqua" has been used for headers and accent text. "Libre Baskerville": All other copy.
     
   <p align="center">
   <img src="assets/documentation/font1.png" height="50px"/>
@@ -144,7 +144,7 @@ Examples of this site's interactive features include:
  
 - Sound toggle buttons
 - Sound effects and animations for correct and incorrect answers
-- Sound effects and animations througout the tarot draw  to simulate shuffling and drawing cards 
+- Sound effects and animations throughout the tarot draw  to simulate shuffling and drawing cards 
 - The ability to draw and redraw randomly selected tarot cards 
 - A quiz score tally that updates with each answer
 - A quiz results blurb determined by the number of points scored
@@ -181,7 +181,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmhero.png" height="200px"/>
 </p>
 
-- This vector illustration provides the visitor's first impression of **Tarot Card of the Day** and sets the tone and color scheme. It is positioned at the bottom of the starting area and is covered when the user navigates into either of the main game areas
+- This vector illustration provides the visitor's first impression of **Tarot Card of the Day** and sets the tone and color scheme. It is positioned at the bottom of the starting area and is covered when the visitor navigates into either of the main game areas
 
 ### Main Navigation Buttons
 
@@ -189,7 +189,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/rmmainnav.png" height="200px"/>
 </p>
 
-- Stop sign red navigation buttons with a slight gradient grab the visitors attention from center screen. These buttons click to the instructions area for each game
+- Stop sign red navigation buttons with a slight gradient grab the visitor's attention from center screen. These buttons click to the instructions area for each game
 
 ## Tarot Draw Instructions Area
 
@@ -221,7 +221,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawinstructionsimage.png" height="200px"/>
 </p>
 
-- An image of a tarot mystic keeps the instructions section fun and true to tone. Border radius on the top corners lends visual interest and compliments the hand-drawn style of illustation 
+- An image of a tarot mystic keeps the instructions section fun and true to tone. Border radius on the top corners lends visual interest and compliments the hand-drawn style of illustration 
 
 ### Navigation button to *Get your Reading!*
 
@@ -229,7 +229,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawinstructionsnav.png" width="250px"/>
 </p>
 
-- Clicking this button leads to the *Tarot Draw Area*
+- Clicking this button leads to the *Tarot Draw Area*. I have used a black text-shadow to enhance the contrast and readability for all elements with this color background
 
 ## Tarot Draw Area
 
@@ -267,7 +267,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/drawbutton.png" height="450px"/>
 </p>
 
-- When the visitor clicks *Draw*, a magical chime sound plays, and a card is chosen at random and displayed face up
+- When the visitor clicks *Draw*, a magical chime sound plays and a card is chosen at random and displayed face up
 - The *Draw* button is replaced by the *Redraw* button, which allows the visitor to draw a new card if desired
 - An h3 banner appears below the card, instructing the visitor to tap the card to read its meaning
 
@@ -277,7 +277,7 @@ Examples of this site's interactive features include:
 
 - When the card is tapped, the h3 disappears, and the card meaning is revealed
 
-- From this point, the visitor can choose to *Redraw* another card and repeat the same process for a new fortune, or *Exit* back to the starting area
+- From this point, the visitor can choose to *Redraw* another card and repeat the same process for a new fortune or *Exit* back to the starting area
 
 ## Tarot Quiz Instructions Area
 
@@ -428,7 +428,7 @@ Examples of this site's interactive features include:
 | Tarot Draw Instructions Area | Open Instructions section by clicking *Get Your Reading* button |Section loads and fills viewport below header 
 | Tarot Draw Instructions Area | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
 | Tarot Draw Instructions Area | Open Instructions section by clicking *Get Your Reading* button | Image loads properly and is centered on the x-axis |
-| Navigation Button to Tarot Draw Area | Click "Get Your Reading!" | *Tarot Draw Area* replaces *Tarot Draw Intructions Area*|
+| Navigation Button to Tarot Draw Area | Click "Get Your Reading!" | *Tarot Draw Area* replaces *Tarot Draw Instructions Area*|
 | **Tarot Draw Area**  |
 | Tarot Deck | Click or Tap Deck | Shuffle sound plays|
 | Tarot Deck | Click or Tap Deck | Deck Shakes |
@@ -443,7 +443,7 @@ Examples of this site's interactive features include:
 | **Tarot Quiz Instructions Area** |
 | Tarot Quiz Instructions Area | Open Instructions section by clicking *Take the Quiz* button |Area loads and fills viewport below header |
 | Tarot Quiz Instructions Area | Read content, scroll page on smaller screens | Content is legible and scrolls as intended |
-| Navigation Button to Tarot Quiz Area | Click *Take the quiz!* | *Tarot Quiz Area* replaces *Tarot Quiz Intructions Area*|
+| Navigation Button to Tarot Quiz Area | Click *Take the quiz!* | *Tarot Quiz Area* replaces *Tarot Quiz Instructions Area*|
 | **Tarot Quiz Area**|
 |Tarot Quiz Area | Navigate into *Tarot Quiz Area* | Quiz with question, answers, and navigation buttons loads |
 | Answer option buttons | Click button to select answer - **incorrect** | Incorrect answers turn red while correct turns green |
@@ -547,7 +547,7 @@ Examples of this site's interactive features include:
 <img src="assets/documentation/testquiz8.png" height="350px">
 </p>
 
-- The results blurb corresponds to the number of correct answers as designed
+- The results blurb corresponds to the number of correct answers 
 
 </details>
 
@@ -818,7 +818,7 @@ After implementing the above solutions and running all code through the necessar
 <details>
   <summary>Uncaught (in promise) Error (click)</summary>
 <img src="assets/documentation/bug2.png">
-<p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my latop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
+<p>After consulting my mentor, Precious, and searching the error on Stack Overflow, I have come to the conclusion this console error is likely due to a plugin on my browser. It does not show up in incognito mode on my laptop, in Microsoft Edge on my second test laptop, or at all on Precious' computer</p>
 </details>
 
 There are no further unsolved bugs, but there are a couple elements on mobile screens that do not function entirely as designed. Neither of the issues affect the overall performance of the site or impede gameplay:
