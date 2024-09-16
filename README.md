@@ -677,24 +677,37 @@ Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari 
 
 <details>
   <summary>Screenshots of each area of the site as tested on Am I Responsive? (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
+   <p align="center">
+   <img src="assets/documentation/amiresp.png" width="500px">
+   <img src="assets/documentation/amiresp2.png" width="500px">
+   <img src="assets/documentation/amiresp3.png" width="500px">
+   <img src="assets/documentation/amiresp4.png" width="500px">
+   <img src="assets/documentation/amiresp5.png" width="500px">
+   <img src="assets/documentation/amiresp6.png" width="500px">
+   </p>
 </details>
 <details>
   <summary>Screenshots of each area of the site as tested on my own device, iPhone 13Pro (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   
+   <p align="center">
+   <img src="assets/documentation/iphone13a.png" height="450px">
+   <img src="assets/documentation/iphone13b.png" height="450px">
+   <img src="assets/documentation/iphone13c.png" height="450px">
+   <img src="assets/documentation/iphone13d.png" height="450px">
+   <img src="assets/documentation/iphone13e.png" height="450px">
+   <img src="assets/documentation/iphone13f.png" height="450px">
+   </p>
 </details>
+
 <details>
   <summary>Screenshots of each area of the site as tested on iPhone 11 (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   
+  <p align="center">
+   <img src="assets/documentation/iphone11a.PNG" height="450px">
+   <img src="assets/documentation/iphone11b.PNG" height="450px">
+   <img src="assets/documentation/iphone11c.PNG" height="450px">
+   <img src="assets/documentation/iphone11d.PNG" height="450px">
+   <img src="assets/documentation/iphone11e.PNG" height="450px">
+   <img src="assets/documentation/iphone11f.PNG" height="450px">
+   </p>
 </details>
 
 <details>
@@ -707,18 +720,14 @@ Manual testing has been performed on an iPhone 11 and iPhone 13Pro using Safari 
 
 <details>
   <summary>Screenshots of each area of the site as tested on *computer* (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   
-</details>
-
-<details>
-  <summary>Screenshots of each area of the site as tested on *computer monitor* (click)</summary>
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   <img src="assets/images/screenshots/">
-   
+  <p align="center">
+   <img src="assets/documentation/laptop2a.png" width="500px">
+   <img src="assets/documentation/laptop2b.png" width="500px">
+   <img src="assets/documentation/laptop2c.png" width="500px">
+   <img src="assets/documentation/laptop2d.png" width="500px">
+   <img src="assets/documentation/laptop2e.png" width="500px">
+   <img src="assets/documentation/laptop2f.png" width="500px">
+  </p>
 </details>
 
 # Bugs
